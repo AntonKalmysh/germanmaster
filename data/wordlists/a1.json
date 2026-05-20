@@ -1,0 +1,5283 @@
+[
+  {
+    "type": "adjective",
+    "lemma": "ab",
+    "raw": "ab",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "aber",
+    "raw": "aber",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "abfahren",
+    "forms": null,
+    "raw": "abfahren",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Abfahrt",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Abfahrt",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "abgeben",
+    "forms": null,
+    "raw": "abgeben",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "abholen",
+    "forms": null,
+    "raw": "abholen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Absender",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Absender",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Adresse",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Adresse,-en",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "all-",
+    "raw": "all-",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "allein",
+    "raw": "allein",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "also",
+    "raw": "also",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "alt",
+    "raw": "alt",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Alter",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Alter",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "an",
+    "raw": "an",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "anbieten",
+    "forms": null,
+    "raw": "anbieten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Angebot",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Angebot, -e",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "ander-",
+    "raw": "ander-",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "anfangen",
+    "forms": null,
+    "raw": "anfangen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Anfang",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Anfang",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "anklicken",
+    "forms": null,
+    "raw": "anklicken",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "ankommen",
+    "forms": null,
+    "raw": "ankommen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ankunft",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Ankunft",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "ankreuzen",
+    "forms": null,
+    "raw": "ankreuzen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "anmachen",
+    "forms": null,
+    "raw": "anmachen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Anmeldung",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Anmeldung",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Anrede",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Anrede",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "anrufen",
+    "forms": null,
+    "raw": "anrufen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Anruf",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Anruf, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Anruf-",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Anruf-",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "beantworter",
+    "raw": "beantworter",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ansage",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Ansage, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Anschluss",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Anschluss",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "antworten",
+    "forms": null,
+    "raw": "antworten",
+    "level": "a1",
+    "object_case": "none",
+    "prep": "auf",
+    "prep_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Antwort",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Antwort, -en",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Anzeige",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Anzeige, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Apartment",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Apartment, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Apfel",
+    "article": "der",
+    "gender": "m",
+    "plural": "-",
+    "raw": "der Apfel, -Ä",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Appetit",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Appetit",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "arbeiten",
+    "forms": null,
+    "raw": "arbeiten",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "noun",
+    "lemma": "Arbeit",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Arbeit, -en",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "arbeitslos",
+    "raw": "arbeitslos",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Arbeitsplatz",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Arbeitsplatz, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Arm",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Arm, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Arzt",
+    "article": "der",
+    "gender": "m",
+    "plural": "-",
+    "raw": "der Arzt, -Ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "auch",
+    "raw": "auch",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "auf",
+    "raw": "auf",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Aufgabe",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Aufgabe, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "aufhören",
+    "forms": null,
+    "raw": "aufhören",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "aufstehen",
+    "forms": null,
+    "raw": "aufstehen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "noun",
+    "lemma": "Aufzug",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ü",
+    "raw": "der Aufzug, -ü, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Auge",
+    "article": "das",
+    "gender": "n",
+    "plural": "-n",
+    "raw": "das Auge, -n",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "aus",
+    "raw": "aus",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ausflug",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Ausflug",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "ausfüllen",
+    "forms": null,
+    "raw": "ausfüllen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ausgang",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Ausgang",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Auskunft",
+    "article": "die",
+    "gender": "f",
+    "plural": "-ü",
+    "raw": "die Auskunft, -ü, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ausland",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Ausland",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ausländer",
+    "article": "der",
+    "gender": "m",
+    "plural": "-",
+    "raw": "der Ausländer, -",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "ausländisch",
+    "raw": "ausländisch",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "ausmachen",
+    "forms": null,
+    "raw": "ausmachen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Aussage",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Aussage, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "aussehen",
+    "forms": null,
+    "raw": "aussehen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "aussteigen",
+    "forms": null,
+    "raw": "aussteigen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ausweis",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Ausweis",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Auto",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Auto, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Autobahn",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Autobahn, -en",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Automat",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Automat",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "automatisch",
+    "raw": "automatisch",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Baby",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Baby, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bäckerei",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Bäckerei",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bad",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Bad",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "baden",
+    "forms": null,
+    "raw": "baden",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bahn",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Bahn",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bahnhof",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Bahnhof",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bahnsteig",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Bahnsteig",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "bald",
+    "raw": "bald",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Balkon",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Balkon",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Banane",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Banane, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bank",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Bank",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "bar",
+    "raw": "bar",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bauch",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Bauch",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Baum",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Baum, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Beamte",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Beamte, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "bedeuten",
+    "forms": null,
+    "raw": "bedeuten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "beginnen",
+    "forms": null,
+    "raw": "beginnen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "bei",
+    "raw": "bei",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "beide",
+    "raw": "beide",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bein",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Bein, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Beispiel",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Beispiel, -e",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "bekannt",
+    "raw": "bekannt",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "bekommen",
+    "forms": null,
+    "raw": "bekommen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "benutzen",
+    "forms": null,
+    "raw": "benutzen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Beruf",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Beruf, -e",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "besetzt",
+    "raw": "besetzt",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "besichtigen",
+    "forms": null,
+    "raw": "besichtigen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "besser",
+    "raw": "besser",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "best-",
+    "raw": "best-",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "bestellen",
+    "forms": null,
+    "raw": "bestellen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "besuchen",
+    "forms": null,
+    "raw": "besuchen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bett",
+    "article": "das",
+    "gender": "n",
+    "plural": "-en",
+    "raw": "das Bett, -en",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "bezahlen",
+    "forms": null,
+    "raw": "bezahlen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bier",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Bier",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bild",
+    "article": "das",
+    "gender": "n",
+    "plural": "-er",
+    "raw": "das Bild, -er",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "billig",
+    "raw": "billig",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Birne",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Birne, -n",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "bis",
+    "raw": "bis",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "bisschen",
+    "forms": null,
+    "raw": "bisschen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "bitte",
+    "raw": "bitte",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bitte",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Bitte, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "bitten",
+    "forms": null,
+    "raw": "bitten",
+    "level": "a1",
+    "object_case": "none",
+    "prep": "um",
+    "prep_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "bitter",
+    "raw": "bitter",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "bleiben",
+    "forms": null,
+    "raw": "bleiben",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bleistift",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Bleistift, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Blick",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Blick",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Blume",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Blume, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bogen",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Bogen",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "böse",
+    "raw": "böse",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "brauchen",
+    "forms": null,
+    "raw": "brauchen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "breit",
+    "raw": "breit",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Brief",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Brief, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Briefmarke",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Briefmarke, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "bringen",
+    "forms": null,
+    "raw": "bringen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Brot",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Brot, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Brötchen",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Brötchen, –",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bruder",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ü",
+    "raw": "der Bruder, -ü",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Buch",
+    "article": "das",
+    "gender": "n",
+    "plural": "-ü",
+    "raw": "das Buch, -ü, er",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Buchstabe",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Buchstabe, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "buchstabieren",
+    "forms": null,
+    "raw": "buchstabieren",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Bus",
+    "article": "der",
+    "gender": "m",
+    "plural": "-se",
+    "raw": "der Bus, -se",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Butter",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Butter",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "c",
+    "raw": "c",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "CD",
+    "article": "die",
+    "gender": "f",
+    "plural": "-s",
+    "raw": "die CD, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Chef",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Chef",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Computer",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Computer, –",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "da",
+    "raw": "da",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Dame",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Dame, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "daneben",
+    "forms": null,
+    "raw": "daneben",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "danken",
+    "forms": null,
+    "raw": "danken",
+    "level": "a1",
+    "object_case": "dat"
+  },
+  {
+    "type": "noun",
+    "lemma": "Dank",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Dank",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "danke",
+    "raw": "danke",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "dann",
+    "raw": "dann",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Datum",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Datum",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "dauern",
+    "forms": null,
+    "raw": "dauern",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "dein-",
+    "raw": "dein-",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "denn",
+    "raw": "denn",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "dich",
+    "raw": "dich",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "dies-",
+    "raw": "dies-",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "dir",
+    "raw": "dir",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Disco",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Disco",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Doktor",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Doktor",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Doppelzimmer",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Doppelzimmer",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Dorf",
+    "article": "das",
+    "gender": "n",
+    "plural": "-ö",
+    "raw": "das Dorf, -ö, er",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "draußen",
+    "forms": null,
+    "raw": "draußen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "drucken",
+    "forms": null,
+    "raw": "drucken",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Drucker",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Drucker, –",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "drücken",
+    "forms": null,
+    "raw": "drücken",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "durch",
+    "raw": "durch",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Durchsage",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Durchsage, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "dürfen",
+    "forms": null,
+    "raw": "dürfen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Durst",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Durst",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Dusche",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Dusche",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "e",
+    "raw": "e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ecke",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Ecke, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ehefrau",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en/",
+    "raw": "die Ehefrau, -en/",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ehemann",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Ehemann, ä, er",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ei",
+    "article": "das",
+    "gender": "n",
+    "plural": "-er",
+    "raw": "das Ei, -er",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "eilig",
+    "raw": "eilig",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "ein-",
+    "raw": "ein-",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "einfach",
+    "raw": "einfach",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Eingang",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Eingang",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "einkaufen",
+    "forms": null,
+    "raw": "einkaufen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "einladen",
+    "forms": null,
+    "raw": "einladen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Einladung",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Einladung",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "einmal",
+    "raw": "einmal",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "einsteigen",
+    "forms": null,
+    "raw": "einsteigen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Eintritt",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Eintritt",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Einzelzimmer",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Einzelzimmer",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Eltern",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Eltern (pl.)",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "E-Mail",
+    "article": "die",
+    "gender": "f",
+    "plural": "-s",
+    "raw": "die E-Mail, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Empfänger",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Empfänger, –",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "empfehlen",
+    "forms": null,
+    "raw": "empfehlen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "enden",
+    "forms": null,
+    "raw": "enden",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ende",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Ende",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "entschuldigen",
+    "forms": null,
+    "raw": "entschuldigen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Entschuldigung",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Entschuldigung",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "er",
+    "raw": "er",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ergebnis",
+    "article": "das",
+    "gender": "n",
+    "plural": "-se",
+    "raw": "das Ergebnis, -se",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "erklären",
+    "forms": null,
+    "raw": "erklären",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "erlauben",
+    "forms": null,
+    "raw": "erlauben",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Erwachsene",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Erwachsene, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "erzählen",
+    "forms": null,
+    "raw": "erzählen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "es",
+    "raw": "es",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "essen",
+    "forms": null,
+    "raw": "essen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Essen",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Essen",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "euer",
+    "raw": "euer",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "fahren",
+    "forms": null,
+    "raw": "fahren",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fahrer",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Fahrer",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fahrkarte",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Fahrkarte, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fahrrad",
+    "article": "das",
+    "gender": "n",
+    "plural": "-ä",
+    "raw": "das Fahrrad, -ä, er",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "falsch",
+    "raw": "falsch",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Familie",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Familie, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Familienname",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Familienname",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Familienstand",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Familienstand",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Farbe",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Farbe, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fax",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Fax, -e",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "feiern",
+    "forms": null,
+    "raw": "feiern",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "fehlen",
+    "forms": null,
+    "raw": "fehlen",
+    "level": "a1",
+    "object_case": "dat"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fehler",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Fehler, –",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "fernsehen",
+    "forms": null,
+    "raw": "fernsehen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "fertig",
+    "raw": "fertig",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Feuer",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Feuer",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fieber",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Fieber",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Film",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Film, -e",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "finden",
+    "forms": null,
+    "raw": "finden",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Firma",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Firma",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fisch",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Fisch, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Flasche",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Flasche, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fleisch",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Fleisch",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "fliegen",
+    "forms": null,
+    "raw": "fliegen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "verb",
+    "lemma": "abfliegen",
+    "forms": null,
+    "raw": "abfliegen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Abflug",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Abflug",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Flughafen",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Flughafen",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Flugzeug",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Flugzeug",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Formular",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Formular, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Foto",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Foto, -s",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "fragen",
+    "forms": null,
+    "raw": "fragen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Frage",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Frage, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Frau",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Frau, -en",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "frei",
+    "raw": "frei",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Freizeit",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Freizeit",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "fremd",
+    "raw": "fremd",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Freund",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Freund, -e",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "früher",
+    "raw": "früher",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "frühstücken",
+    "forms": null,
+    "raw": "frühstücken",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Frühstück",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Frühstück",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Führung",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Führung",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "für",
+    "raw": "für",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fuß",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ü",
+    "raw": "der Fuß, -ü, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Fußball",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Fußball",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Garten",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Garten",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Gast",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Gast, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "geben",
+    "forms": null,
+    "raw": "geben",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "geboren",
+    "forms": null,
+    "raw": "geboren",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Geburtsjahr",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Geburtsjahr",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Geburtsort",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Geburtsort",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Geburtstag",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Geburtstag",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "gefallen",
+    "forms": null,
+    "raw": "gefallen",
+    "level": "a1",
+    "object_case": "dat"
+  },
+  {
+    "type": "verb",
+    "lemma": "gegen",
+    "forms": null,
+    "raw": "gegen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "gehen",
+    "forms": null,
+    "raw": "gehen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "verb",
+    "lemma": "gehören",
+    "forms": null,
+    "raw": "gehören",
+    "level": "a1",
+    "object_case": "none",
+    "prep": "zu",
+    "prep_case": "dat"
+  },
+  {
+    "type": "noun",
+    "lemma": "Geld",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Geld",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Gemüse",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Gemüse",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Gepäck",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Gepäck",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "gerade",
+    "raw": "gerade",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "geradeaus",
+    "raw": "geradeaus",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Geschäft",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Geschäft, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Geschenk",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Geschenk, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Geschwister",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Geschwister (pl.)",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Gespräch",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Gespräch, -e",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "gestern",
+    "forms": null,
+    "raw": "gestern",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "gestorben",
+    "forms": null,
+    "raw": "gestorben",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Getränk",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Getränk, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Gewicht",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Gewicht",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "gewinnen",
+    "forms": null,
+    "raw": "gewinnen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Glas",
+    "article": "das",
+    "gender": "n",
+    "plural": "-ä",
+    "raw": "das Glas, -ä, er",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "glauben",
+    "forms": null,
+    "raw": "glauben",
+    "level": "a1",
+    "object_case": "dat"
+  },
+  {
+    "type": "adjective",
+    "lemma": "gleich",
+    "raw": "gleich",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Gleis",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Gleis, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Glück",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Glück",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "glücklich",
+    "raw": "glücklich",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Glückwunsch",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Glückwunsch",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "gratulieren",
+    "forms": null,
+    "raw": "gratulieren",
+    "level": "a1",
+    "object_case": "dat"
+  },
+  {
+    "type": "verb",
+    "lemma": "grillen",
+    "forms": null,
+    "raw": "grillen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "groß",
+    "raw": "groß",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Größe",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Größe",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Großeltern",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Großeltern (pl.)",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Großmutter",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Großmutter",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Großvater",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Großvater",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Gruppe",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Gruppe, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Gruß",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ü",
+    "raw": "der Gruß, -ü, e",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "gültig",
+    "raw": "gültig",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "günstig",
+    "raw": "günstig",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "gut",
+    "raw": "gut",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Haar",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Haar, -e",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "haben",
+    "forms": null,
+    "raw": "haben",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hähnchen",
+    "article": "das",
+    "gender": "n",
+    "plural": "-",
+    "raw": "das Hähnchen, -",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Halbpension",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Halbpension",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Halle",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Halle",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "hallo",
+    "raw": "hallo",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "halten",
+    "forms": null,
+    "raw": "halten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Haltestelle",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Haltestelle",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hand",
+    "article": "die",
+    "gender": "f",
+    "plural": "-ä",
+    "raw": "die Hand, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Handy",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Handy, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Haus",
+    "article": "das",
+    "gender": "n",
+    "plural": "-ä",
+    "raw": "das Haus, -ä, er",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hausaufgabe",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Hausaufgabe,-n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hausfrau",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en/",
+    "raw": "die Hausfrau, -en/",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hausmann",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Hausmann",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Heimat",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Heimat",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "heiraten",
+    "forms": null,
+    "raw": "heiraten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "heißen",
+    "forms": null,
+    "raw": "heißen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "helfen",
+    "forms": null,
+    "raw": "helfen",
+    "level": "a1",
+    "object_case": "dat"
+  },
+  {
+    "type": "adjective",
+    "lemma": "hell",
+    "raw": "hell",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Herd",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Herd",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Herr",
+    "article": "der",
+    "gender": "m",
+    "plural": "-en",
+    "raw": "der Herr, -en",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "herzlich",
+    "raw": "herzlich",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "heute",
+    "raw": "heute",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "hier",
+    "raw": "hier",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hilfe",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Hilfe",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "hinten",
+    "forms": null,
+    "raw": "hinten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hobby",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Hobby, -s",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "hoch",
+    "raw": "hoch",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hochzeit",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Hochzeit",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "holen",
+    "forms": null,
+    "raw": "holen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "hören",
+    "forms": null,
+    "raw": "hören",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hotel",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Hotel, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hund",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Hund, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Hunger",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Hunger",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "ich",
+    "raw": "ich",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "immer",
+    "raw": "immer",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "in",
+    "raw": "in",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Information",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Information, -en",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "international",
+    "raw": "international",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Internet",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Internet",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "ja",
+    "raw": "ja",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Jacke",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Jacke, -n",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "jed-",
+    "raw": "jed-",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "jetzt",
+    "raw": "jetzt",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Job",
+    "article": "der",
+    "gender": "m",
+    "plural": "-s",
+    "raw": "der Job, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Jugendliche",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Jugendliche, -n",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "jung",
+    "raw": "jung",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Junge",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Junge, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kaffee",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Kaffee",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "kaputt",
+    "raw": "kaputt",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Karte",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Karte, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kartoffel",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Kartoffel, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kasse",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Kasse",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "kaufen",
+    "forms": null,
+    "raw": "kaufen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "kein",
+    "raw": "kein",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "kennen",
+    "forms": null,
+    "raw": "kennen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "kennenlernen",
+    "forms": null,
+    "raw": "kennenlernen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kind",
+    "article": "das",
+    "gender": "n",
+    "plural": "-er",
+    "raw": "das Kind, -er",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kindergarten",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Kindergarten",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kino",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Kino, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kiosk",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Kiosk",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "klar",
+    "raw": "klar",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Klasse",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Klasse",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kleidung",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Kleidung",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "klein",
+    "raw": "klein",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "kochen",
+    "forms": null,
+    "raw": "kochen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Koffer",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Koffer, –",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kollege",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Kollege, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "kommen",
+    "forms": null,
+    "raw": "kommen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "verb",
+    "lemma": "können",
+    "forms": null,
+    "raw": "können",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Konto",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Konto",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kopf",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Kopf",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "kosten",
+    "forms": null,
+    "raw": "kosten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "krank",
+    "raw": "krank",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "kriegen",
+    "forms": null,
+    "raw": "kriegen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Küche",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Küche",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kuchen",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Kuchen",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kugelschreiber",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Kugelschreiber",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kühlschrank",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Kühlschrank",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "kulturell",
+    "raw": "kulturell",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kunde",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Kunde, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Kurs",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Kurs, -e",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "kurz",
+    "raw": "kurz",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "lachen",
+    "forms": null,
+    "raw": "lachen",
+    "level": "a1",
+    "object_case": "none",
+    "prep": "über",
+    "prep_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Laden",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Laden, -ä",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Land",
+    "article": "das",
+    "gender": "n",
+    "plural": "-ä",
+    "raw": "das Land, -ä, er",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "lang",
+    "raw": "lang",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "lange",
+    "raw": "lange",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "langsam",
+    "raw": "langsam",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "laufen",
+    "forms": null,
+    "raw": "laufen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "adjective",
+    "lemma": "laut",
+    "raw": "laut",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "leben",
+    "forms": null,
+    "raw": "leben",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "noun",
+    "lemma": "Leben",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Leben",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Lebens-",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Lebens-",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "ledig",
+    "raw": "ledig",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "legen",
+    "forms": null,
+    "raw": "legen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Lehrer",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Lehrer, –",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "leicht",
+    "raw": "leicht",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "leider",
+    "raw": "leider",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "leise",
+    "raw": "leise",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "lernen",
+    "forms": null,
+    "raw": "lernen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "lesen",
+    "forms": null,
+    "raw": "lesen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "letzt-",
+    "raw": "letzt-",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Leute",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Leute (pl.)",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Licht",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Licht",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "lieb-",
+    "raw": "lieb-",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "lieben",
+    "forms": null,
+    "raw": "lieben",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "lieber",
+    "raw": "lieber",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Lied",
+    "article": "das",
+    "gender": "n",
+    "plural": "-er",
+    "raw": "das Lied, -er",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "liegen",
+    "forms": null,
+    "raw": "liegen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "links",
+    "raw": "links",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Lkw",
+    "article": "der",
+    "gender": "m",
+    "plural": "-s",
+    "raw": "der Lkw, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Lokal",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Lokal",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Lösung",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Lösung, -en",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "lustig",
+    "raw": "lustig",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "m",
+    "raw": "m",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "machen",
+    "forms": null,
+    "raw": "machen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Mädchen",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Mädchen, –",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "man",
+    "raw": "man",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Mann",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Mann, -ä, er",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "männlich",
+    "raw": "männlich",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Maschine",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Maschine, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Meer",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Meer",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "mehr",
+    "raw": "mehr",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "mein",
+    "raw": "mein",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "meist-",
+    "raw": "meist-",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Mensch",
+    "article": "der",
+    "gender": "m",
+    "plural": "-en",
+    "raw": "der Mensch, -en",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "mieten",
+    "forms": null,
+    "raw": "mieten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Miete",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Miete",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Milch",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Milch",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "mit",
+    "raw": "mit",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "mitbringen",
+    "forms": null,
+    "raw": "mitbringen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "mitkommen",
+    "forms": null,
+    "raw": "mitkommen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "mitmachen",
+    "forms": null,
+    "raw": "mitmachen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "mitnehmen",
+    "forms": null,
+    "raw": "mitnehmen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Mitte",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Mitte",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Möbel",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Möbel (pl.)",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "möchten",
+    "forms": null,
+    "raw": "möchten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "mögen",
+    "forms": null,
+    "raw": "mögen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "möglich",
+    "raw": "möglich",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Moment",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Moment",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "morgen",
+    "forms": null,
+    "raw": "morgen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "müde",
+    "raw": "müde",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Mund",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Mund",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "müssen",
+    "forms": null,
+    "raw": "müssen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Mutter",
+    "article": "die",
+    "gender": "f",
+    "plural": "-ü",
+    "raw": "die Mutter, -ü",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "nach",
+    "raw": "nach",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "nächst-",
+    "raw": "nächst-",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Name",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Name, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "nehmen",
+    "forms": null,
+    "raw": "nehmen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "nein",
+    "raw": "nein",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "neu",
+    "raw": "neu",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "nicht",
+    "raw": "nicht",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "nichts",
+    "raw": "nichts",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "nie",
+    "raw": "nie",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "noch",
+    "raw": "noch",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "normal",
+    "raw": "normal",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Nummer",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Nummer, -n",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "nur",
+    "raw": "nur",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "o",
+    "raw": "o",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "oben",
+    "forms": null,
+    "raw": "oben",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Obst",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Obst",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "oder",
+    "raw": "oder",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "öffnen",
+    "forms": null,
+    "raw": "öffnen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "geöffnet",
+    "raw": "geöffnet",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "oft",
+    "raw": "oft",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "ohne",
+    "raw": "ohne",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Öl",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Öl",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Oma",
+    "article": "die",
+    "gender": "f",
+    "plural": "-s",
+    "raw": "die Oma, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Opa",
+    "article": "der",
+    "gender": "m",
+    "plural": "-s",
+    "raw": "der Opa, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ordnung",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Ordnung",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ort",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Ort, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Papier",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Papier",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Papiere",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Papiere (pl.)",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Partner",
+    "article": "der",
+    "gender": "m",
+    "plural": "-/",
+    "raw": "der Partner, -/",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Partnerin",
+    "article": "die",
+    "gender": "f",
+    "plural": "-nen",
+    "raw": "die Partnerin, -nen",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Party",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Party",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Pass",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Pass, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Pause",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Pause, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Plan",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Plan, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Platz",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Platz, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Polizei",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Polizei",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Post",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Post",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Postleitzahl",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Postleitzahl",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Praktikum",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Praktikum",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Praxis",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Praxis",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Preis",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Preis, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Problem",
+    "article": "das",
+    "gender": "n",
+    "plural": "-e",
+    "raw": "das Problem, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Prospekt",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Prospekt, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Prüfung",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Prüfung",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "pünktlich",
+    "raw": "pünktlich",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "r",
+    "raw": "r",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "rauchen",
+    "forms": null,
+    "raw": "rauchen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Raum",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Raum, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Rechnung",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Rechnung, -en",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "rechts",
+    "raw": "rechts",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "regnen",
+    "forms": null,
+    "raw": "regnen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "noun",
+    "lemma": "Regen",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Regen",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Reis",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Reis",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "reisen",
+    "forms": null,
+    "raw": "reisen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Reise",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Reise",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Reisebüro",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Reisebüro, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Reiseführer",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Reiseführer",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "reparieren",
+    "forms": null,
+    "raw": "reparieren",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Reparatur",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Reparatur",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Restaurant",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Restaurant, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Rezeption",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Rezeption",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "richtig",
+    "raw": "richtig",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "riechen",
+    "forms": null,
+    "raw": "riechen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "ruhig",
+    "raw": "ruhig",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "s",
+    "raw": "s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Saft",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Saft",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "sagen",
+    "forms": null,
+    "raw": "sagen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Salat",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Salat",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Salz",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Salz",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "S-Bahn",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die S-Bahn",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schalter",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Schalter",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "scheinen",
+    "forms": null,
+    "raw": "scheinen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "schicken",
+    "forms": null,
+    "raw": "schicken",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schild",
+    "article": "das",
+    "gender": "n",
+    "plural": "-er",
+    "raw": "das Schild, -er",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schinken",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Schinken, –",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "schlafen",
+    "forms": null,
+    "raw": "schlafen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "adjective",
+    "lemma": "schlecht",
+    "raw": "schlecht",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "schließen",
+    "forms": null,
+    "raw": "schließen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "geschlossen",
+    "forms": null,
+    "raw": "geschlossen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schluss",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Schluss",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schlüssel",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Schlüssel, –",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "schmecken",
+    "forms": null,
+    "raw": "schmecken",
+    "level": "a1",
+    "object_case": "dat"
+  },
+  {
+    "type": "adjective",
+    "lemma": "schnell",
+    "raw": "schnell",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "schon",
+    "raw": "schon",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "schön",
+    "raw": "schön",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schrank",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Schrank, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "schreiben",
+    "forms": null,
+    "raw": "schreiben",
+    "level": "a1",
+    "object_case": "none",
+    "prep": "an",
+    "prep_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schuh",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Schuh, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schule",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Schule",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schüler",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Schüler, –",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "schwer",
+    "raw": "schwer",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schwester",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Schwester, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "schwimmen",
+    "forms": null,
+    "raw": "schwimmen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "noun",
+    "lemma": "Schwimmbad",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Schwimmbad",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "See",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der See",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "sehen",
+    "forms": null,
+    "raw": "sehen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Sehenswürdigkeit",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Sehenswürdigkeit, -en",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "sehr",
+    "raw": "sehr",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "sein",
+    "raw": "sein",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "seit",
+    "raw": "seit",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "selbstständig",
+    "raw": "selbstständig",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "sich",
+    "raw": "sich",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "sie",
+    "raw": "sie",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "sitzen",
+    "forms": null,
+    "raw": "sitzen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "so",
+    "raw": "so",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Sofa",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Sofa",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "sofort",
+    "raw": "sofort",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Sohn",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ö",
+    "raw": "der Sohn, -ö, e",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "sollen",
+    "forms": null,
+    "raw": "sollen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Sonne",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Sonne",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "spät",
+    "raw": "spät",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "später",
+    "raw": "später",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Speisekarte",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Speisekarte",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "spielen",
+    "forms": null,
+    "raw": "spielen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Sport",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Sport",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Sprache",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Sprache, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "sprechen",
+    "forms": null,
+    "raw": "sprechen",
+    "level": "a1",
+    "object_case": "none",
+    "prep": "mit",
+    "prep_case": "dat"
+  },
+  {
+    "type": "noun",
+    "lemma": "Stadt",
+    "article": "die",
+    "gender": "f",
+    "plural": "-ä",
+    "raw": "die Stadt, -ä, e",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "stehen",
+    "forms": null,
+    "raw": "stehen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Stelle",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Stelle, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "stellen",
+    "forms": null,
+    "raw": "stellen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Stock",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Stock",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Straße",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Straße, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Straßenbahn",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Straßenbahn",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "studieren",
+    "forms": null,
+    "raw": "studieren",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Studium",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Studium",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Student",
+    "article": "der",
+    "gender": "m",
+    "plural": "-en",
+    "raw": "der Student, -en",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Stunde",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Stunde, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "suchen",
+    "forms": null,
+    "raw": "suchen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "tanzen",
+    "forms": null,
+    "raw": "tanzen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "noun",
+    "lemma": "Tasche",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Tasche, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Taxi",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Taxi, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Tee",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Tee",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Teil",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Teil, -e",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "telefonieren",
+    "forms": null,
+    "raw": "telefonieren",
+    "level": "a1",
+    "object_case": "none",
+    "prep": "mit",
+    "prep_case": "dat"
+  },
+  {
+    "type": "noun",
+    "lemma": "Telefon",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Telefon",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Termin",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Termin, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Test",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Test",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "teuer",
+    "raw": "teuer",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Text",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Text, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Thema",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Thema",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Ticket",
+    "article": "das",
+    "gender": "n",
+    "plural": "-s",
+    "raw": "das Ticket, -s",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Tisch",
+    "article": "der",
+    "gender": "m",
+    "plural": "-e",
+    "raw": "der Tisch, -e",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Tochter",
+    "article": "die",
+    "gender": "f",
+    "plural": "-ö",
+    "raw": "die Tochter, -ö",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Toilette",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Toilette, -en",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Tomate",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Tomate, -n",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "tot",
+    "raw": "tot",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Treppe",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Treppe, -n",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "trinken",
+    "forms": null,
+    "raw": "trinken",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "tschüss",
+    "raw": "tschüss",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "tun",
+    "raw": "tun",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "u",
+    "raw": "u",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "über",
+    "raw": "über",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "übernachten",
+    "forms": null,
+    "raw": "übernachten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "überweisen",
+    "forms": null,
+    "raw": "überweisen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Uhr",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Uhr",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "um",
+    "raw": "um",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "umziehen",
+    "forms": null,
+    "raw": "umziehen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "adjective",
+    "lemma": "und",
+    "raw": "und",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "unser-",
+    "raw": "unser-",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "unten",
+    "forms": null,
+    "raw": "unten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "unter",
+    "raw": "unter",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Unterricht",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Unterricht",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "unterschreiben",
+    "forms": null,
+    "raw": "unterschreiben",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Unterschrift",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Unterschrift",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Urlaub",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Urlaub",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Vater",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ä",
+    "raw": "der Vater, -ä",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "verboten",
+    "forms": null,
+    "raw": "verboten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "verdienen",
+    "forms": null,
+    "raw": "verdienen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Verein",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Verein",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "verheiratet",
+    "raw": "verheiratet",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "verkaufen",
+    "forms": null,
+    "raw": "verkaufen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Verkäufer",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Verkäufer, –",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "vermieten",
+    "forms": null,
+    "raw": "vermieten",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Vermieter",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Vermieter",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "verstehen",
+    "forms": null,
+    "raw": "verstehen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Verwandte",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Verwandte, -n",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "viel",
+    "raw": "viel",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "vielleicht",
+    "raw": "vielleicht",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "von",
+    "raw": "von",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "vor",
+    "raw": "vor",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Vorname",
+    "article": "der",
+    "gender": "m",
+    "plural": "-n",
+    "raw": "der Vorname, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Vorsicht",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Vorsicht",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Vorwahl",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Vorwahl",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "w",
+    "raw": "w",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "wandern",
+    "forms": null,
+    "raw": "wandern",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "wann",
+    "raw": "wann",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "warten",
+    "forms": null,
+    "raw": "warten",
+    "level": "a1",
+    "object_case": "none",
+    "prep": "auf",
+    "prep_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "warum",
+    "raw": "warum",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "was",
+    "raw": "was",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Wasser",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Wasser",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "weiblich",
+    "raw": "weiblich",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Wein",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Wein",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "weit",
+    "raw": "weit",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "weiter",
+    "raw": "weiter",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "welch-",
+    "raw": "welch-",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Welt",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Welt",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "wenig",
+    "raw": "wenig",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "wer",
+    "raw": "wer",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "werden",
+    "forms": null,
+    "raw": "werden",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Wetter",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Wetter",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "wichtig",
+    "raw": "wichtig",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "wie",
+    "raw": "wie",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "wiederholen",
+    "forms": null,
+    "raw": "wiederholen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Wiederhören",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Wiederhören",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Wiedersehen",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Wiedersehen",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "willkommen",
+    "forms": null,
+    "raw": "willkommen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Wind",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Wind",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "wir",
+    "raw": "wir",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "wissen",
+    "forms": null,
+    "raw": "wissen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "adjective",
+    "lemma": "wo",
+    "raw": "wo",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "woher",
+    "raw": "woher",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "wohin",
+    "raw": "wohin",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "wohnen",
+    "forms": null,
+    "raw": "wohnen",
+    "level": "a1",
+    "object_case": "none"
+  },
+  {
+    "type": "noun",
+    "lemma": "Wohnung",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Wohnung, -en",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "wollen",
+    "forms": null,
+    "raw": "wollen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Wort",
+    "article": "das",
+    "gender": "n",
+    "plural": "-ö",
+    "raw": "das Wort, -ö, er/-e",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "wunderbar",
+    "raw": "wunderbar",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "z",
+    "raw": "z",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "zahlen",
+    "forms": null,
+    "raw": "zahlen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Zeit",
+    "article": "die",
+    "gender": "f",
+    "plural": null,
+    "raw": "die Zeit",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "zurzeit",
+    "raw": "zurzeit",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Zeitung",
+    "article": "die",
+    "gender": "f",
+    "plural": "-en",
+    "raw": "die Zeitung, -en",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Zigarette",
+    "article": "die",
+    "gender": "f",
+    "plural": "-n",
+    "raw": "die Zigarette, -n",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Zimmer",
+    "article": "das",
+    "gender": "n",
+    "plural": null,
+    "raw": "das Zimmer, –",
+    "level": "a1"
+  },
+  {
+    "type": "noun",
+    "lemma": "Zoll",
+    "article": "der",
+    "gender": "m",
+    "plural": null,
+    "raw": "der Zoll",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "zu",
+    "raw": "zu",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "zufrieden",
+    "forms": null,
+    "raw": "zufrieden",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "noun",
+    "lemma": "Zug",
+    "article": "der",
+    "gender": "m",
+    "plural": "-ü",
+    "raw": "der Zug, -ü, e",
+    "level": "a1"
+  },
+  {
+    "type": "adjective",
+    "lemma": "zurück",
+    "raw": "zurück",
+    "level": "a1"
+  },
+  {
+    "type": "verb",
+    "lemma": "zusammen",
+    "forms": null,
+    "raw": "zusammen",
+    "level": "a1",
+    "object_case": "akk"
+  },
+  {
+    "type": "verb",
+    "lemma": "zwischen",
+    "forms": null,
+    "raw": "zwischen",
+    "level": "a1",
+    "object_case": "akk"
+  }
+]

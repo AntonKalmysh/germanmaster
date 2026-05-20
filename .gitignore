@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Intermediate parser dumps (regenerable from PDFs)
+data/raw/*.txt
