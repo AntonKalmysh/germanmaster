@@ -185,7 +185,12 @@ function renderSegments(
 
 function FeedbackLine({ result }: { result: GradeResult }) {
   if (result.correct) {
-    return <span className="text-[var(--ok)]">Correct.</span>;
+    const hadEmpty = result.perBlank.some((p) => p.expected === "");
+    return (
+      <span className="text-[var(--ok)]">
+        Correct.{hadEmpty ? " (no ending)" : ""}
+      </span>
+    );
   }
   return <span className="text-[var(--error)]">{result.explanation}</span>;
 }

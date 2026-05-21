@@ -44,6 +44,24 @@ html, body {
   letter-spacing: -0.01em;
 }
 
+.heading-master {
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -2px;
+}
+
+@media (min-width: 768px) {
+  .heading-master {
+    font-size: 96px;
+  }
+}
+
+.heading-master em {
+  font-style: italic;
+}
+
 .exercise-text {
   font-feature-settings: "tnum" 1, "ss01" 1;
   line-height: 1.4;

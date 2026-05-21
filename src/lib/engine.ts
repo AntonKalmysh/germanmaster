@@ -6,6 +6,7 @@ import {
 } from "./declension";
 import { splitArticle } from "./articleSplit";
 import { SENTENCE_FRAMES } from "./sentenceFrames";
+import { corpusForLevel } from "./sentenceCorpus";
 import type {
   ArticleType,
   DeclensionPattern,
@@ -166,25 +167,90 @@ function buildTableExercise(
 }
 
 /**
- * Sentence-fill exercise: a curated sentence frame whose verb (and any
- * preposition) force a specific case on the noun-phrase blank.
+ * Sentence-fill exercise.
+ *
+ * Primary path: pick an AI-generated sentence from the curated corpus
+ * (data/sentences/<level>.json) that matches the session filters. Falls back
+ * to the static templated frames if no corpus entry matches — e.g. when the
+ * user enables a case/article combo we have no AI sentences for, or the
+ * corpus has been pruned to nothing.
  */
 function buildSentenceExercise(
   pool: WordPool,
   params: EngineParams,
 ): Exercise {
-  const frames = SENTENCE_FRAMES.filter((f) => params.cases.includes(f.case));
-  if (frames.length === 0) {
-    return buildPhraseExercise(pool, params);
+  const corpus = corpusForLevel(params.level).filter(
+    (e) =>
+      params.cases.includes(e.case) &&
+      params.articleTypes.includes(e.article_type) &&
+      (params.useAdjective ? e.adjective_lemma !== null : e.adjective_lemma === null),
+  );
+
+  if (corpus.length > 0) {
+    const entry = pick(corpus);
+    const grammarCase = entry.case;
+    const gender = entry.gender;
+    const articleType = entry.article_type;
+    const pattern = patternFor(articleType);
+    const article = articleForm(articleType, grammarCase, gender);
+
+    const segments: ExerciseSegment[] = [];
+    const blanks: Exercise["blanks"] = [];
+
+    segments.push({ kind: "text", value: entry.prefix });
+    segments.push({ kind: "swatch", gender });
+
+    const { stem, ending } = splitArticle(article, articleType);
+    if (articleType !== "none") {
+      if (stem) segments.push({ kind: "text", value: stem });
+      const articleBlankId = newId("blank");
+      segments.push({ kind: "blank", blankId: articleBlankId });
+      blanks.push({ id: articleBlankId, expected: ending, kind: "article" });
+      segments.push({ kind: "text", value: " " });
+    }
+
+    if (entry.adjective_lemma) {
+      segments.push({ kind: "text", value: entry.adjective_lemma });
+      const adjBlankId = newId("blank");
+      segments.push({ kind: "blank", blankId: adjBlankId });
+      blanks.push({
+        id: adjBlankId,
+        expected: adjEnding(pattern, grammarCase, gender),
+        kind: "adj_ending",
+      });
+      segments.push({ kind: "text", value: " " });
+    }
+
+    segments.push({ kind: "text", value: entry.noun_lemma + entry.suffix });
+
+    return {
+      id: newId("ex"),
+      stage: "sentence",
+      case: grammarCase,
+      gender,
+      articleType,
+      pattern,
+      segments,
+      blanks,
+      caseHint: grammarCase,
+      verbHint: { verb: entry.verb_lemma, case: grammarCase },
+      noun: {
+        lemma: entry.noun_lemma,
+        article: gender === "m" ? "der" : gender === "f" ? "die" : "das",
+        gender,
+      },
+      adjective: entry.adjective_lemma || undefined,
+    };
   }
+
+  // Fallback to templated frames (random noun + adj from wordlist).
+  const frames = SENTENCE_FRAMES.filter((f) => params.cases.includes(f.case));
+  if (frames.length === 0) return buildPhraseExercise(pool, params);
   const frame = pick(frames);
   const grammarCase = frame.case;
-
-  // Avoid 'none' for sentence stage.
   const articleType = pick(
     params.articleTypes.filter((t) => t !== "none"),
   ) as ArticleType;
-
   const noun = pick(pool.nouns);
   const gender = noun.gender;
   const pattern = patternFor(articleType);
@@ -193,10 +259,8 @@ function buildSentenceExercise(
 
   const segments: ExerciseSegment[] = [];
   const blanks: Exercise["blanks"] = [];
-
   segments.push({ kind: "text", value: frame.prefix });
   segments.push({ kind: "swatch", gender });
-
   if (articleType !== "none") {
     const { stem, ending } = splitArticle(article, articleType);
     if (stem) segments.push({ kind: "text", value: stem });
@@ -205,7 +269,6 @@ function buildSentenceExercise(
     blanks.push({ id: articleBlankId, expected: ending, kind: "article" });
     segments.push({ kind: "text", value: " " });
   }
-
   if (adjLemma) {
     segments.push({ kind: "text", value: adjLemma });
     const adjBlankId = newId("blank");
@@ -217,7 +280,6 @@ function buildSentenceExercise(
     });
     segments.push({ kind: "text", value: " " });
   }
-
   segments.push({ kind: "text", value: noun.lemma + frame.suffix });
 
   return {

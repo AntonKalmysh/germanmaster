@@ -65,9 +65,12 @@ export function SessionConfigForm({ onStart }: Props) {
 
   return (
     <div className="w-full max-w-md mx-auto px-6 py-12">
-      <h1 className="font-serif-display text-5xl mb-2">germanmaster</h1>
-      <p className="text-sm text-[var(--muted)] mb-10">
+      <h1 className="heading-master mb-2"><em>Master</em> German</h1>
+      <p className="text-sm text-[var(--muted)] mb-2">
         Drill der/die/das, case endings, and adjective declension.
+      </p>
+      <p className="text-xs text-[var(--muted)] mb-10">
+        Type only the ending. Some answers have no ending &mdash; leave the blank empty.
       </p>
 
       <Group label="Level">
