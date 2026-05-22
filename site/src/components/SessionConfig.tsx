@@ -64,15 +64,44 @@ export function SessionConfigForm({ onStart }: Props) {
   }
 
   return (
-    <div className="w-full max-w-md mx-auto px-6 py-12">
-      <h1 className="heading-master mb-2"><em>Master</em> German</h1>
-      <p className="text-sm text-[var(--muted)] mb-2">
-        Drill der/die/das, case endings, and adjective declension.
-      </p>
-      <p className="text-xs text-[var(--muted)] mb-10">
-        Type only the ending. Some answers have no ending &mdash; leave the blank empty.
+    <div className="w-full max-w-[680px] mx-auto px-6 py-12">
+      <div className="text-center mb-10">
+        <h1 className="heading-master mb-2"><em>Master</em> German</h1>
+        <p className="subheading-display text-[32px] text-[var(--muted)] mb-2">
+          Practice the hell out of German articles and gender endings at any level.
+        </p>
+        <p className="text-xs text-[var(--muted)]">
+          Type only the ending. Some answers have no ending &mdash; leave the blank empty.
+        </p>
+      </div>
+
+      <div className="text-center mb-3 max-w-[560px] mx-auto flex flex-col gap-3">
+        <p className="benefit-line">
+          Customize every drill to the level you&rsquo;re working on.
+        </p>
+        <p className="benefit-line">
+          Practice vocabulary from official Goethe-Institut material.
+          <sup className="text-xs align-super">*</sup>
+        </p>
+      </div>
+      <p className="text-center text-xs text-[var(--muted)] mb-10">
+        * Up to B2 level.
       </p>
 
+      <div className="text-center mb-12 max-w-[560px] mx-auto">
+        <p className="text-sm text-[var(--muted)]">
+          More coming soon &mdash; we&rsquo;re still in alpha.{" "}
+          <a
+            href="mailto:anton.kalmysh@gmail.com?subject=Master%20German%20feedback"
+            className="underline underline-offset-2 hover:text-[var(--fg)] transition-colors"
+          >
+            Share feedback or suggestions
+          </a>
+          . We want to make a tool that works for you.
+        </p>
+      </div>
+
+      <div className="w-full max-w-md mx-auto">
       <Group label="Level">
         <Toggle
           options={[
@@ -153,6 +182,7 @@ export function SessionConfigForm({ onStart }: Props) {
       >
         Start
       </button>
+      </div>
     </div>
   );
 }
