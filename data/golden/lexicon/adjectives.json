@@ -1,0 +1,50 @@
+[
+  {
+    "id": "a_nett",
+    "lemma": "nett",
+    "level": "a1",
+    "note": "Fully regular. Attributive stem = lemma (nett -> nette, netten). Baseline control case."
+  },
+  {
+    "id": "a_schnell",
+    "lemma": "schnell",
+    "level": "a1",
+    "comparative": "schneller",
+    "superlative": "schnellst",
+    "note": "Regular, but included to show comparative/superlative storage (regular here; engine could derive, stored for review)."
+  },
+  {
+    "id": "a_gut",
+    "lemma": "gut",
+    "level": "a1",
+    "comparative": "besser",
+    "superlative": "best",
+    "note": "Irregular comparison (gut -> besser -> best) — suppletive, cannot be derived. Positive attributive is regular (gute). Tests comparison overrides."
+  },
+  {
+    "id": "a_gross",
+    "lemma": "groß",
+    "level": "a1",
+    "comparative": "größer",
+    "superlative": "größt",
+    "note": "Superlative is größt, NOT großst (ß-spelling rule). Comparison must be stored, not derived by naive +st."
+  },
+  {
+    "id": "a_hoch",
+    "lemma": "hoch",
+    "level": "a1",
+    "attributiveStem": "hoh",
+    "comparative": "höher",
+    "superlative": "höchst",
+    "note": "Predicative form is 'hoch', but attributive stem is 'hoh' (das hohe Haus, not das hoche Haus). The attributive stem differs from the lemma — a field most schemas forget."
+  },
+  {
+    "id": "a_teuer",
+    "lemma": "teuer",
+    "level": "a2",
+    "attributiveStem": "teur",
+    "comparative": "teurer",
+    "superlative": "teuerst",
+    "note": "Attributive drops the -e- of the stem (teuer -> teure, not teuere). Another lemma != attributive-stem case."
+  }
+]

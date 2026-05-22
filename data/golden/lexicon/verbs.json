@@ -1,0 +1,57 @@
+[
+  {
+    "id": "v_helfen",
+    "lemma": "helfen",
+    "level": "a1",
+    "separable": false,
+    "aux": "haben",
+    "governs": "dat",
+    "conjugation": {
+      "present3sg": "hilft",
+      "preterite": "half",
+      "participle": "geholfen"
+    },
+    "note": "Governs DATIVE with no preposition (ich helfe dem Mann). Also strong/irregular: e->i stem change (hilft), preterite half, participle geholfen. Tests verb-governed case + conjugation overrides."
+  },
+  {
+    "id": "v_warten",
+    "lemma": "warten",
+    "level": "a1",
+    "separable": false,
+    "aux": "haben",
+    "governs": "none",
+    "prepositions": [
+      { "prep": "auf", "case": "akk", "type": "fixed", "sense": "to wait for" }
+    ],
+    "note": "Fixed prepositional verb: warten auf + AKKUSATIVE. The case is dictated by the verb+preposition pairing, not by motion. Regular conjugation (no overrides)."
+  },
+  {
+    "id": "v_fahren",
+    "lemma": "fahren",
+    "level": "a1",
+    "separable": false,
+    "aux": "sein",
+    "governs": "none",
+    "conjugation": {
+      "present3sg": "fährt",
+      "preterite": "fuhr",
+      "participle": "gefahren"
+    },
+    "note": "Movement verb, aux SEIN (not haben). Irregular a->ä (fährt). Used with a TWO-WAY preposition (in) where case depends on motion vs location — that case is a property of the sentence, not the verb."
+  },
+  {
+    "id": "v_abfahren",
+    "lemma": "abfahren",
+    "level": "a2",
+    "separable": true,
+    "prefix": "ab",
+    "aux": "sein",
+    "governs": "none",
+    "conjugation": {
+      "present3sg": "fährt ab",
+      "preterite": "fuhr ab",
+      "participle": "abgefahren"
+    },
+    "note": "Separable prefix (ab|fahren): prefix splits to clause end in main clauses (der Zug fährt ab), rejoins in participle (abgefahren). Tests separability + the prefix interacting with conjugation."
+  }
+]

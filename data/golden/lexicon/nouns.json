@@ -1,0 +1,92 @@
+[
+  {
+    "id": "n_student",
+    "lemma": "Student",
+    "gender": "m",
+    "plural": "Studenten",
+    "nounClass": "weak",
+    "level": "a2",
+    "note": "Weak masculine (n-declension): takes -en in akk/dat/gen sg (den/dem/des Studenten). This is the 'den Kunde -> den Kunden' bug we flagged."
+  },
+  {
+    "id": "n_name",
+    "lemma": "Name",
+    "gender": "m",
+    "plural": "Namen",
+    "nounClass": "mixed",
+    "genitiveSg": "Namens",
+    "level": "a2",
+    "note": "Mixed declension: oblique sg is Namen (weak-like), but genitive is Namens (-ns). The genitive cannot be derived from the weak rule, so it is an explicit override."
+  },
+  {
+    "id": "n_herz",
+    "lemma": "Herz",
+    "gender": "n",
+    "plural": "Herzen",
+    "nounClass": "regular",
+    "forms": {
+      "dat.sg": "Herzen",
+      "gen.sg": "Herzens"
+    },
+    "level": "b1",
+    "note": "Fully irregular neuter. nom/akk sg = Herz, but dat sg Herzen and gen sg Herzens break every rule -> explicit per-form overrides. Tests the escape hatch."
+  },
+  {
+    "id": "n_tag",
+    "lemma": "Tag",
+    "gender": "m",
+    "plural": "Tage",
+    "nounClass": "regular",
+    "genitiveSg": "Tages",
+    "level": "a1",
+    "note": "Regular masculine. Tests genitive -es (Tages) and dative-plural -n (Tage -> Tagen)."
+  },
+  {
+    "id": "n_kind",
+    "lemma": "Kind",
+    "gender": "n",
+    "plural": "Kinder",
+    "nounClass": "regular",
+    "genitiveSg": "Kindes",
+    "level": "a1",
+    "note": "Regular neuter with -er plural. Tests dative-plural -n on an -er plural (Kinder -> Kindern)."
+  },
+  {
+    "id": "n_auto",
+    "lemma": "Auto",
+    "gender": "n",
+    "plural": "Autos",
+    "nounClass": "regular",
+    "genitiveSg": "Autos",
+    "level": "a1",
+    "note": "Regular neuter with -s plural. Tests the dative-plural exception: plurals ending in -s do NOT take -n (Autos -> Autos, not Autosn)."
+  },
+  {
+    "id": "n_frau",
+    "lemma": "Frau",
+    "gender": "f",
+    "plural": "Frauen",
+    "nounClass": "regular",
+    "level": "a1",
+    "note": "Feminine. Tests that feminine nouns take NO genitive -s (der Frau, not der Fraus)."
+  },
+  {
+    "id": "n_zug",
+    "lemma": "Zug",
+    "gender": "m",
+    "plural": "Züge",
+    "nounClass": "regular",
+    "genitiveSg": "Zuges",
+    "level": "a1",
+    "note": "Umlaut plural (Zug -> Züge). IMPORTANT: the plural is a stem change, not a suffix, so an 'ending-only' blank cannot represent it. Surfaces the limit of ending-fill mode."
+  },
+  {
+    "id": "n_stadt",
+    "lemma": "Stadt",
+    "gender": "f",
+    "plural": "Städte",
+    "nounClass": "regular",
+    "level": "a1",
+    "note": "Feminine umlaut plural (Stadt -> Städte). No genitive -s; plural is a stem change."
+  }
+]

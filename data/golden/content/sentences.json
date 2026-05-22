@@ -1,0 +1,106 @@
+[
+  {
+    "id": "s_helfen_student",
+    "kind": "sentence",
+    "level": "a2",
+    "text": "Ich helfe dem netten Studenten.",
+    "verbId": "v_helfen",
+    "tokens": [
+      { "kind": "literal", "text": "Ich helfe" },
+      {
+        "kind": "np",
+        "case": "dat",
+        "number": "sg",
+        "articleType": "definite",
+        "adjectiveId": "a_nett",
+        "nounId": "n_student"
+      },
+      { "kind": "literal", "text": "." }
+    ],
+    "skills": [
+      "verb.governs.dat",
+      "decl.article.definite.dat",
+      "decl.adj.weak.dat",
+      "decl.noun.weak"
+    ],
+    "features": {
+      "cases": ["dat"],
+      "articleType": "definite",
+      "adjPattern": "weak",
+      "nounIrregularity": "weak_masc",
+      "clause": "main",
+      "verbGovernance": "fixed_case"
+    },
+    "status": "pending",
+    "note": "Four interactions in one clause: dative-governing verb -> definite dative article (dem) -> weak adjective ending (netten) -> WEAK NOUN ending (Studenten). This is the case our current engine renders wrong."
+  },
+  {
+    "id": "s_warten_zug",
+    "kind": "sentence",
+    "level": "a1",
+    "text": "Ich warte auf den schnellen Zug.",
+    "verbId": "v_warten",
+    "tokens": [
+      { "kind": "literal", "text": "Ich warte auf" },
+      {
+        "kind": "np",
+        "case": "akk",
+        "number": "sg",
+        "articleType": "definite",
+        "adjectiveId": "a_schnell",
+        "nounId": "n_zug"
+      },
+      { "kind": "literal", "text": "." }
+    ],
+    "skills": [
+      "verb.prep.auf",
+      "prep.fixed.akk",
+      "decl.article.definite.akk",
+      "decl.adj.weak.akk"
+    ],
+    "features": {
+      "cases": ["akk"],
+      "articleType": "definite",
+      "adjPattern": "weak",
+      "nounIrregularity": "none",
+      "clause": "main",
+      "verbGovernance": "fixed_preposition"
+    },
+    "status": "pending",
+    "note": "Same sentence will power BOTH the declension drill (blank den/schnellen endings) today and the FUTURE preposition drill (blank 'auf', or ask which case warten governs) — no recuration. Proves the annotate-once, project-many design."
+  },
+  {
+    "id": "s_fahren_stadt",
+    "kind": "sentence",
+    "level": "b1",
+    "text": "Wir fahren in die große Stadt.",
+    "verbId": "v_fahren",
+    "tokens": [
+      { "kind": "literal", "text": "Wir fahren in" },
+      {
+        "kind": "np",
+        "case": "akk",
+        "number": "sg",
+        "articleType": "definite",
+        "adjectiveId": "a_gross",
+        "nounId": "n_stadt"
+      },
+      { "kind": "literal", "text": "." }
+    ],
+    "skills": [
+      "prep.two_way.akk_vs_dat",
+      "decl.article.definite.akk",
+      "decl.adj.weak.akk"
+    ],
+    "features": {
+      "cases": ["akk"],
+      "articleType": "definite",
+      "adjPattern": "weak",
+      "nounIrregularity": "none",
+      "clause": "main",
+      "verbGovernance": "two_way_preposition_motion"
+    },
+    "status": "pending",
+    "note": "Two-way preposition 'in' with MOTION -> akkusative (die große Stadt). Compare 'Wir wohnen in der Stadt' (location -> dativ). The case is a property of THIS sentence instance, stored on the np, not derivable from the verb. The hardest topic, and the schema already handles it."
+  }
+]
