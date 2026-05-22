@@ -60,6 +60,32 @@ export function poolForLevel(pool: WordPool, level: Level): WordPool {
   };
 }
 
+function articleFromGender(gender: Gender): "der" | "die" | "das" {
+  return gender === "m" ? "der" : gender === "f" ? "die" : "das";
+}
+
+/**
+ * Curated (noun, adjective) pairings, harvested from the AI sentence corpus so
+ * the phrase stage gets semantically natural combinations ("schneller Zug")
+ * instead of random pairings ("günstiger Arzt"). The pairing is decoupled from
+ * its original case/article — we re-decline it into whatever the session asks
+ * for — so coverage isn't limited to the cases the corpus happens to include.
+ */
+function curatedPairsForLevel(
+  level: Level,
+): { noun: string; gender: Gender; adjective: string }[] {
+  const seen = new Set<string>();
+  const pairs: { noun: string; gender: Gender; adjective: string }[] = [];
+  for (const e of corpusForLevel(level)) {
+    if (!e.adjective_lemma) continue;
+    const key = `${e.noun_lemma}|${e.adjective_lemma}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    pairs.push({ noun: e.noun_lemma, gender: e.gender, adjective: e.adjective_lemma });
+  }
+  return pairs;
+}
+
 /**
  * Build a phrase-fill exercise: optional article + optional adjective + noun.
  */
@@ -67,19 +93,27 @@ function buildPhraseExercise(
   pool: WordPool,
   params: EngineParams,
 ): Exercise {
-  const noun = pick(pool.nouns);
   const grammarCase = pick(params.cases);
-  let articleType = pick(params.articleTypes);
-  // Indefinite has no plural form — if we picked plural noun + indefinite, switch.
-  // (Goethe nouns don't expose plural-only entries here; we default to singular.)
-  if (articleType === "indefinite") {
-    // ok in singular
-  }
-  const gender: Gender = noun.gender;
+  const articleType = pick(params.articleTypes);
   const pattern = patternFor(articleType);
 
+  // Prefer a curated noun+adjective pair for natural phrasing; fall back to a
+  // random pool noun (and clean random adjective) when none is available.
+  let noun: { lemma: string; gender: Gender; article: "der" | "die" | "das" };
+  let adjLemma = "";
+  const pairs = params.useAdjective ? curatedPairsForLevel(params.level) : [];
+  if (pairs.length > 0) {
+    const p = pick(pairs);
+    noun = { lemma: p.noun, gender: p.gender, article: articleFromGender(p.gender) };
+    adjLemma = p.adjective;
+  } else {
+    const n = pick(pool.nouns);
+    noun = { lemma: n.lemma, gender: n.gender, article: n.article };
+    adjLemma = params.useAdjective ? pick(pool.adjectives).lemma : "";
+  }
+
+  const gender: Gender = noun.gender;
   const article = articleForm(articleType, grammarCase, gender);
-  const adjLemma = params.useAdjective ? pick(pool.adjectives).lemma : "";
   const adjEndingExpected = adjLemma
     ? adjEnding(pattern, grammarCase, gender)
     : "";
