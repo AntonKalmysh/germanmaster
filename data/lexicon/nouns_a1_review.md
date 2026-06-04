@@ -1,17 +1,11 @@
-# A1 noun review — 329 nouns (180 flagged)
+# A1 noun review — 329 nouns (173 flagged)
 
-Source-clean (not listed here): 149. Mark anything wrong; I'll patch the builder.
+Source-clean (not listed here): 156. Mark anything wrong; I'll patch the builder.
 
-## Plurals I supplied (source had none) — verify each (114)
+## Plurals I supplied (source had none) — verify each (108)
 _Most are regular. Check the form is the real plural._
 
-- [ ] **die Abfahrt** → die Abfahrten
 - [ ] **der Abflug** → die Abflüge
-- [ ] **der Absender** → die Absender
-- [ ] **der Anfang** → die Anfänge
-- [ ] **die Ankunft** → die Ankünfte
-- [ ] **die Anmeldung** → die Anmeldungen
-- [ ] **die Anrede** → die Anreden
 - [ ] **der Anruf** → die Anrufe
 - [ ] **der Anschluss** → die Anschlüsse
 - [ ] **der Ausflug** → die Ausflüge
@@ -144,8 +138,8 @@ _Source marked an umlaut; I applied it. Confirm the vowel is right._
 - [ ] **die Stadt** → die Städte
 - [ ] **der Vater** → die Väter
 
-## Irregular (Latin/foreign) plurals — verify (7)
-_These break normal rules; double-check._
+## Foreign/Latin plurals — verify (7)
+_Memorized plurals (Daten, Praxen, Themen); the noun is still strong-declension._
 
 - [ ] **das Datum** → die Daten
 - [ ] **die Firma** → die Firmen
@@ -155,10 +149,9 @@ _These break normal rules; double-check._
 - [ ] **das Studium** → die Studien
 - [ ] **das Thema** → die Themen
 
-## Marked as having NO everyday plural — confirm (32)
+## Marked as having NO everyday plural — confirm (31)
 _If any of these DO take a plural you want to drill, tell me the form._
 
-- [ ] **das Alter** → — (no plural)
 - [ ] **der Appetit** → — (no plural)
 - [ ] **das Ausland** → — (no plural)
 - [ ] **die Butter** → — (no plural)

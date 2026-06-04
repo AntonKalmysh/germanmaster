@@ -4,86 +4,94 @@
     "lemma": "Abfahrt",
     "gender": "f",
     "plural": "Abfahrten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "ai-filled — verify"
+    "reviewed": true
   },
   {
     "id": "n_absender",
     "lemma": "Absender",
     "gender": "m",
     "plural": "Absender",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "ai-filled — verify"
+    "reviewed": true
   },
   {
     "id": "n_adresse",
     "lemma": "Adresse",
     "gender": "f",
     "plural": "Adressen",
-    "nounClass": "regular",
-    "level": "a1"
+    "nounClass": "strong",
+    "level": "a1",
+    "reviewed": true
   },
   {
     "id": "n_alter",
     "lemma": "Alter",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "uncountable (ai-filled) — verify"
+    "forms": {
+      "nom.pl": "Alter",
+      "gen.pl": "Alter",
+      "dat.pl": "Altern",
+      "akk.pl": "Alter"
+    },
+    "reviewed": true
   },
   {
     "id": "n_angebot",
     "lemma": "Angebot",
     "gender": "n",
     "plural": "Angebote",
-    "nounClass": "regular",
-    "level": "a1"
+    "nounClass": "strong",
+    "level": "a1",
+    "reviewed": true
   },
   {
     "id": "n_anfang",
     "lemma": "Anfang",
     "gender": "m",
     "plural": "Anfänge",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "ai-filled — verify"
+    "reviewed": true
   },
   {
     "id": "n_ankunft",
     "lemma": "Ankunft",
     "gender": "f",
     "plural": "Ankünfte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "ai-filled — verify"
+    "reviewed": true
   },
   {
     "id": "n_anmeldung",
     "lemma": "Anmeldung",
     "gender": "f",
     "plural": "Anmeldungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "ai-filled — verify"
+    "reviewed": true
   },
   {
     "id": "n_anrede",
     "lemma": "Anrede",
     "gender": "f",
     "plural": "Anreden",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "ai-filled — verify"
+    "reviewed": true
   },
   {
     "id": "n_anruf",
     "lemma": "Anruf",
     "gender": "m",
     "plural": "Anrufe",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -91,7 +99,7 @@
     "lemma": "Anruf",
     "gender": "m",
     "plural": "Anrufe",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -100,7 +108,7 @@
     "lemma": "Ansage",
     "gender": "f",
     "plural": "Ansagen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -108,7 +116,7 @@
     "lemma": "Anschluss",
     "gender": "m",
     "plural": "Anschlüsse",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -117,7 +125,7 @@
     "lemma": "Antwort",
     "gender": "f",
     "plural": "Antworten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -125,7 +133,7 @@
     "lemma": "Anzeige",
     "gender": "f",
     "plural": "Anzeigen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -133,7 +141,7 @@
     "lemma": "Apartment",
     "gender": "n",
     "plural": "Apartments",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -141,7 +149,7 @@
     "lemma": "Apfel",
     "gender": "m",
     "plural": "Äpfel",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -150,7 +158,7 @@
     "lemma": "Appetit",
     "gender": "m",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -159,7 +167,7 @@
     "lemma": "Arbeit",
     "gender": "f",
     "plural": "Arbeiten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -167,7 +175,7 @@
     "lemma": "Arbeitsplatz",
     "gender": "m",
     "plural": "Arbeitsplätze",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -176,7 +184,7 @@
     "lemma": "Arm",
     "gender": "m",
     "plural": "Arme",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -184,7 +192,7 @@
     "lemma": "Arzt",
     "gender": "m",
     "plural": "Ärzte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -193,7 +201,7 @@
     "lemma": "Aufgabe",
     "gender": "f",
     "plural": "Aufgaben",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -201,7 +209,7 @@
     "lemma": "Aufzug",
     "gender": "m",
     "plural": "Aufzuge",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -209,7 +217,7 @@
     "lemma": "Auge",
     "gender": "n",
     "plural": "Augen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -217,7 +225,7 @@
     "lemma": "Ausflug",
     "gender": "m",
     "plural": "Ausflüge",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -226,7 +234,7 @@
     "lemma": "Ausgang",
     "gender": "m",
     "plural": "Ausgänge",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -235,7 +243,7 @@
     "lemma": "Auskunft",
     "gender": "f",
     "plural": "Auskunfte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -243,7 +251,7 @@
     "lemma": "Ausland",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -252,7 +260,7 @@
     "lemma": "Ausländer",
     "gender": "m",
     "plural": "Ausländer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -260,7 +268,7 @@
     "lemma": "Aussage",
     "gender": "f",
     "plural": "Aussagen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -268,7 +276,7 @@
     "lemma": "Ausweis",
     "gender": "m",
     "plural": "Ausweise",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -277,7 +285,7 @@
     "lemma": "Auto",
     "gender": "n",
     "plural": "Autos",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -285,7 +293,7 @@
     "lemma": "Autobahn",
     "gender": "f",
     "plural": "Autobahnen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -302,7 +310,7 @@
     "lemma": "Baby",
     "gender": "n",
     "plural": "Babys",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -310,7 +318,7 @@
     "lemma": "Bäckerei",
     "gender": "f",
     "plural": "Bäckereien",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -319,7 +327,7 @@
     "lemma": "Bad",
     "gender": "n",
     "plural": "Bäder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -328,7 +336,7 @@
     "lemma": "Bahn",
     "gender": "f",
     "plural": "Bahnen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -337,7 +345,7 @@
     "lemma": "Bahnhof",
     "gender": "m",
     "plural": "Bahnhöfe",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -346,7 +354,7 @@
     "lemma": "Bahnsteig",
     "gender": "m",
     "plural": "Bahnsteige",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -355,7 +363,7 @@
     "lemma": "Balkon",
     "gender": "m",
     "plural": "Balkone",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -364,7 +372,7 @@
     "lemma": "Banane",
     "gender": "f",
     "plural": "Bananen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -372,7 +380,7 @@
     "lemma": "Bank",
     "gender": "f",
     "plural": "Banken",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -381,7 +389,7 @@
     "lemma": "Bauch",
     "gender": "m",
     "plural": "Bäuche",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -390,7 +398,7 @@
     "lemma": "Baum",
     "gender": "m",
     "plural": "Bäume",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -399,7 +407,7 @@
     "lemma": "Beamte",
     "gender": "m",
     "plural": "Beamten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "possible weak masculine (-e noun) — confirm class"
   },
@@ -408,7 +416,7 @@
     "lemma": "Bein",
     "gender": "n",
     "plural": "Beine",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -416,7 +424,7 @@
     "lemma": "Beispiel",
     "gender": "n",
     "plural": "Beispiele",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -424,7 +432,7 @@
     "lemma": "Beruf",
     "gender": "m",
     "plural": "Berufe",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -432,7 +440,7 @@
     "lemma": "Bett",
     "gender": "n",
     "plural": "Betten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -440,7 +448,7 @@
     "lemma": "Bier",
     "gender": "n",
     "plural": "Biere",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -449,7 +457,7 @@
     "lemma": "Bild",
     "gender": "n",
     "plural": "Bilder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -457,7 +465,7 @@
     "lemma": "Birne",
     "gender": "f",
     "plural": "Birnen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -465,7 +473,7 @@
     "lemma": "Bitte",
     "gender": "f",
     "plural": "Bitten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -473,7 +481,7 @@
     "lemma": "Bleistift",
     "gender": "m",
     "plural": "Bleistifte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -481,7 +489,7 @@
     "lemma": "Blick",
     "gender": "m",
     "plural": "Blicke",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -490,7 +498,7 @@
     "lemma": "Blume",
     "gender": "f",
     "plural": "Blumen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -498,7 +506,7 @@
     "lemma": "Bogen",
     "gender": "m",
     "plural": "Bögen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -507,7 +515,7 @@
     "lemma": "Brief",
     "gender": "m",
     "plural": "Briefe",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -515,7 +523,7 @@
     "lemma": "Briefmarke",
     "gender": "f",
     "plural": "Briefmarken",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -523,7 +531,7 @@
     "lemma": "Brot",
     "gender": "n",
     "plural": "Brote",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -531,7 +539,7 @@
     "lemma": "Brötchen",
     "gender": "n",
     "plural": "Brötchen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -539,7 +547,7 @@
     "lemma": "Bruder",
     "gender": "m",
     "plural": "Bruderü",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -547,7 +555,7 @@
     "lemma": "Buch",
     "gender": "n",
     "plural": "Bucher",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -564,7 +572,7 @@
     "lemma": "Bus",
     "gender": "m",
     "plural": "Busse",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -572,7 +580,7 @@
     "lemma": "Butter",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -581,7 +589,7 @@
     "lemma": "CD",
     "gender": "f",
     "plural": "CDs",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -589,7 +597,7 @@
     "lemma": "Chef",
     "gender": "m",
     "plural": "Chefs",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -598,7 +606,7 @@
     "lemma": "Computer",
     "gender": "m",
     "plural": "Computer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -606,7 +614,7 @@
     "lemma": "Dame",
     "gender": "f",
     "plural": "Damen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -614,7 +622,7 @@
     "lemma": "Dank",
     "gender": "m",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -623,16 +631,17 @@
     "lemma": "Datum",
     "gender": "n",
     "plural": "Daten",
-    "nounClass": "irregular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "irregular plural (ai-filled) — verify"
+    "genitiveSg": "Datums",
+    "review": "foreign plural (ai-filled) — verify"
   },
   {
     "id": "n_disco",
     "lemma": "Disco",
     "gender": "f",
     "plural": "Discos",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -641,7 +650,7 @@
     "lemma": "Doktor",
     "gender": "m",
     "plural": "Doktoren",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -650,7 +659,7 @@
     "lemma": "Doppelzimmer",
     "gender": "n",
     "plural": "Doppelzimmer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -659,7 +668,7 @@
     "lemma": "Dorf",
     "gender": "n",
     "plural": "Dorfer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -667,7 +676,7 @@
     "lemma": "Drucker",
     "gender": "m",
     "plural": "Drucker",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -675,7 +684,7 @@
     "lemma": "Durchsage",
     "gender": "f",
     "plural": "Durchsagen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -683,7 +692,7 @@
     "lemma": "Durst",
     "gender": "m",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -692,7 +701,7 @@
     "lemma": "Dusche",
     "gender": "f",
     "plural": "Duschen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -701,7 +710,7 @@
     "lemma": "Ecke",
     "gender": "f",
     "plural": "Ecken",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -709,7 +718,7 @@
     "lemma": "Ehefrau",
     "gender": "f",
     "plural": "Ehefrau",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -717,7 +726,7 @@
     "lemma": "Ehemann",
     "gender": "m",
     "plural": "Ehemänner",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -726,7 +735,7 @@
     "lemma": "Ei",
     "gender": "n",
     "plural": "Eier",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -734,7 +743,7 @@
     "lemma": "Eingang",
     "gender": "m",
     "plural": "Eingänge",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -743,7 +752,7 @@
     "lemma": "Einladung",
     "gender": "f",
     "plural": "Einladungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -752,7 +761,7 @@
     "lemma": "Eintritt",
     "gender": "m",
     "plural": "Eintritte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -761,7 +770,7 @@
     "lemma": "Einzelzimmer",
     "gender": "n",
     "plural": "Einzelzimmer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -770,7 +779,7 @@
     "lemma": "Eltern",
     "gender": "f",
     "plural": "Eltern",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "pluralOnly": true
   },
@@ -779,7 +788,7 @@
     "lemma": "E-Mail",
     "gender": "f",
     "plural": "E-Mails",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -787,7 +796,7 @@
     "lemma": "Empfänger",
     "gender": "m",
     "plural": "Empfänger",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -795,7 +804,7 @@
     "lemma": "Ende",
     "gender": "n",
     "plural": "Enden",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -804,7 +813,7 @@
     "lemma": "Entschuldigung",
     "gender": "f",
     "plural": "Entschuldigungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -813,7 +822,7 @@
     "lemma": "Ergebnis",
     "gender": "n",
     "plural": "Ergebnisse",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -821,7 +830,7 @@
     "lemma": "Erwachsene",
     "gender": "m",
     "plural": "Erwachsenen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "possible weak masculine (-e noun) — confirm class"
   },
@@ -830,7 +839,7 @@
     "lemma": "Essen",
     "gender": "n",
     "plural": "Essen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -839,7 +848,7 @@
     "lemma": "Fahrer",
     "gender": "m",
     "plural": "Fahrer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -848,7 +857,7 @@
     "lemma": "Fahrkarte",
     "gender": "f",
     "plural": "Fahrkarten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -856,7 +865,7 @@
     "lemma": "Fahrrad",
     "gender": "n",
     "plural": "Fahrräder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -865,7 +874,7 @@
     "lemma": "Familie",
     "gender": "f",
     "plural": "Familien",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -873,7 +882,7 @@
     "lemma": "Familienname",
     "gender": "m",
     "plural": "Familiennamen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify; possible weak masculine (-e noun) — confirm class"
   },
@@ -882,7 +891,7 @@
     "lemma": "Familienstand",
     "gender": "m",
     "plural": "Familienstände",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -891,7 +900,7 @@
     "lemma": "Farbe",
     "gender": "f",
     "plural": "Farben",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -899,7 +908,7 @@
     "lemma": "Fax",
     "gender": "n",
     "plural": "Faxe",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -907,7 +916,7 @@
     "lemma": "Fehler",
     "gender": "m",
     "plural": "Fehler",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -915,7 +924,7 @@
     "lemma": "Feuer",
     "gender": "n",
     "plural": "Feuer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -924,7 +933,7 @@
     "lemma": "Fieber",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -933,7 +942,7 @@
     "lemma": "Film",
     "gender": "m",
     "plural": "Filme",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -941,16 +950,16 @@
     "lemma": "Firma",
     "gender": "f",
     "plural": "Firmen",
-    "nounClass": "irregular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "irregular plural (ai-filled) — verify"
+    "review": "foreign plural (ai-filled) — verify"
   },
   {
     "id": "n_fisch",
     "lemma": "Fisch",
     "gender": "m",
     "plural": "Fische",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -958,7 +967,7 @@
     "lemma": "Flasche",
     "gender": "f",
     "plural": "Flaschen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -966,7 +975,7 @@
     "lemma": "Fleisch",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -975,7 +984,7 @@
     "lemma": "Abflug",
     "gender": "m",
     "plural": "Abflüge",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -984,7 +993,7 @@
     "lemma": "Flughafen",
     "gender": "m",
     "plural": "Flughäfen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -993,7 +1002,7 @@
     "lemma": "Flugzeug",
     "gender": "n",
     "plural": "Flugzeuge",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1002,7 +1011,7 @@
     "lemma": "Formular",
     "gender": "n",
     "plural": "Formulare",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1010,7 +1019,7 @@
     "lemma": "Foto",
     "gender": "n",
     "plural": "Fotos",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1018,7 +1027,7 @@
     "lemma": "Frage",
     "gender": "f",
     "plural": "Fragen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1026,7 +1035,7 @@
     "lemma": "Frau",
     "gender": "f",
     "plural": "Frauen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1034,7 +1043,7 @@
     "lemma": "Freizeit",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1043,7 +1052,7 @@
     "lemma": "Freund",
     "gender": "m",
     "plural": "Freunde",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1051,7 +1060,7 @@
     "lemma": "Frühstück",
     "gender": "n",
     "plural": "Frühstücke",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1060,7 +1069,7 @@
     "lemma": "Führung",
     "gender": "f",
     "plural": "Führungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1069,7 +1078,7 @@
     "lemma": "Fuß",
     "gender": "m",
     "plural": "Fuße",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1077,7 +1086,7 @@
     "lemma": "Fußball",
     "gender": "m",
     "plural": "Fußbälle",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1086,7 +1095,7 @@
     "lemma": "Garten",
     "gender": "m",
     "plural": "Gärten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1095,7 +1104,7 @@
     "lemma": "Gast",
     "gender": "m",
     "plural": "Gäste",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -1104,7 +1113,7 @@
     "lemma": "Geburtsjahr",
     "gender": "n",
     "plural": "Geburtsjahre",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1113,7 +1122,7 @@
     "lemma": "Geburtsort",
     "gender": "m",
     "plural": "Geburtsorte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1122,7 +1131,7 @@
     "lemma": "Geburtstag",
     "gender": "m",
     "plural": "Geburtstage",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1131,7 +1140,7 @@
     "lemma": "Geld",
     "gender": "n",
     "plural": "Gelder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1140,7 +1149,7 @@
     "lemma": "Gemüse",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1149,7 +1158,7 @@
     "lemma": "Gepäck",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1158,7 +1167,7 @@
     "lemma": "Geschäft",
     "gender": "n",
     "plural": "Geschäfte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1166,7 +1175,7 @@
     "lemma": "Geschenk",
     "gender": "n",
     "plural": "Geschenke",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1174,7 +1183,7 @@
     "lemma": "Geschwister",
     "gender": "f",
     "plural": "Geschwister",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "pluralOnly": true
   },
@@ -1183,7 +1192,7 @@
     "lemma": "Gespräch",
     "gender": "n",
     "plural": "Gespräche",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1191,7 +1200,7 @@
     "lemma": "Getränk",
     "gender": "n",
     "plural": "Getränke",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1199,7 +1208,7 @@
     "lemma": "Gewicht",
     "gender": "n",
     "plural": "Gewichte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1208,7 +1217,7 @@
     "lemma": "Glas",
     "gender": "n",
     "plural": "Gläser",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -1217,7 +1226,7 @@
     "lemma": "Gleis",
     "gender": "n",
     "plural": "Gleise",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1225,7 +1234,7 @@
     "lemma": "Glück",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1234,7 +1243,7 @@
     "lemma": "Glückwunsch",
     "gender": "m",
     "plural": "Glückwünsche",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1243,7 +1252,7 @@
     "lemma": "Größe",
     "gender": "f",
     "plural": "Größen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1252,7 +1261,7 @@
     "lemma": "Großeltern",
     "gender": "f",
     "plural": "Großeltern",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "pluralOnly": true
   },
@@ -1261,7 +1270,7 @@
     "lemma": "Großmutter",
     "gender": "f",
     "plural": "Großmütter",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1270,7 +1279,7 @@
     "lemma": "Großvater",
     "gender": "m",
     "plural": "Großväter",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1279,7 +1288,7 @@
     "lemma": "Gruppe",
     "gender": "f",
     "plural": "Gruppen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1287,7 +1296,7 @@
     "lemma": "Gruß",
     "gender": "m",
     "plural": "Gruße",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1295,7 +1304,7 @@
     "lemma": "Haar",
     "gender": "n",
     "plural": "Haare",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1303,7 +1312,7 @@
     "lemma": "Hähnchen",
     "gender": "n",
     "plural": "Hähnchen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1311,7 +1320,7 @@
     "lemma": "Halbpension",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1320,7 +1329,7 @@
     "lemma": "Halle",
     "gender": "f",
     "plural": "Hallen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1329,7 +1338,7 @@
     "lemma": "Haltestelle",
     "gender": "f",
     "plural": "Haltestellen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1338,7 +1347,7 @@
     "lemma": "Hand",
     "gender": "f",
     "plural": "Hände",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -1347,7 +1356,7 @@
     "lemma": "Handy",
     "gender": "n",
     "plural": "Handys",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1355,7 +1364,7 @@
     "lemma": "Haus",
     "gender": "n",
     "plural": "Häuser",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -1364,7 +1373,7 @@
     "lemma": "Hausaufgabe",
     "gender": "f",
     "plural": "Hausaufgaben",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1372,7 +1381,7 @@
     "lemma": "Hausfrau",
     "gender": "f",
     "plural": "Hausfrau",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1380,7 +1389,7 @@
     "lemma": "Hausmann",
     "gender": "m",
     "plural": "Hausmänner",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1389,7 +1398,7 @@
     "lemma": "Heimat",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1398,7 +1407,7 @@
     "lemma": "Herd",
     "gender": "m",
     "plural": "Herde",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1415,7 +1424,7 @@
     "lemma": "Hilfe",
     "gender": "f",
     "plural": "Hilfen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1424,7 +1433,7 @@
     "lemma": "Hobby",
     "gender": "n",
     "plural": "Hobbys",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1432,7 +1441,7 @@
     "lemma": "Hochzeit",
     "gender": "f",
     "plural": "Hochzeiten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1441,7 +1450,7 @@
     "lemma": "Hotel",
     "gender": "n",
     "plural": "Hotels",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1449,7 +1458,7 @@
     "lemma": "Hund",
     "gender": "m",
     "plural": "Hunde",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1457,7 +1466,7 @@
     "lemma": "Hunger",
     "gender": "m",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1466,7 +1475,7 @@
     "lemma": "Information",
     "gender": "f",
     "plural": "Informationen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1474,7 +1483,7 @@
     "lemma": "Internet",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1483,7 +1492,7 @@
     "lemma": "Jacke",
     "gender": "f",
     "plural": "Jacken",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1491,7 +1500,7 @@
     "lemma": "Job",
     "gender": "m",
     "plural": "Jobs",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1499,7 +1508,7 @@
     "lemma": "Jugendliche",
     "gender": "m",
     "plural": "Jugendlichen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "possible weak masculine (-e noun) — confirm class"
   },
@@ -1516,7 +1525,7 @@
     "lemma": "Kaffee",
     "gender": "m",
     "plural": "Kaffees",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1525,7 +1534,7 @@
     "lemma": "Karte",
     "gender": "f",
     "plural": "Karten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1533,7 +1542,7 @@
     "lemma": "Kartoffel",
     "gender": "f",
     "plural": "Kartoffeln",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1541,7 +1550,7 @@
     "lemma": "Kasse",
     "gender": "f",
     "plural": "Kassen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1550,7 +1559,7 @@
     "lemma": "Kind",
     "gender": "n",
     "plural": "Kinder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1558,7 +1567,7 @@
     "lemma": "Kindergarten",
     "gender": "m",
     "plural": "Kindergärten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1567,7 +1576,7 @@
     "lemma": "Kino",
     "gender": "n",
     "plural": "Kinos",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1575,7 +1584,7 @@
     "lemma": "Kiosk",
     "gender": "m",
     "plural": "Kioske",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1584,7 +1593,7 @@
     "lemma": "Klasse",
     "gender": "f",
     "plural": "Klassen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1593,7 +1602,7 @@
     "lemma": "Kleidung",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1602,7 +1611,7 @@
     "lemma": "Koffer",
     "gender": "m",
     "plural": "Koffer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1618,16 +1627,16 @@
     "lemma": "Konto",
     "gender": "n",
     "plural": "Konten",
-    "nounClass": "irregular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "irregular plural (ai-filled) — verify"
+    "review": "foreign plural (ai-filled) — verify"
   },
   {
     "id": "n_kopf",
     "lemma": "Kopf",
     "gender": "m",
     "plural": "Köpfe",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1636,7 +1645,7 @@
     "lemma": "Küche",
     "gender": "f",
     "plural": "Küchen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1645,7 +1654,7 @@
     "lemma": "Kuchen",
     "gender": "m",
     "plural": "Kuchen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1654,7 +1663,7 @@
     "lemma": "Kugelschreiber",
     "gender": "m",
     "plural": "Kugelschreiber",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1663,7 +1672,7 @@
     "lemma": "Kühlschrank",
     "gender": "m",
     "plural": "Kühlschränke",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1680,7 +1689,7 @@
     "lemma": "Kurs",
     "gender": "m",
     "plural": "Kurse",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1688,7 +1697,7 @@
     "lemma": "Laden",
     "gender": "m",
     "plural": "Läden",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -1697,7 +1706,7 @@
     "lemma": "Land",
     "gender": "n",
     "plural": "Länder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -1706,7 +1715,7 @@
     "lemma": "Leben",
     "gender": "n",
     "plural": "Leben",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1715,7 +1724,7 @@
     "lemma": "Lebensmittel",
     "gender": "f",
     "plural": "Lebensmittel",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1724,7 +1733,7 @@
     "lemma": "Lehrer",
     "gender": "m",
     "plural": "Lehrer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1732,7 +1741,7 @@
     "lemma": "Leute",
     "gender": "f",
     "plural": "Leute",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "pluralOnly": true
   },
@@ -1741,7 +1750,7 @@
     "lemma": "Licht",
     "gender": "n",
     "plural": "Lichter",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1750,7 +1759,7 @@
     "lemma": "Lied",
     "gender": "n",
     "plural": "Lieder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1758,7 +1767,7 @@
     "lemma": "Lkw",
     "gender": "m",
     "plural": "Lkws",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1766,7 +1775,7 @@
     "lemma": "Lokal",
     "gender": "n",
     "plural": "Lokale",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1775,7 +1784,7 @@
     "lemma": "Lösung",
     "gender": "f",
     "plural": "Lösungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1783,7 +1792,7 @@
     "lemma": "Mädchen",
     "gender": "n",
     "plural": "Mädchen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1791,7 +1800,7 @@
     "lemma": "Mann",
     "gender": "m",
     "plural": "Männer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -1800,7 +1809,7 @@
     "lemma": "Maschine",
     "gender": "f",
     "plural": "Maschinen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1808,7 +1817,7 @@
     "lemma": "Meer",
     "gender": "n",
     "plural": "Meere",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1825,7 +1834,7 @@
     "lemma": "Miete",
     "gender": "f",
     "plural": "Mieten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1834,7 +1843,7 @@
     "lemma": "Milch",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1843,7 +1852,7 @@
     "lemma": "Mitte",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1852,7 +1861,7 @@
     "lemma": "Möbel",
     "gender": "f",
     "plural": "Möbel",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "pluralOnly": true
   },
@@ -1861,7 +1870,7 @@
     "lemma": "Moment",
     "gender": "m",
     "plural": "Momente",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1870,7 +1879,7 @@
     "lemma": "Mund",
     "gender": "m",
     "plural": "Münder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1879,7 +1888,7 @@
     "lemma": "Mutter",
     "gender": "f",
     "plural": "Mutterü",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1896,7 +1905,7 @@
     "lemma": "Nummer",
     "gender": "f",
     "plural": "Nummern",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1904,7 +1913,7 @@
     "lemma": "Obst",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -1913,7 +1922,7 @@
     "lemma": "Öl",
     "gender": "n",
     "plural": "Öle",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1922,7 +1931,7 @@
     "lemma": "Oma",
     "gender": "f",
     "plural": "Omas",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1930,7 +1939,7 @@
     "lemma": "Opa",
     "gender": "m",
     "plural": "Opas",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1938,7 +1947,7 @@
     "lemma": "Ordnung",
     "gender": "f",
     "plural": "Ordnungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1947,7 +1956,7 @@
     "lemma": "Ort",
     "gender": "m",
     "plural": "Orte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1955,7 +1964,7 @@
     "lemma": "Papier",
     "gender": "n",
     "plural": "Papiere",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1964,7 +1973,7 @@
     "lemma": "Papiere",
     "gender": "f",
     "plural": "Papiere",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "pluralOnly": true
   },
@@ -1973,7 +1982,7 @@
     "lemma": "Partner",
     "gender": "m",
     "plural": "Partner",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1981,7 +1990,7 @@
     "lemma": "Partnerin",
     "gender": "f",
     "plural": "Partnerinnen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -1989,7 +1998,7 @@
     "lemma": "Party",
     "gender": "f",
     "plural": "Partys",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -1998,7 +2007,7 @@
     "lemma": "Pass",
     "gender": "m",
     "plural": "Pässe",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -2007,7 +2016,7 @@
     "lemma": "Pause",
     "gender": "f",
     "plural": "Pausen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2015,7 +2024,7 @@
     "lemma": "Plan",
     "gender": "m",
     "plural": "Pläne",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -2024,7 +2033,7 @@
     "lemma": "Platz",
     "gender": "m",
     "plural": "Plätze",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -2033,7 +2042,7 @@
     "lemma": "Polizei",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2042,7 +2051,7 @@
     "lemma": "Post",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2051,7 +2060,7 @@
     "lemma": "Postleitzahl",
     "gender": "f",
     "plural": "Postleitzahlen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2060,25 +2069,26 @@
     "lemma": "Praktikum",
     "gender": "n",
     "plural": "Praktika",
-    "nounClass": "irregular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "irregular plural (ai-filled) — verify"
+    "genitiveSg": "Praktikums",
+    "review": "foreign plural (ai-filled) — verify"
   },
   {
     "id": "n_praxis",
     "lemma": "Praxis",
     "gender": "f",
     "plural": "Praxen",
-    "nounClass": "irregular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "irregular plural (ai-filled) — verify"
+    "review": "foreign plural (ai-filled) — verify"
   },
   {
     "id": "n_preis",
     "lemma": "Preis",
     "gender": "m",
     "plural": "Preise",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2086,7 +2096,7 @@
     "lemma": "Problem",
     "gender": "n",
     "plural": "Probleme",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2094,7 +2104,7 @@
     "lemma": "Prospekt",
     "gender": "m",
     "plural": "Prospekte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2102,7 +2112,7 @@
     "lemma": "Prüfung",
     "gender": "f",
     "plural": "Prüfungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2111,7 +2121,7 @@
     "lemma": "Raum",
     "gender": "m",
     "plural": "Räume",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -2120,7 +2130,7 @@
     "lemma": "Rechnung",
     "gender": "f",
     "plural": "Rechnungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2128,7 +2138,7 @@
     "lemma": "Regen",
     "gender": "m",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2137,7 +2147,7 @@
     "lemma": "Reis",
     "gender": "m",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2146,7 +2156,7 @@
     "lemma": "Reise",
     "gender": "f",
     "plural": "Reisen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2155,7 +2165,7 @@
     "lemma": "Reisebüro",
     "gender": "n",
     "plural": "Reisebüros",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2163,7 +2173,7 @@
     "lemma": "Reiseführer",
     "gender": "m",
     "plural": "Reiseführer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2172,7 +2182,7 @@
     "lemma": "Reparatur",
     "gender": "f",
     "plural": "Reparaturen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2181,7 +2191,7 @@
     "lemma": "Restaurant",
     "gender": "n",
     "plural": "Restaurants",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2189,7 +2199,7 @@
     "lemma": "Rezeption",
     "gender": "f",
     "plural": "Rezeptionen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2198,7 +2208,7 @@
     "lemma": "Saft",
     "gender": "m",
     "plural": "Säfte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2207,7 +2217,7 @@
     "lemma": "Salat",
     "gender": "m",
     "plural": "Salate",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2216,7 +2226,7 @@
     "lemma": "Salz",
     "gender": "n",
     "plural": "Salze",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2225,7 +2235,7 @@
     "lemma": "S-Bahn",
     "gender": "f",
     "plural": "S-Bahnen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2234,7 +2244,7 @@
     "lemma": "Schalter",
     "gender": "m",
     "plural": "Schalter",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2243,7 +2253,7 @@
     "lemma": "Schild",
     "gender": "n",
     "plural": "Schilder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2251,7 +2261,7 @@
     "lemma": "Schinken",
     "gender": "m",
     "plural": "Schinken",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2259,7 +2269,7 @@
     "lemma": "Schluss",
     "gender": "m",
     "plural": "Schlüsse",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2268,7 +2278,7 @@
     "lemma": "Schlüssel",
     "gender": "m",
     "plural": "Schlüssel",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2276,7 +2286,7 @@
     "lemma": "Schrank",
     "gender": "m",
     "plural": "Schränke",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -2285,7 +2295,7 @@
     "lemma": "Schuh",
     "gender": "m",
     "plural": "Schuhe",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2293,7 +2303,7 @@
     "lemma": "Schule",
     "gender": "f",
     "plural": "Schulen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2302,7 +2312,7 @@
     "lemma": "Schüler",
     "gender": "m",
     "plural": "Schüler",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2310,7 +2320,7 @@
     "lemma": "Schwester",
     "gender": "f",
     "plural": "Schwestern",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2318,7 +2328,7 @@
     "lemma": "Schwimmbad",
     "gender": "n",
     "plural": "Schwimmbäder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2327,7 +2337,7 @@
     "lemma": "See",
     "gender": "m",
     "plural": "Seen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify; possible weak masculine (-e noun) — confirm class"
   },
@@ -2336,7 +2346,7 @@
     "lemma": "Sehenswürdigkeit",
     "gender": "f",
     "plural": "Sehenswürdigkeiten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2344,7 +2354,7 @@
     "lemma": "Sofa",
     "gender": "n",
     "plural": "Sofas",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2353,7 +2363,7 @@
     "lemma": "Sohn",
     "gender": "m",
     "plural": "Sohne",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2361,7 +2371,7 @@
     "lemma": "Sonne",
     "gender": "f",
     "plural": "Sonnen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2370,7 +2380,7 @@
     "lemma": "Speisekarte",
     "gender": "f",
     "plural": "Speisekarten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2379,7 +2389,7 @@
     "lemma": "Sport",
     "gender": "m",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2388,7 +2398,7 @@
     "lemma": "Sprache",
     "gender": "f",
     "plural": "Sprachen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2396,7 +2406,7 @@
     "lemma": "Stadt",
     "gender": "f",
     "plural": "Städte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -2405,7 +2415,7 @@
     "lemma": "Stelle",
     "gender": "f",
     "plural": "Stellen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2413,7 +2423,7 @@
     "lemma": "Stock",
     "gender": "m",
     "plural": "Stockwerke",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2422,7 +2432,7 @@
     "lemma": "Straße",
     "gender": "f",
     "plural": "Straßen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2430,7 +2440,7 @@
     "lemma": "Straßenbahn",
     "gender": "f",
     "plural": "Straßenbahnen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2439,9 +2449,10 @@
     "lemma": "Studium",
     "gender": "n",
     "plural": "Studien",
-    "nounClass": "irregular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "irregular plural (ai-filled) — verify"
+    "genitiveSg": "Studiums",
+    "review": "foreign plural (ai-filled) — verify"
   },
   {
     "id": "n_student",
@@ -2456,7 +2467,7 @@
     "lemma": "Stunde",
     "gender": "f",
     "plural": "Stunden",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2464,7 +2475,7 @@
     "lemma": "Tasche",
     "gender": "f",
     "plural": "Taschen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2472,7 +2483,7 @@
     "lemma": "Taxi",
     "gender": "n",
     "plural": "Taxis",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2480,7 +2491,7 @@
     "lemma": "Tee",
     "gender": "m",
     "plural": "Tees",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2489,7 +2500,7 @@
     "lemma": "Teil",
     "gender": "m",
     "plural": "Teile",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2497,7 +2508,7 @@
     "lemma": "Telefon",
     "gender": "n",
     "plural": "Telefone",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2506,7 +2517,7 @@
     "lemma": "Termin",
     "gender": "m",
     "plural": "Termine",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2514,7 +2525,7 @@
     "lemma": "Test",
     "gender": "m",
     "plural": "Tests",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2523,7 +2534,7 @@
     "lemma": "Text",
     "gender": "m",
     "plural": "Texte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2531,16 +2542,16 @@
     "lemma": "Thema",
     "gender": "n",
     "plural": "Themen",
-    "nounClass": "irregular",
+    "nounClass": "strong",
     "level": "a1",
-    "review": "irregular plural (ai-filled) — verify"
+    "review": "foreign plural (ai-filled) — verify"
   },
   {
     "id": "n_ticket",
     "lemma": "Ticket",
     "gender": "n",
     "plural": "Tickets",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2548,7 +2559,7 @@
     "lemma": "Tisch",
     "gender": "m",
     "plural": "Tische",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2556,7 +2567,7 @@
     "lemma": "Tochter",
     "gender": "f",
     "plural": "Tochterö",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2564,7 +2575,7 @@
     "lemma": "Toilette",
     "gender": "f",
     "plural": "Toiletten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2572,7 +2583,7 @@
     "lemma": "Tomate",
     "gender": "f",
     "plural": "Tomaten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2580,7 +2591,7 @@
     "lemma": "Treppe",
     "gender": "f",
     "plural": "Treppen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2588,7 +2599,7 @@
     "lemma": "Uhr",
     "gender": "f",
     "plural": "Uhren",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2597,7 +2608,7 @@
     "lemma": "Unterricht",
     "gender": "m",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2606,7 +2617,7 @@
     "lemma": "Unterschrift",
     "gender": "f",
     "plural": "Unterschriften",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2615,7 +2626,7 @@
     "lemma": "Urlaub",
     "gender": "m",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2624,7 +2635,7 @@
     "lemma": "Vater",
     "gender": "m",
     "plural": "Väter",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "umlaut plural — verify form"
   },
@@ -2633,7 +2644,7 @@
     "lemma": "Verein",
     "gender": "m",
     "plural": "Vereine",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2642,7 +2653,7 @@
     "lemma": "Verkäufer",
     "gender": "m",
     "plural": "Verkäufer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2650,7 +2661,7 @@
     "lemma": "Vermieter",
     "gender": "m",
     "plural": "Vermieter",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2659,7 +2670,7 @@
     "lemma": "Verwandte",
     "gender": "m",
     "plural": "Verwandten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "possible weak masculine (-e noun) — confirm class"
   },
@@ -2668,7 +2679,7 @@
     "lemma": "Vorname",
     "gender": "m",
     "plural": "Vornamen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "possible weak masculine (-e noun) — confirm class"
   },
@@ -2677,7 +2688,7 @@
     "lemma": "Vorsicht",
     "gender": "f",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2686,7 +2697,7 @@
     "lemma": "Vorwahl",
     "gender": "f",
     "plural": "Vorwahlen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2695,7 +2706,7 @@
     "lemma": "Wasser",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2704,7 +2715,7 @@
     "lemma": "Wein",
     "gender": "m",
     "plural": "Weine",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2713,7 +2724,7 @@
     "lemma": "Welt",
     "gender": "f",
     "plural": "Welten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2722,7 +2733,7 @@
     "lemma": "Wetter",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2731,7 +2742,7 @@
     "lemma": "Wiederhören",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2740,7 +2751,7 @@
     "lemma": "Wiedersehen",
     "gender": "n",
     "plural": null,
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "uncountable (ai-filled) — verify"
   },
@@ -2749,7 +2760,7 @@
     "lemma": "Wind",
     "gender": "m",
     "plural": "Winde",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2758,7 +2769,7 @@
     "lemma": "Wohnung",
     "gender": "f",
     "plural": "Wohnungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2766,7 +2777,7 @@
     "lemma": "Wort",
     "gender": "n",
     "plural": "Worte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2774,7 +2785,7 @@
     "lemma": "Zeit",
     "gender": "f",
     "plural": "Zeiten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2783,7 +2794,7 @@
     "lemma": "Zeitung",
     "gender": "f",
     "plural": "Zeitungen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2791,7 +2802,7 @@
     "lemma": "Zigarette",
     "gender": "f",
     "plural": "Zigaretten",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2799,7 +2810,7 @@
     "lemma": "Zimmer",
     "gender": "n",
     "plural": "Zimmer",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   },
   {
@@ -2807,7 +2818,7 @@
     "lemma": "Zoll",
     "gender": "m",
     "plural": "Zölle",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "review": "ai-filled — verify"
   },
@@ -2816,7 +2827,7 @@
     "lemma": "Zug",
     "gender": "m",
     "plural": "Zuge",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1"
   }
 ]

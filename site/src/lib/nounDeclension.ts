@@ -10,14 +10,16 @@
 //   - authoritative overrides (`forms`, reviewed from verbformen): exact lists
 //
 // Rules (overrides always win):
+// Declension classes (standard German taxonomy):
 //   - weak (n-declension): -(e)n in all oblique singular cases
-//   - mixed: weak oblique, genitive -ns (genitiveSg)
-//   - regular masc/neuter genitive: -es and/or -s per ending; feminine: no -s
-//   - dative plural: +n unless the plural already ends in -s or -n
+//   - mixed: weak oblique, but genitive -ns (genitiveSg) — e.g. der Name
+//   - strong: masc/neuter genitive -(e)s, dative-plural -n; feminine no endings.
+//     Nouns with unpredictable plurals (Datum→Daten) are strong; the plural is
+//     just stored in `plural`, the case pattern is still strong.
 
 export type Gender = "m" | "f" | "n";
 export type GrammarCase = "nom" | "gen" | "dat" | "akk";
-export type NounClass = "regular" | "weak" | "mixed" | "irregular";
+export type NounClass = "strong" | "weak" | "mixed";
 
 export type NounLex = {
   id: string;
@@ -65,11 +67,10 @@ function singularForm(n: NounLex, c: GrammarCase): Cell {
   if (n.nounClass === "mixed") {
     return c === "gen" ? [n.genitiveSg ?? weakOblique(n.lemma) + "s"] : [weakOblique(n.lemma)];
   }
-  // regular / irregular
+  // strong
   if (c === "akk" || c === "dat") return [n.lemma];
   // genitive
   if (n.gender === "f") return [n.lemma]; // feminine takes no genitive -s
-  if (n.nounClass === "irregular") return [n.genitiveSg ?? n.lemma + "s"]; // no auto -es
   return n.genitiveSg ? [n.genitiveSg] : regularGenitiveVariants(n.lemma);
 }
 

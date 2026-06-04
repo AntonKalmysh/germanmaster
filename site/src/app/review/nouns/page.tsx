@@ -183,7 +183,7 @@ export default function NounReview() {
             <label className="flex flex-col gap-1">nounClass
               <select value={meta.nounClass} onChange={(e) => setMeta({ ...meta, nounClass: e.target.value })}
                 className="border rounded px-2 py-1">
-                {["regular", "weak", "mixed", "irregular"].map((x) => <option key={x}>{x}</option>)}
+                {["strong", "weak", "mixed"].map((x) => <option key={x}>{x}</option>)}
               </select></label>
             <label className="flex flex-col gap-1">genitiveSg (override)
               <input value={meta.genitiveSg} onChange={(e) => setMeta({ ...meta, genitiveSg: e.target.value })}

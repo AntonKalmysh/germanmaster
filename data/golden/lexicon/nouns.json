@@ -23,7 +23,7 @@
     "lemma": "Herz",
     "gender": "n",
     "plural": "Herzen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "forms": {
       "dat.sg": "Herzen",
       "gen.sg": "Herzens"
@@ -36,7 +36,7 @@
     "lemma": "Tag",
     "gender": "m",
     "plural": "Tage",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "genitiveSg": "Tages",
     "level": "a1",
     "note": "Regular masculine. Tests genitive -es (Tages) and dative-plural -n (Tage -> Tagen)."
@@ -46,7 +46,7 @@
     "lemma": "Kind",
     "gender": "n",
     "plural": "Kinder",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "genitiveSg": "Kindes",
     "level": "a1",
     "note": "Regular neuter with -er plural. Tests dative-plural -n on an -er plural (Kinder -> Kindern)."
@@ -56,7 +56,7 @@
     "lemma": "Auto",
     "gender": "n",
     "plural": "Autos",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "genitiveSg": "Autos",
     "level": "a1",
     "note": "Regular neuter with -s plural. Tests the dative-plural exception: plurals ending in -s do NOT take -n (Autos -> Autos, not Autosn)."
@@ -66,7 +66,7 @@
     "lemma": "Frau",
     "gender": "f",
     "plural": "Frauen",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "note": "Feminine. Tests that feminine nouns take NO genitive -s (der Frau, not der Fraus)."
   },
@@ -75,7 +75,7 @@
     "lemma": "Zug",
     "gender": "m",
     "plural": "Züge",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "genitiveSg": "Zuges",
     "level": "a1",
     "note": "Umlaut plural (Zug -> Züge). IMPORTANT: the plural is a stem change, not a suffix, so an 'ending-only' blank cannot represent it. Surfaces the limit of ending-fill mode."
@@ -85,7 +85,7 @@
     "lemma": "Stadt",
     "gender": "f",
     "plural": "Städte",
-    "nounClass": "regular",
+    "nounClass": "strong",
     "level": "a1",
     "note": "Feminine umlaut plural (Stadt -> Städte). No genitive -s; plural is a stem change."
   }

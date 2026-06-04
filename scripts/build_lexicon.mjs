@@ -44,11 +44,15 @@ const UNCOUNTABLE = new Set([
   "Vorsicht", "Wasser", "Wetter", "Wiederhören", "Wiedersehen",
 ]);
 
-// Foreign/Latin irregular plurals — also get nounClass "irregular".
-const IRREGULAR = {
+// Foreign/Latin nouns with memorized plurals. These are STRONG nouns (the
+// case pattern is regular); only the plural form is unusual. The -um neuters
+// also need a genitive override (-um is a consonant stem, so the default rule
+// would wrongly offer -es): Datum -> Datums, not Datumes.
+const FOREIGN_PLURAL = {
   Datum: "Daten", Konto: "Konten", Firma: "Firmen", Praktikum: "Praktika",
   Praxis: "Praxen", Studium: "Studien", Thema: "Themen",
 };
+const FOREIGN_GENITIVE = { Datum: "Datums", Praktikum: "Praktikums", Studium: "Studiums" };
 
 // Regular (and umlaut) plurals the source omitted.
 const PLURAL_FILL = {
@@ -147,20 +151,21 @@ for (const rawNoun of nouns) {
 
   // Close the gap with AI-supplied fills where the source had no plural.
   let aiFilled = false;
-  let irregular = false;
+  let foreign = false;
   if (plural === null && !pluralOnly) {
     if (UNCOUNTABLE.has(n.lemma)) {
       plural = null; pluralReview = "uncountable (ai-filled) — verify"; aiFilled = true;
-    } else if (IRREGULAR[n.lemma]) {
-      plural = IRREGULAR[n.lemma]; pluralReview = "irregular plural (ai-filled) — verify";
-      aiFilled = true; irregular = true;
+    } else if (FOREIGN_PLURAL[n.lemma]) {
+      plural = FOREIGN_PLURAL[n.lemma]; pluralReview = "foreign plural (ai-filled) — verify";
+      aiFilled = true; foreign = true;
     } else if (PLURAL_FILL[n.lemma]) {
       plural = PLURAL_FILL[n.lemma]; pluralReview = "ai-filled — verify"; aiFilled = true;
     }
   }
 
-  let nounClass = irregular ? "irregular" : "regular";
-  let genitiveSg;
+  // Three declension classes only: weak, mixed, strong (strong is the default).
+  let nounClass = "strong";
+  let genitiveSg = foreign ? FOREIGN_GENITIVE[n.lemma] : undefined;
   let classReview;
   if (n.gender === "m" && WEAK_MASC.has(n.lemma)) nounClass = "weak";
   else if (MIXED.has(n.lemma)) { nounClass = "mixed"; genitiveSg = MIXED.get(n.lemma); }
@@ -187,7 +192,7 @@ for (const rawNoun of nouns) {
     let cat = "other";
     if (classReview) cat = "class";
     else if (/uncountable/.test(pluralReview)) cat = "uncountable";
-    else if (/irregular/.test(pluralReview)) cat = "irregular";
+    else if (/foreign/.test(pluralReview)) cat = "foreign";
     else if (/umlaut/.test(pluralReview)) cat = "umlaut";
     else if (/ai-filled/.test(pluralReview)) cat = "aifill";
     else if (/missing/.test(pluralReview)) cat = "missing";
@@ -231,7 +236,7 @@ const ART = { m: "der", f: "die", n: "das", pl: "die" };
 const GROUPS = [
   ["aifill", "Plurals I supplied (source had none) — verify each", "Most are regular. Check the form is the real plural."],
   ["umlaut", "Umlaut plurals computed from source — verify", "Source marked an umlaut; I applied it. Confirm the vowel is right."],
-  ["irregular", "Irregular (Latin/foreign) plurals — verify", "These break normal rules; double-check."],
+  ["foreign", "Foreign/Latin plurals — verify", "Memorized plurals (Daten, Praxen, Themen); the noun is still strong-declension."],
   ["uncountable", "Marked as having NO everyday plural — confirm", "If any of these DO take a plural you want to drill, tell me the form."],
   ["class", "Declension class to confirm", "Likely weak masculine or an adjectival noun (der Beamte / ein Beamter). Confirm class."],
   ["missing", "STILL MISSING — needs a plural", "I could not fill these; please supply."],
