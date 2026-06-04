@@ -62,9 +62,11 @@ function singularForm(n: NounLex, c: GrammarCase): string {
 }
 
 function pluralForm(n: NounLex, c: GrammarCase): string | null {
-  if (!n.plural) return null; // uncountable / no plural
+  // Overrides win even for nouns with no base plural (e.g. giving a plural to
+  // an otherwise-uncountable noun via per-form edits).
   const override = n.forms?.[`${c}.pl`];
   if (override) return override;
+  if (!n.plural) return null; // uncountable / no plural
   if (c === "dat") {
     return /[ns]$/.test(n.plural) ? n.plural : n.plural + "n";
   }

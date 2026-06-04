@@ -53,18 +53,33 @@ export function writeCorrection(level: string, id: string, correction: Correctio
   return all;
 }
 
+/** Apply a saved correction's field overrides onto a noun (mirrors the builder
+ *  merge) so the displayed "ours" chart reflects what was reviewed. */
+function applyCorrection(n: NounLex, c: Correction | null): NounLex {
+  if (!c || c.status !== "corrected") return n;
+  const merged = { ...n } as NounLex;
+  if ("plural" in c) merged.plural = c.plural ?? null;
+  if (c.nounClass) merged.nounClass = c.nounClass as NounLex["nounClass"];
+  if (c.gender) merged.gender = c.gender as NounLex["gender"];
+  if ("genitiveSg" in c) merged.genitiveSg = c.genitiveSg;
+  if ("pluralOnly" in c) merged.pluralOnly = c.pluralOnly;
+  if (c.forms) merged.forms = { ...n.forms, ...c.forms } as NounLex["forms"];
+  return merged;
+}
+
 export function loadReview(level: string): ReviewRecord[] {
   const nouns: NounLex[] = JSON.parse(readFileSync(join(DATA, `nouns_${level}.json`), "utf8"));
   const corrections = readCorrections(level);
   return nouns.map((n) => {
     const f = cachePath(n.lemma);
     const vf: VerbformenChart | null = existsSync(f) ? JSON.parse(readFileSync(f, "utf8")) : null;
+    const correction = corrections[n.id] ?? null;
     return {
       ...n,
-      ours: declineNoun(n),
+      ours: declineNoun(applyCorrection(n, correction)),
       vf,
-      correction: corrections[n.id] ?? null,
-      reviewed: !!corrections[n.id],
+      correction,
+      reviewed: !!correction,
     };
   });
 }
