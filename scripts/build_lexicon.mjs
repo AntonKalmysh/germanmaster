@@ -183,7 +183,15 @@ for (const rawNoun of nouns) {
   const reviews = [pluralReview, classReview].filter(Boolean);
   if (reviews.length) {
     entry.review = reviews.join("; ");
-    reviewItems.push(`${n.gender} ${n.lemma} (pl: ${plural ?? "—"}) → ${entry.review}`);
+    // Categorize for the grouped review report.
+    let cat = "other";
+    if (classReview) cat = "class";
+    else if (/uncountable/.test(pluralReview)) cat = "uncountable";
+    else if (/irregular/.test(pluralReview)) cat = "irregular";
+    else if (/umlaut/.test(pluralReview)) cat = "umlaut";
+    else if (/ai-filled/.test(pluralReview)) cat = "aifill";
+    else if (/missing/.test(pluralReview)) cat = "missing";
+    reviewItems.push({ cat, gender: n.gender, lemma: n.lemma, plural, note: entry.review });
   }
   out.push(entry);
 }
@@ -191,8 +199,35 @@ for (const rawNoun of nouns) {
 mkdirSync(join(ROOT, "data/lexicon"), { recursive: true });
 writeFileSync(join(ROOT, `data/lexicon/nouns_${level}.json`), JSON.stringify(out, null, 2) + "\n");
 
+// ── Grouped markdown review checklist ──
+const ART = { m: "der", f: "die", n: "das", pl: "die" };
+const GROUPS = [
+  ["aifill", "Plurals I supplied (source had none) — verify each", "Most are regular. Check the form is the real plural."],
+  ["umlaut", "Umlaut plurals computed from source — verify", "Source marked an umlaut; I applied it. Confirm the vowel is right."],
+  ["irregular", "Irregular (Latin/foreign) plurals — verify", "These break normal rules; double-check."],
+  ["uncountable", "Marked as having NO everyday plural — confirm", "If any of these DO take a plural you want to drill, tell me the form."],
+  ["class", "Declension class to confirm", "Likely weak masculine or an adjectival noun (der Beamte / ein Beamter). Confirm class."],
+  ["missing", "STILL MISSING — needs a plural", "I could not fill these; please supply."],
+];
+let md = `# A1 noun review — ${out.length} nouns (${reviewItems.length} flagged)\n\n`;
+md += `Source-clean (not listed here): ${out.length - reviewItems.length}. `;
+md += `Mark anything wrong; I'll patch the builder.\n`;
+for (const [cat, title, hint] of GROUPS) {
+  const items = reviewItems.filter((r) => r.cat === cat);
+  if (!items.length) continue;
+  md += `\n## ${title} (${items.length})\n_${hint}_\n\n`;
+  for (const r of items.sort((a, b) => a.lemma.localeCompare(b.lemma))) {
+    const sg = `${ART[r.gender]} ${r.lemma}`;
+    const pl = r.plural ? `die ${r.plural}` : "— (no plural)";
+    md += `- [ ] **${sg}** → ${pl}\n`;
+  }
+}
+writeFileSync(join(ROOT, `data/lexicon/nouns_${level}_review.md`), md);
+
 console.log(`Wrote data/lexicon/nouns_${level}.json — ${out.length} nouns`);
-console.log(`Clean (no review needed): ${out.length - reviewItems.length}`);
-console.log(`Need review: ${reviewItems.length}\n`);
-console.log("=== ITEMS FLAGGED FOR REVIEW ===");
-console.log(reviewItems.join("\n"));
+console.log(`Wrote data/lexicon/nouns_${level}_review.md — ${reviewItems.length} flagged`);
+console.log(`Source-clean: ${out.length - reviewItems.length}`);
+for (const [cat, title] of GROUPS) {
+  const c = reviewItems.filter((r) => r.cat === cat).length;
+  if (c) console.log(`  ${cat}: ${c}`);
+}
