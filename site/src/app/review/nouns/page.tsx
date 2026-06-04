@@ -6,10 +6,11 @@ const CASE_LABEL: Record<string, string> = { nom: "Nom", gen: "Gen", dat: "Dat",
 const ART: Record<string, string> = { m: "der", f: "die", n: "das" };
 
 type Slot = Record<string, { article: string; forms: string[] }> | null;
+type Cell = string[] | null;
 type Rec = {
   id: string; lemma: string; gender: "m" | "f" | "n"; plural: string | null;
   nounClass: string; genitiveSg?: string; pluralOnly?: boolean;
-  ours: { sg: Record<string, string | null>; pl: Record<string, string | null> };
+  ours: { sg: Record<string, Cell>; pl: Record<string, Cell> };
   vf: { ok: boolean; singular: Slot; plural: Slot } | null;
   correction: { status: string } | null;
   reviewed: boolean;
@@ -18,6 +19,7 @@ type Rec = {
 function vfForms(slot: Slot, c: string): string[] | null {
   return slot && slot[c] ? slot[c].forms : null;
 }
+const cellText = (cell: Cell): string => (cell && cell.length ? cell.join(" / ") : "—");
 
 export default function NounReview() {
   const [records, setRecords] = useState<Rec[]>([]);
@@ -42,7 +44,7 @@ export default function NounReview() {
     if (!rec) return;
     const d: Record<string, string> = {};
     for (const num of ["sg", "pl"] as const)
-      for (const c of CASES) d[`${c}.${num}`] = rec.ours[num][c] ?? "";
+      for (const c of CASES) d[`${c}.${num}`] = (rec.ours[num][c] ?? []).join(" / ");
     setDraft(d);
     setMeta({
       plural: rec.plural ?? "", nounClass: rec.nounClass,
@@ -69,12 +71,16 @@ export default function NounReview() {
 
   function saveEdits() {
     if (!rec) return;
-    const forms: Record<string, string> = {};
+    const forms: Record<string, string | string[]> = {};
     for (const num of ["sg", "pl"] as const)
       for (const c of CASES) {
         const key = `${c}.${num}`;
+        const orig = (rec.ours[num][c] ?? []).join(" / ");
         const v = draft[key].trim();
-        if (v && v !== (rec.ours[num][c] ?? "")) forms[key] = v;
+        if (v && v !== orig) {
+          const variants = v.split("/").map((x) => x.trim()).filter(Boolean);
+          forms[key] = variants.length > 1 ? variants : variants[0];
+        }
       }
     const correction: Record<string, unknown> = { status: "corrected" };
     if (meta.plural !== (rec.plural ?? "")) correction.plural = meta.plural || null;
@@ -98,7 +104,11 @@ export default function NounReview() {
   const mism = (num: "sg" | "pl", c: string) => {
     const ours = rec.ours[num][c];
     const vf = vfForms(num === "sg" ? rec.vf?.singular ?? null : rec.vf?.plural ?? null, c);
-    return ours && vf && !vf.includes(ours);
+    if (!ours || !vf) return false;
+    // flag when the accepted-form sets differ at all
+    const a = new Set(ours.map((s) => s.toLowerCase()));
+    const b = new Set(vf.map((s) => s.toLowerCase()));
+    return a.size !== b.size || [...a].some((x) => !b.has(x));
   };
 
   return (
@@ -144,9 +154,9 @@ export default function NounReview() {
             return (
               <tr key={c} className="border-t">
                 <td className="text-neutral-400">{CASE_LABEL[c]}</td>
-                <td className={mism("sg", c) ? "bg-amber-100" : ""}>{rec.ours.sg[c] ?? "—"}</td>
+                <td className={mism("sg", c) ? "bg-amber-100" : ""}>{cellText(rec.ours.sg[c])}</td>
                 <td className="text-neutral-600">{vfSg ? vfSg.join(" / ") : "—"}</td>
-                <td className={mism("pl", c) ? "bg-amber-100" : ""}>{rec.ours.pl[c] ?? "—"}</td>
+                <td className={mism("pl", c) ? "bg-amber-100" : ""}>{cellText(rec.ours.pl[c])}</td>
                 <td className="text-neutral-600">{vfPl ? vfPl.join(" / ") : "—"}</td>
               </tr>
             );

@@ -1,14 +1,19 @@
-// Compute the full case×number declension chart for a lexicon noun from its
-// (lemma, gender, plural, nounClass) plus sparse overrides. This is the "ours"
-// column in the review UI and the single source of truth for noun rendering.
+// Compute the full case×number declension chart for a lexicon noun.
 //
-// Rules implemented (overrides in `forms` always win):
+// A cell is a LIST of accepted forms, not one string: German often accepts
+// more than one form per cell (genitive -es/-s "des Bahnhofes/Bahnhofs",
+// dative -e, plural "Jungen/Jungs"). cell[0] is the canonical/display form
+// (the more formal one); the grader accepts ANY form in the list.
+//
+// Variant sources:
+//   - generative default (this file): genitive -es/-s for regular masc/neuter
+//   - authoritative overrides (`forms`, reviewed from verbformen): exact lists
+//
+// Rules (overrides always win):
 //   - weak (n-declension): -(e)n in all oblique singular cases
-//   - mixed: weak oblique, but genitive -ns (stored in genitiveSg)
-//   - regular: genitive -(e)s for m/n, no change for f; nom/akk/dat = lemma
+//   - mixed: weak oblique, genitive -ns (genitiveSg)
+//   - regular masc/neuter genitive: -es and/or -s per ending; feminine: no -s
 //   - dative plural: +n unless the plural already ends in -s or -n
-// Forms proven against the golden sample (Student, Name, Herz, Tag, Kind,
-// Auto, Frau, Zug, Stadt).
 
 export type Gender = "m" | "f" | "n";
 export type GrammarCase = "nom" | "gen" | "dat" | "akk";
@@ -21,66 +26,76 @@ export type NounLex = {
   plural: string | null;
   nounClass: NounClass;
   genitiveSg?: string;
-  /** Explicit per-form overrides, keyed "case.number" e.g. "gen.sg", "dat.pl". */
-  forms?: Partial<Record<`${GrammarCase}.${"sg" | "pl"}`, string>>;
+  /** Per-form overrides keyed "case.number"; a string or a list of variants. */
+  forms?: Partial<Record<`${GrammarCase}.${"sg" | "pl"}`, string | string[]>>;
   pluralOnly?: boolean;
   level?: string;
   review?: string;
 };
 
+/** Each cell is a non-empty list of accepted forms, or null (no such form). */
+export type Cell = string[] | null;
 export type DeclensionChart = {
-  sg: Record<GrammarCase, string | null>;
-  pl: Record<GrammarCase, string | null>;
+  sg: Record<GrammarCase, Cell>;
+  pl: Record<GrammarCase, Cell>;
 };
 
 const CASES: GrammarCase[] = ["nom", "gen", "dat", "akk"];
+const asList = (v: string | string[]): string[] => (Array.isArray(v) ? v : [v]);
 
 /** Weak oblique singular: lemma + -n if it ends in -e, else + -en. */
 function weakOblique(lemma: string): string {
   return lemma.endsWith("e") ? lemma + "n" : lemma + "en";
 }
 
-/** Regular genitive singular: -es after a sibilant/stop cluster, else -s. */
-function regularGenitive(lemma: string): string {
-  return /(s|ß|x|z|sch|st|tz)$/.test(lemma) ? lemma + "es" : lemma + "s";
+/** Accepted genitive-sg forms for a REGULAR masculine/neuter noun. */
+function regularGenitiveVariants(lemma: string): string[] {
+  if (/(s|ß|x|z|tz)$/.test(lemma)) return [lemma + "es"]; // obligatory -es
+  if (/[aeiouäöü]$/.test(lemma)) return [lemma + "s"]; // vowel-final -> -s only
+  if (/(el|er|en|chen|lein)$/.test(lemma)) return [lemma + "s"]; // unstressed -> -s
+  return [lemma + "es", lemma + "s"]; // consonant stem -> both, -es preferred
 }
 
-function singularForm(n: NounLex, c: GrammarCase): string {
+function singularForm(n: NounLex, c: GrammarCase): Cell {
+  if (n.pluralOnly) return null;
   const override = n.forms?.[`${c}.sg`];
-  if (override) return override;
-  if (c === "nom") return n.lemma; // only nominative is always the lemma
-  // Weak & mixed nouns take the -(e)n oblique form in akk and dat too.
-  if (n.nounClass === "weak") return weakOblique(n.lemma);
+  if (override) return asList(override);
+  if (c === "nom") return [n.lemma];
+  if (n.nounClass === "weak") return [weakOblique(n.lemma)];
   if (n.nounClass === "mixed") {
-    return c === "gen" ? n.genitiveSg ?? weakOblique(n.lemma) + "s" : weakOblique(n.lemma);
+    return c === "gen" ? [n.genitiveSg ?? weakOblique(n.lemma) + "s"] : [weakOblique(n.lemma)];
   }
-  // regular / irregular: akk and dat = lemma
-  if (c === "akk" || c === "dat") return n.lemma;
+  // regular / irregular
+  if (c === "akk" || c === "dat") return [n.lemma];
   // genitive
-  if (n.gender === "f") return n.lemma; // feminine takes no genitive -s
-  return n.genitiveSg ?? regularGenitive(n.lemma);
+  if (n.gender === "f") return [n.lemma]; // feminine takes no genitive -s
+  if (n.nounClass === "irregular") return [n.genitiveSg ?? n.lemma + "s"]; // no auto -es
+  return n.genitiveSg ? [n.genitiveSg] : regularGenitiveVariants(n.lemma);
 }
 
-function pluralForm(n: NounLex, c: GrammarCase): string | null {
-  // Overrides win even for nouns with no base plural (e.g. giving a plural to
-  // an otherwise-uncountable noun via per-form edits).
+function pluralForm(n: NounLex, c: GrammarCase): Cell {
   const override = n.forms?.[`${c}.pl`];
-  if (override) return override;
+  if (override) return asList(override);
   if (!n.plural) return null; // uncountable / no plural
-  if (c === "dat") {
-    return /[ns]$/.test(n.plural) ? n.plural : n.plural + "n";
-  }
-  return n.plural;
+  if (c === "dat") return [/[ns]$/.test(n.plural) ? n.plural : n.plural + "n"];
+  return [n.plural];
 }
 
 export function declineNoun(n: NounLex): DeclensionChart {
-  const sg = {} as Record<GrammarCase, string | null>;
-  const pl = {} as Record<GrammarCase, string | null>;
+  const sg = {} as Record<GrammarCase, Cell>;
+  const pl = {} as Record<GrammarCase, Cell>;
   for (const c of CASES) {
-    sg[c] = n.pluralOnly ? null : singularForm(n, c);
+    sg[c] = singularForm(n, c);
     pl[c] = pluralForm(n, c);
   }
   return { sg, pl };
+}
+
+/** True if `input` matches any accepted form in the cell (case/space-insensitive). */
+export function cellAccepts(cell: Cell, input: string): boolean {
+  if (!cell) return false;
+  const norm = (s: string) => s.trim().toLowerCase();
+  return cell.some((f) => norm(f) === norm(input));
 }
 
 /** Definite article for display (case×gender×number). */

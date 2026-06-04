@@ -26,7 +26,7 @@ export type Correction = {
   nounClass?: string;
   gender?: string;
   genitiveSg?: string;
-  forms?: Record<string, string>;
+  forms?: Record<string, string | string[]>;
   pluralOnly?: boolean;
   note?: string;
 };
