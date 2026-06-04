@@ -1,5 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
+import posthog from "posthog-js";
 import type {
   Answer,
   Exercise,
@@ -46,6 +47,18 @@ export function SessionRunner({ config, onExit }: Props) {
     const next = [...results, r];
     setResults(next);
     if (index + 1 >= exercises.length) {
+      const correct = next.filter((x) => x.grade.correct).length;
+      posthog.capture("session_completed", {
+        level: config.level,
+        stages: config.stages,
+        cases: config.cases,
+        article_types: config.articleTypes,
+        feedback: config.feedback,
+        length: config.length,
+        correct,
+        total: next.length,
+        accuracy: correct / next.length,
+      });
       setDone(true);
     } else {
       setIndex(index + 1);

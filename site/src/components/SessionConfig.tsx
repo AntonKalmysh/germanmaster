@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import posthog from "posthog-js";
 import type {
   ArticleType,
   GrammarCase,
@@ -60,6 +61,14 @@ export function SessionConfigForm({ onStart }: Props) {
 
   function start() {
     saveConfig(config);
+    posthog.capture("session_started", {
+      level: config.level,
+      stages: config.stages,
+      cases: config.cases,
+      article_types: config.articleTypes,
+      feedback: config.feedback,
+      length: config.length,
+    });
     onStart(config);
   }
 
