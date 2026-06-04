@@ -1,0 +1,2822 @@
+[
+  {
+    "id": "n_abfahrt",
+    "lemma": "Abfahrt",
+    "gender": "f",
+    "plural": "Abfahrten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_absender",
+    "lemma": "Absender",
+    "gender": "m",
+    "plural": "Absender",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_adresse",
+    "lemma": "Adresse",
+    "gender": "f",
+    "plural": "Adressen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_alter",
+    "lemma": "Alter",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_angebot",
+    "lemma": "Angebot",
+    "gender": "n",
+    "plural": "Angebote",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_anfang",
+    "lemma": "Anfang",
+    "gender": "m",
+    "plural": "Anfänge",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_ankunft",
+    "lemma": "Ankunft",
+    "gender": "f",
+    "plural": "Ankünfte",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_anmeldung",
+    "lemma": "Anmeldung",
+    "gender": "f",
+    "plural": "Anmeldungen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_anrede",
+    "lemma": "Anrede",
+    "gender": "f",
+    "plural": "Anreden",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_anruf",
+    "lemma": "Anruf",
+    "gender": "m",
+    "plural": "Anrufe",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_anruf",
+    "lemma": "Anruf",
+    "gender": "m",
+    "plural": "Anrufe",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_ansage",
+    "lemma": "Ansage",
+    "gender": "f",
+    "plural": "Ansagen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_anschluss",
+    "lemma": "Anschluss",
+    "gender": "m",
+    "plural": "Anschlüsse",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_antwort",
+    "lemma": "Antwort",
+    "gender": "f",
+    "plural": "Antworten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_anzeige",
+    "lemma": "Anzeige",
+    "gender": "f",
+    "plural": "Anzeigen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_apartment",
+    "lemma": "Apartment",
+    "gender": "n",
+    "plural": "Apartments",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_apfel",
+    "lemma": "Apfel",
+    "gender": "m",
+    "plural": "Äpfel",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_appetit",
+    "lemma": "Appetit",
+    "gender": "m",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_arbeit",
+    "lemma": "Arbeit",
+    "gender": "f",
+    "plural": "Arbeiten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_arbeitsplatz",
+    "lemma": "Arbeitsplatz",
+    "gender": "m",
+    "plural": "Arbeitsplätze",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_arm",
+    "lemma": "Arm",
+    "gender": "m",
+    "plural": "Arme",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_arzt",
+    "lemma": "Arzt",
+    "gender": "m",
+    "plural": "Ärzte",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_aufgabe",
+    "lemma": "Aufgabe",
+    "gender": "f",
+    "plural": "Aufgaben",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_aufzug",
+    "lemma": "Aufzug",
+    "gender": "m",
+    "plural": "Aufzuge",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_auge",
+    "lemma": "Auge",
+    "gender": "n",
+    "plural": "Augen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_ausflug",
+    "lemma": "Ausflug",
+    "gender": "m",
+    "plural": "Ausflüge",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_ausgang",
+    "lemma": "Ausgang",
+    "gender": "m",
+    "plural": "Ausgänge",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_auskunft",
+    "lemma": "Auskunft",
+    "gender": "f",
+    "plural": "Auskunfte",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_ausland",
+    "lemma": "Ausland",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_ausländer",
+    "lemma": "Ausländer",
+    "gender": "m",
+    "plural": "Ausländer",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_aussage",
+    "lemma": "Aussage",
+    "gender": "f",
+    "plural": "Aussagen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_ausweis",
+    "lemma": "Ausweis",
+    "gender": "m",
+    "plural": "Ausweise",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_auto",
+    "lemma": "Auto",
+    "gender": "n",
+    "plural": "Autos",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_autobahn",
+    "lemma": "Autobahn",
+    "gender": "f",
+    "plural": "Autobahnen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_automat",
+    "lemma": "Automat",
+    "gender": "m",
+    "plural": "Automaten",
+    "nounClass": "weak",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_baby",
+    "lemma": "Baby",
+    "gender": "n",
+    "plural": "Babys",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_bäckerei",
+    "lemma": "Bäckerei",
+    "gender": "f",
+    "plural": "Bäckereien",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_bad",
+    "lemma": "Bad",
+    "gender": "n",
+    "plural": "Bäder",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_bahn",
+    "lemma": "Bahn",
+    "gender": "f",
+    "plural": "Bahnen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_bahnhof",
+    "lemma": "Bahnhof",
+    "gender": "m",
+    "plural": "Bahnhöfe",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_bahnsteig",
+    "lemma": "Bahnsteig",
+    "gender": "m",
+    "plural": "Bahnsteige",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_balkon",
+    "lemma": "Balkon",
+    "gender": "m",
+    "plural": "Balkone",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_banane",
+    "lemma": "Banane",
+    "gender": "f",
+    "plural": "Bananen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_bank",
+    "lemma": "Bank",
+    "gender": "f",
+    "plural": "Banken",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_bauch",
+    "lemma": "Bauch",
+    "gender": "m",
+    "plural": "Bäuche",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_baum",
+    "lemma": "Baum",
+    "gender": "m",
+    "plural": "Bäume",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_beamte",
+    "lemma": "Beamte",
+    "gender": "m",
+    "plural": "Beamten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "possible weak masculine (-e noun) — confirm class"
+  },
+  {
+    "id": "n_bein",
+    "lemma": "Bein",
+    "gender": "n",
+    "plural": "Beine",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_beispiel",
+    "lemma": "Beispiel",
+    "gender": "n",
+    "plural": "Beispiele",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_beruf",
+    "lemma": "Beruf",
+    "gender": "m",
+    "plural": "Berufe",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_bett",
+    "lemma": "Bett",
+    "gender": "n",
+    "plural": "Betten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_bier",
+    "lemma": "Bier",
+    "gender": "n",
+    "plural": "Biere",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_bild",
+    "lemma": "Bild",
+    "gender": "n",
+    "plural": "Bilder",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_birne",
+    "lemma": "Birne",
+    "gender": "f",
+    "plural": "Birnen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_bitte",
+    "lemma": "Bitte",
+    "gender": "f",
+    "plural": "Bitten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_bleistift",
+    "lemma": "Bleistift",
+    "gender": "m",
+    "plural": "Bleistifte",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_blick",
+    "lemma": "Blick",
+    "gender": "m",
+    "plural": "Blicke",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_blume",
+    "lemma": "Blume",
+    "gender": "f",
+    "plural": "Blumen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_bogen",
+    "lemma": "Bogen",
+    "gender": "m",
+    "plural": "Bögen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_brief",
+    "lemma": "Brief",
+    "gender": "m",
+    "plural": "Briefe",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_briefmarke",
+    "lemma": "Briefmarke",
+    "gender": "f",
+    "plural": "Briefmarken",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_brot",
+    "lemma": "Brot",
+    "gender": "n",
+    "plural": "Brote",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_brötchen",
+    "lemma": "Brötchen",
+    "gender": "n",
+    "plural": "Brötchen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_bruder",
+    "lemma": "Bruder",
+    "gender": "m",
+    "plural": "Bruderü",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_buch",
+    "lemma": "Buch",
+    "gender": "n",
+    "plural": "Bucher",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_buchstabe",
+    "lemma": "Buchstabe",
+    "gender": "m",
+    "plural": "Buchstaben",
+    "nounClass": "mixed",
+    "level": "a1",
+    "genitiveSg": "Buchstabens"
+  },
+  {
+    "id": "n_bus",
+    "lemma": "Bus",
+    "gender": "m",
+    "plural": "Busse",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_butter",
+    "lemma": "Butter",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_cd",
+    "lemma": "CD",
+    "gender": "f",
+    "plural": "CDs",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_chef",
+    "lemma": "Chef",
+    "gender": "m",
+    "plural": "Chefs",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_computer",
+    "lemma": "Computer",
+    "gender": "m",
+    "plural": "Computer",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_dame",
+    "lemma": "Dame",
+    "gender": "f",
+    "plural": "Damen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_dank",
+    "lemma": "Dank",
+    "gender": "m",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_datum",
+    "lemma": "Datum",
+    "gender": "n",
+    "plural": "Daten",
+    "nounClass": "irregular",
+    "level": "a1",
+    "review": "irregular plural (ai-filled) — verify"
+  },
+  {
+    "id": "n_disco",
+    "lemma": "Disco",
+    "gender": "f",
+    "plural": "Discos",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_doktor",
+    "lemma": "Doktor",
+    "gender": "m",
+    "plural": "Doktoren",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_doppelzimmer",
+    "lemma": "Doppelzimmer",
+    "gender": "n",
+    "plural": "Doppelzimmer",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_dorf",
+    "lemma": "Dorf",
+    "gender": "n",
+    "plural": "Dorfer",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_drucker",
+    "lemma": "Drucker",
+    "gender": "m",
+    "plural": "Drucker",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_durchsage",
+    "lemma": "Durchsage",
+    "gender": "f",
+    "plural": "Durchsagen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_durst",
+    "lemma": "Durst",
+    "gender": "m",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_dusche",
+    "lemma": "Dusche",
+    "gender": "f",
+    "plural": "Duschen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_ecke",
+    "lemma": "Ecke",
+    "gender": "f",
+    "plural": "Ecken",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_ehefrau",
+    "lemma": "Ehefrau",
+    "gender": "f",
+    "plural": "Ehefrau",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_ehemann",
+    "lemma": "Ehemann",
+    "gender": "m",
+    "plural": "Ehemänner",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_ei",
+    "lemma": "Ei",
+    "gender": "n",
+    "plural": "Eier",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_eingang",
+    "lemma": "Eingang",
+    "gender": "m",
+    "plural": "Eingänge",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_einladung",
+    "lemma": "Einladung",
+    "gender": "f",
+    "plural": "Einladungen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_eintritt",
+    "lemma": "Eintritt",
+    "gender": "m",
+    "plural": "Eintritte",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_einzelzimmer",
+    "lemma": "Einzelzimmer",
+    "gender": "n",
+    "plural": "Einzelzimmer",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_eltern",
+    "lemma": "Eltern",
+    "gender": "f",
+    "plural": "Eltern",
+    "nounClass": "regular",
+    "level": "a1",
+    "pluralOnly": true
+  },
+  {
+    "id": "n_e_mail",
+    "lemma": "E-Mail",
+    "gender": "f",
+    "plural": "E-Mails",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_empfänger",
+    "lemma": "Empfänger",
+    "gender": "m",
+    "plural": "Empfänger",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_ende",
+    "lemma": "Ende",
+    "gender": "n",
+    "plural": "Enden",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_entschuldigung",
+    "lemma": "Entschuldigung",
+    "gender": "f",
+    "plural": "Entschuldigungen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_ergebnis",
+    "lemma": "Ergebnis",
+    "gender": "n",
+    "plural": "Ergebnisse",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_erwachsene",
+    "lemma": "Erwachsene",
+    "gender": "m",
+    "plural": "Erwachsenen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "possible weak masculine (-e noun) — confirm class"
+  },
+  {
+    "id": "n_essen",
+    "lemma": "Essen",
+    "gender": "n",
+    "plural": "Essen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_fahrer",
+    "lemma": "Fahrer",
+    "gender": "m",
+    "plural": "Fahrer",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_fahrkarte",
+    "lemma": "Fahrkarte",
+    "gender": "f",
+    "plural": "Fahrkarten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_fahrrad",
+    "lemma": "Fahrrad",
+    "gender": "n",
+    "plural": "Fahrräder",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_familie",
+    "lemma": "Familie",
+    "gender": "f",
+    "plural": "Familien",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_familienname",
+    "lemma": "Familienname",
+    "gender": "m",
+    "plural": "Familiennamen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify; possible weak masculine (-e noun) — confirm class"
+  },
+  {
+    "id": "n_familienstand",
+    "lemma": "Familienstand",
+    "gender": "m",
+    "plural": "Familienstände",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_farbe",
+    "lemma": "Farbe",
+    "gender": "f",
+    "plural": "Farben",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_fax",
+    "lemma": "Fax",
+    "gender": "n",
+    "plural": "Faxe",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_fehler",
+    "lemma": "Fehler",
+    "gender": "m",
+    "plural": "Fehler",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_feuer",
+    "lemma": "Feuer",
+    "gender": "n",
+    "plural": "Feuer",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_fieber",
+    "lemma": "Fieber",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_film",
+    "lemma": "Film",
+    "gender": "m",
+    "plural": "Filme",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_firma",
+    "lemma": "Firma",
+    "gender": "f",
+    "plural": "Firmen",
+    "nounClass": "irregular",
+    "level": "a1",
+    "review": "irregular plural (ai-filled) — verify"
+  },
+  {
+    "id": "n_fisch",
+    "lemma": "Fisch",
+    "gender": "m",
+    "plural": "Fische",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_flasche",
+    "lemma": "Flasche",
+    "gender": "f",
+    "plural": "Flaschen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_fleisch",
+    "lemma": "Fleisch",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_abflug",
+    "lemma": "Abflug",
+    "gender": "m",
+    "plural": "Abflüge",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_flughafen",
+    "lemma": "Flughafen",
+    "gender": "m",
+    "plural": "Flughäfen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_flugzeug",
+    "lemma": "Flugzeug",
+    "gender": "n",
+    "plural": "Flugzeuge",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_formular",
+    "lemma": "Formular",
+    "gender": "n",
+    "plural": "Formulare",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_foto",
+    "lemma": "Foto",
+    "gender": "n",
+    "plural": "Fotos",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_frage",
+    "lemma": "Frage",
+    "gender": "f",
+    "plural": "Fragen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_frau",
+    "lemma": "Frau",
+    "gender": "f",
+    "plural": "Frauen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_freizeit",
+    "lemma": "Freizeit",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_freund",
+    "lemma": "Freund",
+    "gender": "m",
+    "plural": "Freunde",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_frühstück",
+    "lemma": "Frühstück",
+    "gender": "n",
+    "plural": "Frühstücke",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_führung",
+    "lemma": "Führung",
+    "gender": "f",
+    "plural": "Führungen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_fuß",
+    "lemma": "Fuß",
+    "gender": "m",
+    "plural": "Fuße",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_fußball",
+    "lemma": "Fußball",
+    "gender": "m",
+    "plural": "Fußbälle",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_garten",
+    "lemma": "Garten",
+    "gender": "m",
+    "plural": "Gärten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_gast",
+    "lemma": "Gast",
+    "gender": "m",
+    "plural": "Gäste",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_geburtsjahr",
+    "lemma": "Geburtsjahr",
+    "gender": "n",
+    "plural": "Geburtsjahre",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_geburtsort",
+    "lemma": "Geburtsort",
+    "gender": "m",
+    "plural": "Geburtsorte",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_geburtstag",
+    "lemma": "Geburtstag",
+    "gender": "m",
+    "plural": "Geburtstage",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_geld",
+    "lemma": "Geld",
+    "gender": "n",
+    "plural": "Gelder",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_gemüse",
+    "lemma": "Gemüse",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_gepäck",
+    "lemma": "Gepäck",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_geschäft",
+    "lemma": "Geschäft",
+    "gender": "n",
+    "plural": "Geschäfte",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_geschenk",
+    "lemma": "Geschenk",
+    "gender": "n",
+    "plural": "Geschenke",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_geschwister",
+    "lemma": "Geschwister",
+    "gender": "f",
+    "plural": "Geschwister",
+    "nounClass": "regular",
+    "level": "a1",
+    "pluralOnly": true
+  },
+  {
+    "id": "n_gespräch",
+    "lemma": "Gespräch",
+    "gender": "n",
+    "plural": "Gespräche",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_getränk",
+    "lemma": "Getränk",
+    "gender": "n",
+    "plural": "Getränke",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_gewicht",
+    "lemma": "Gewicht",
+    "gender": "n",
+    "plural": "Gewichte",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_glas",
+    "lemma": "Glas",
+    "gender": "n",
+    "plural": "Gläser",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_gleis",
+    "lemma": "Gleis",
+    "gender": "n",
+    "plural": "Gleise",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_glück",
+    "lemma": "Glück",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_glückwunsch",
+    "lemma": "Glückwunsch",
+    "gender": "m",
+    "plural": "Glückwünsche",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_größe",
+    "lemma": "Größe",
+    "gender": "f",
+    "plural": "Größen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_großeltern",
+    "lemma": "Großeltern",
+    "gender": "f",
+    "plural": "Großeltern",
+    "nounClass": "regular",
+    "level": "a1",
+    "pluralOnly": true
+  },
+  {
+    "id": "n_großmutter",
+    "lemma": "Großmutter",
+    "gender": "f",
+    "plural": "Großmütter",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_großvater",
+    "lemma": "Großvater",
+    "gender": "m",
+    "plural": "Großväter",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_gruppe",
+    "lemma": "Gruppe",
+    "gender": "f",
+    "plural": "Gruppen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_gruß",
+    "lemma": "Gruß",
+    "gender": "m",
+    "plural": "Gruße",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_haar",
+    "lemma": "Haar",
+    "gender": "n",
+    "plural": "Haare",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_hähnchen",
+    "lemma": "Hähnchen",
+    "gender": "n",
+    "plural": "Hähnchen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_halbpension",
+    "lemma": "Halbpension",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_halle",
+    "lemma": "Halle",
+    "gender": "f",
+    "plural": "Hallen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_haltestelle",
+    "lemma": "Haltestelle",
+    "gender": "f",
+    "plural": "Haltestellen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_hand",
+    "lemma": "Hand",
+    "gender": "f",
+    "plural": "Hände",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_handy",
+    "lemma": "Handy",
+    "gender": "n",
+    "plural": "Handys",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_haus",
+    "lemma": "Haus",
+    "gender": "n",
+    "plural": "Häuser",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_hausaufgabe",
+    "lemma": "Hausaufgabe",
+    "gender": "f",
+    "plural": "Hausaufgaben",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_hausfrau",
+    "lemma": "Hausfrau",
+    "gender": "f",
+    "plural": "Hausfrau",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_hausmann",
+    "lemma": "Hausmann",
+    "gender": "m",
+    "plural": "Hausmänner",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_heimat",
+    "lemma": "Heimat",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_herd",
+    "lemma": "Herd",
+    "gender": "m",
+    "plural": "Herde",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_herr",
+    "lemma": "Herr",
+    "gender": "m",
+    "plural": "Herren",
+    "nounClass": "weak",
+    "level": "a1"
+  },
+  {
+    "id": "n_hilfe",
+    "lemma": "Hilfe",
+    "gender": "f",
+    "plural": "Hilfen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_hobby",
+    "lemma": "Hobby",
+    "gender": "n",
+    "plural": "Hobbys",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_hochzeit",
+    "lemma": "Hochzeit",
+    "gender": "f",
+    "plural": "Hochzeiten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_hotel",
+    "lemma": "Hotel",
+    "gender": "n",
+    "plural": "Hotels",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_hund",
+    "lemma": "Hund",
+    "gender": "m",
+    "plural": "Hunde",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_hunger",
+    "lemma": "Hunger",
+    "gender": "m",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_information",
+    "lemma": "Information",
+    "gender": "f",
+    "plural": "Informationen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_internet",
+    "lemma": "Internet",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_jacke",
+    "lemma": "Jacke",
+    "gender": "f",
+    "plural": "Jacken",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_job",
+    "lemma": "Job",
+    "gender": "m",
+    "plural": "Jobs",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_jugendliche",
+    "lemma": "Jugendliche",
+    "gender": "m",
+    "plural": "Jugendlichen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "possible weak masculine (-e noun) — confirm class"
+  },
+  {
+    "id": "n_junge",
+    "lemma": "Junge",
+    "gender": "m",
+    "plural": "Jungen",
+    "nounClass": "weak",
+    "level": "a1"
+  },
+  {
+    "id": "n_kaffee",
+    "lemma": "Kaffee",
+    "gender": "m",
+    "plural": "Kaffees",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_karte",
+    "lemma": "Karte",
+    "gender": "f",
+    "plural": "Karten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_kartoffel",
+    "lemma": "Kartoffel",
+    "gender": "f",
+    "plural": "Kartoffeln",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_kasse",
+    "lemma": "Kasse",
+    "gender": "f",
+    "plural": "Kassen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_kind",
+    "lemma": "Kind",
+    "gender": "n",
+    "plural": "Kinder",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_kindergarten",
+    "lemma": "Kindergarten",
+    "gender": "m",
+    "plural": "Kindergärten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_kino",
+    "lemma": "Kino",
+    "gender": "n",
+    "plural": "Kinos",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_kiosk",
+    "lemma": "Kiosk",
+    "gender": "m",
+    "plural": "Kioske",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_klasse",
+    "lemma": "Klasse",
+    "gender": "f",
+    "plural": "Klassen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_kleidung",
+    "lemma": "Kleidung",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_koffer",
+    "lemma": "Koffer",
+    "gender": "m",
+    "plural": "Koffer",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_kollege",
+    "lemma": "Kollege",
+    "gender": "m",
+    "plural": "Kollegen",
+    "nounClass": "weak",
+    "level": "a1"
+  },
+  {
+    "id": "n_konto",
+    "lemma": "Konto",
+    "gender": "n",
+    "plural": "Konten",
+    "nounClass": "irregular",
+    "level": "a1",
+    "review": "irregular plural (ai-filled) — verify"
+  },
+  {
+    "id": "n_kopf",
+    "lemma": "Kopf",
+    "gender": "m",
+    "plural": "Köpfe",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_küche",
+    "lemma": "Küche",
+    "gender": "f",
+    "plural": "Küchen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_kuchen",
+    "lemma": "Kuchen",
+    "gender": "m",
+    "plural": "Kuchen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_kugelschreiber",
+    "lemma": "Kugelschreiber",
+    "gender": "m",
+    "plural": "Kugelschreiber",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_kühlschrank",
+    "lemma": "Kühlschrank",
+    "gender": "m",
+    "plural": "Kühlschränke",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_kunde",
+    "lemma": "Kunde",
+    "gender": "m",
+    "plural": "Kunden",
+    "nounClass": "weak",
+    "level": "a1"
+  },
+  {
+    "id": "n_kurs",
+    "lemma": "Kurs",
+    "gender": "m",
+    "plural": "Kurse",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_laden",
+    "lemma": "Laden",
+    "gender": "m",
+    "plural": "Läden",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_land",
+    "lemma": "Land",
+    "gender": "n",
+    "plural": "Länder",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_leben",
+    "lemma": "Leben",
+    "gender": "n",
+    "plural": "Leben",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_lebensmittel",
+    "lemma": "Lebensmittel",
+    "gender": "f",
+    "plural": "Lebensmittel",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_lehrer",
+    "lemma": "Lehrer",
+    "gender": "m",
+    "plural": "Lehrer",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_leute",
+    "lemma": "Leute",
+    "gender": "f",
+    "plural": "Leute",
+    "nounClass": "regular",
+    "level": "a1",
+    "pluralOnly": true
+  },
+  {
+    "id": "n_licht",
+    "lemma": "Licht",
+    "gender": "n",
+    "plural": "Lichter",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_lied",
+    "lemma": "Lied",
+    "gender": "n",
+    "plural": "Lieder",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_lkw",
+    "lemma": "Lkw",
+    "gender": "m",
+    "plural": "Lkws",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_lokal",
+    "lemma": "Lokal",
+    "gender": "n",
+    "plural": "Lokale",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_lösung",
+    "lemma": "Lösung",
+    "gender": "f",
+    "plural": "Lösungen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_mädchen",
+    "lemma": "Mädchen",
+    "gender": "n",
+    "plural": "Mädchen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_mann",
+    "lemma": "Mann",
+    "gender": "m",
+    "plural": "Männer",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_maschine",
+    "lemma": "Maschine",
+    "gender": "f",
+    "plural": "Maschinen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_meer",
+    "lemma": "Meer",
+    "gender": "n",
+    "plural": "Meere",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_mensch",
+    "lemma": "Mensch",
+    "gender": "m",
+    "plural": "Menschen",
+    "nounClass": "weak",
+    "level": "a1"
+  },
+  {
+    "id": "n_miete",
+    "lemma": "Miete",
+    "gender": "f",
+    "plural": "Mieten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_milch",
+    "lemma": "Milch",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_mitte",
+    "lemma": "Mitte",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_möbel",
+    "lemma": "Möbel",
+    "gender": "f",
+    "plural": "Möbel",
+    "nounClass": "regular",
+    "level": "a1",
+    "pluralOnly": true
+  },
+  {
+    "id": "n_moment",
+    "lemma": "Moment",
+    "gender": "m",
+    "plural": "Momente",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_mund",
+    "lemma": "Mund",
+    "gender": "m",
+    "plural": "Münder",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_mutter",
+    "lemma": "Mutter",
+    "gender": "f",
+    "plural": "Mutterü",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_name",
+    "lemma": "Name",
+    "gender": "m",
+    "plural": "Namen",
+    "nounClass": "mixed",
+    "level": "a1",
+    "genitiveSg": "Namens"
+  },
+  {
+    "id": "n_nummer",
+    "lemma": "Nummer",
+    "gender": "f",
+    "plural": "Nummern",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_obst",
+    "lemma": "Obst",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_öl",
+    "lemma": "Öl",
+    "gender": "n",
+    "plural": "Öle",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_oma",
+    "lemma": "Oma",
+    "gender": "f",
+    "plural": "Omas",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_opa",
+    "lemma": "Opa",
+    "gender": "m",
+    "plural": "Opas",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_ordnung",
+    "lemma": "Ordnung",
+    "gender": "f",
+    "plural": "Ordnungen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_ort",
+    "lemma": "Ort",
+    "gender": "m",
+    "plural": "Orte",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_papier",
+    "lemma": "Papier",
+    "gender": "n",
+    "plural": "Papiere",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_papiere",
+    "lemma": "Papiere",
+    "gender": "f",
+    "plural": "Papiere",
+    "nounClass": "regular",
+    "level": "a1",
+    "pluralOnly": true
+  },
+  {
+    "id": "n_partner",
+    "lemma": "Partner",
+    "gender": "m",
+    "plural": "Partner",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_partnerin",
+    "lemma": "Partnerin",
+    "gender": "f",
+    "plural": "Partnerinnen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_party",
+    "lemma": "Party",
+    "gender": "f",
+    "plural": "Partys",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_pass",
+    "lemma": "Pass",
+    "gender": "m",
+    "plural": "Pässe",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_pause",
+    "lemma": "Pause",
+    "gender": "f",
+    "plural": "Pausen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_plan",
+    "lemma": "Plan",
+    "gender": "m",
+    "plural": "Pläne",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_platz",
+    "lemma": "Platz",
+    "gender": "m",
+    "plural": "Plätze",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_polizei",
+    "lemma": "Polizei",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_post",
+    "lemma": "Post",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_postleitzahl",
+    "lemma": "Postleitzahl",
+    "gender": "f",
+    "plural": "Postleitzahlen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_praktikum",
+    "lemma": "Praktikum",
+    "gender": "n",
+    "plural": "Praktika",
+    "nounClass": "irregular",
+    "level": "a1",
+    "review": "irregular plural (ai-filled) — verify"
+  },
+  {
+    "id": "n_praxis",
+    "lemma": "Praxis",
+    "gender": "f",
+    "plural": "Praxen",
+    "nounClass": "irregular",
+    "level": "a1",
+    "review": "irregular plural (ai-filled) — verify"
+  },
+  {
+    "id": "n_preis",
+    "lemma": "Preis",
+    "gender": "m",
+    "plural": "Preise",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_problem",
+    "lemma": "Problem",
+    "gender": "n",
+    "plural": "Probleme",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_prospekt",
+    "lemma": "Prospekt",
+    "gender": "m",
+    "plural": "Prospekte",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_prüfung",
+    "lemma": "Prüfung",
+    "gender": "f",
+    "plural": "Prüfungen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_raum",
+    "lemma": "Raum",
+    "gender": "m",
+    "plural": "Räume",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_rechnung",
+    "lemma": "Rechnung",
+    "gender": "f",
+    "plural": "Rechnungen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_regen",
+    "lemma": "Regen",
+    "gender": "m",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_reis",
+    "lemma": "Reis",
+    "gender": "m",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_reise",
+    "lemma": "Reise",
+    "gender": "f",
+    "plural": "Reisen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_reisebüro",
+    "lemma": "Reisebüro",
+    "gender": "n",
+    "plural": "Reisebüros",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_reiseführer",
+    "lemma": "Reiseführer",
+    "gender": "m",
+    "plural": "Reiseführer",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_reparatur",
+    "lemma": "Reparatur",
+    "gender": "f",
+    "plural": "Reparaturen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_restaurant",
+    "lemma": "Restaurant",
+    "gender": "n",
+    "plural": "Restaurants",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_rezeption",
+    "lemma": "Rezeption",
+    "gender": "f",
+    "plural": "Rezeptionen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_saft",
+    "lemma": "Saft",
+    "gender": "m",
+    "plural": "Säfte",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_salat",
+    "lemma": "Salat",
+    "gender": "m",
+    "plural": "Salate",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_salz",
+    "lemma": "Salz",
+    "gender": "n",
+    "plural": "Salze",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_s_bahn",
+    "lemma": "S-Bahn",
+    "gender": "f",
+    "plural": "S-Bahnen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_schalter",
+    "lemma": "Schalter",
+    "gender": "m",
+    "plural": "Schalter",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_schild",
+    "lemma": "Schild",
+    "gender": "n",
+    "plural": "Schilder",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_schinken",
+    "lemma": "Schinken",
+    "gender": "m",
+    "plural": "Schinken",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_schluss",
+    "lemma": "Schluss",
+    "gender": "m",
+    "plural": "Schlüsse",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_schlüssel",
+    "lemma": "Schlüssel",
+    "gender": "m",
+    "plural": "Schlüssel",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_schrank",
+    "lemma": "Schrank",
+    "gender": "m",
+    "plural": "Schränke",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_schuh",
+    "lemma": "Schuh",
+    "gender": "m",
+    "plural": "Schuhe",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_schule",
+    "lemma": "Schule",
+    "gender": "f",
+    "plural": "Schulen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_schüler",
+    "lemma": "Schüler",
+    "gender": "m",
+    "plural": "Schüler",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_schwester",
+    "lemma": "Schwester",
+    "gender": "f",
+    "plural": "Schwestern",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_schwimmbad",
+    "lemma": "Schwimmbad",
+    "gender": "n",
+    "plural": "Schwimmbäder",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_see",
+    "lemma": "See",
+    "gender": "m",
+    "plural": "Seen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify; possible weak masculine (-e noun) — confirm class"
+  },
+  {
+    "id": "n_sehenswürdigkeit",
+    "lemma": "Sehenswürdigkeit",
+    "gender": "f",
+    "plural": "Sehenswürdigkeiten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_sofa",
+    "lemma": "Sofa",
+    "gender": "n",
+    "plural": "Sofas",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_sohn",
+    "lemma": "Sohn",
+    "gender": "m",
+    "plural": "Sohne",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_sonne",
+    "lemma": "Sonne",
+    "gender": "f",
+    "plural": "Sonnen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_speisekarte",
+    "lemma": "Speisekarte",
+    "gender": "f",
+    "plural": "Speisekarten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_sport",
+    "lemma": "Sport",
+    "gender": "m",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_sprache",
+    "lemma": "Sprache",
+    "gender": "f",
+    "plural": "Sprachen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_stadt",
+    "lemma": "Stadt",
+    "gender": "f",
+    "plural": "Städte",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_stelle",
+    "lemma": "Stelle",
+    "gender": "f",
+    "plural": "Stellen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_stock",
+    "lemma": "Stock",
+    "gender": "m",
+    "plural": "Stockwerke",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_straße",
+    "lemma": "Straße",
+    "gender": "f",
+    "plural": "Straßen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_straßenbahn",
+    "lemma": "Straßenbahn",
+    "gender": "f",
+    "plural": "Straßenbahnen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_studium",
+    "lemma": "Studium",
+    "gender": "n",
+    "plural": "Studien",
+    "nounClass": "irregular",
+    "level": "a1",
+    "review": "irregular plural (ai-filled) — verify"
+  },
+  {
+    "id": "n_student",
+    "lemma": "Student",
+    "gender": "m",
+    "plural": "Studenten",
+    "nounClass": "weak",
+    "level": "a1"
+  },
+  {
+    "id": "n_stunde",
+    "lemma": "Stunde",
+    "gender": "f",
+    "plural": "Stunden",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_tasche",
+    "lemma": "Tasche",
+    "gender": "f",
+    "plural": "Taschen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_taxi",
+    "lemma": "Taxi",
+    "gender": "n",
+    "plural": "Taxis",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_tee",
+    "lemma": "Tee",
+    "gender": "m",
+    "plural": "Tees",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_teil",
+    "lemma": "Teil",
+    "gender": "m",
+    "plural": "Teile",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_telefon",
+    "lemma": "Telefon",
+    "gender": "n",
+    "plural": "Telefone",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_termin",
+    "lemma": "Termin",
+    "gender": "m",
+    "plural": "Termine",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_test",
+    "lemma": "Test",
+    "gender": "m",
+    "plural": "Tests",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_text",
+    "lemma": "Text",
+    "gender": "m",
+    "plural": "Texte",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_thema",
+    "lemma": "Thema",
+    "gender": "n",
+    "plural": "Themen",
+    "nounClass": "irregular",
+    "level": "a1",
+    "review": "irregular plural (ai-filled) — verify"
+  },
+  {
+    "id": "n_ticket",
+    "lemma": "Ticket",
+    "gender": "n",
+    "plural": "Tickets",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_tisch",
+    "lemma": "Tisch",
+    "gender": "m",
+    "plural": "Tische",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_tochter",
+    "lemma": "Tochter",
+    "gender": "f",
+    "plural": "Tochterö",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_toilette",
+    "lemma": "Toilette",
+    "gender": "f",
+    "plural": "Toiletten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_tomate",
+    "lemma": "Tomate",
+    "gender": "f",
+    "plural": "Tomaten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_treppe",
+    "lemma": "Treppe",
+    "gender": "f",
+    "plural": "Treppen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_uhr",
+    "lemma": "Uhr",
+    "gender": "f",
+    "plural": "Uhren",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_unterricht",
+    "lemma": "Unterricht",
+    "gender": "m",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_unterschrift",
+    "lemma": "Unterschrift",
+    "gender": "f",
+    "plural": "Unterschriften",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_urlaub",
+    "lemma": "Urlaub",
+    "gender": "m",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_vater",
+    "lemma": "Vater",
+    "gender": "m",
+    "plural": "Väter",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "umlaut plural — verify form"
+  },
+  {
+    "id": "n_verein",
+    "lemma": "Verein",
+    "gender": "m",
+    "plural": "Vereine",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_verkäufer",
+    "lemma": "Verkäufer",
+    "gender": "m",
+    "plural": "Verkäufer",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_vermieter",
+    "lemma": "Vermieter",
+    "gender": "m",
+    "plural": "Vermieter",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_verwandte",
+    "lemma": "Verwandte",
+    "gender": "m",
+    "plural": "Verwandten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "possible weak masculine (-e noun) — confirm class"
+  },
+  {
+    "id": "n_vorname",
+    "lemma": "Vorname",
+    "gender": "m",
+    "plural": "Vornamen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "possible weak masculine (-e noun) — confirm class"
+  },
+  {
+    "id": "n_vorsicht",
+    "lemma": "Vorsicht",
+    "gender": "f",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_vorwahl",
+    "lemma": "Vorwahl",
+    "gender": "f",
+    "plural": "Vorwahlen",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_wasser",
+    "lemma": "Wasser",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_wein",
+    "lemma": "Wein",
+    "gender": "m",
+    "plural": "Weine",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_welt",
+    "lemma": "Welt",
+    "gender": "f",
+    "plural": "Welten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_wetter",
+    "lemma": "Wetter",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_wiederhören",
+    "lemma": "Wiederhören",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_wiedersehen",
+    "lemma": "Wiedersehen",
+    "gender": "n",
+    "plural": null,
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "uncountable (ai-filled) — verify"
+  },
+  {
+    "id": "n_wind",
+    "lemma": "Wind",
+    "gender": "m",
+    "plural": "Winde",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_wohnung",
+    "lemma": "Wohnung",
+    "gender": "f",
+    "plural": "Wohnungen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_wort",
+    "lemma": "Wort",
+    "gender": "n",
+    "plural": "Worte",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_zeit",
+    "lemma": "Zeit",
+    "gender": "f",
+    "plural": "Zeiten",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_zeitung",
+    "lemma": "Zeitung",
+    "gender": "f",
+    "plural": "Zeitungen",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_zigarette",
+    "lemma": "Zigarette",
+    "gender": "f",
+    "plural": "Zigaretten",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_zimmer",
+    "lemma": "Zimmer",
+    "gender": "n",
+    "plural": "Zimmer",
+    "nounClass": "regular",
+    "level": "a1"
+  },
+  {
+    "id": "n_zoll",
+    "lemma": "Zoll",
+    "gender": "m",
+    "plural": "Zölle",
+    "nounClass": "regular",
+    "level": "a1",
+    "review": "ai-filled — verify"
+  },
+  {
+    "id": "n_zug",
+    "lemma": "Zug",
+    "gender": "m",
+    "plural": "Zuge",
+    "nounClass": "regular",
+    "level": "a1"
+  }
+]
