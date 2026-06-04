@@ -5,7 +5,7 @@
 // the uncertain subset, not all 329 entries.
 //
 // Usage: node scripts/build_lexicon.mjs a1
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -191,9 +191,36 @@ for (const rawNoun of nouns) {
     else if (/umlaut/.test(pluralReview)) cat = "umlaut";
     else if (/ai-filled/.test(pluralReview)) cat = "aifill";
     else if (/missing/.test(pluralReview)) cat = "missing";
-    reviewItems.push({ cat, gender: n.gender, lemma: n.lemma, plural, note: entry.review });
+    reviewItems.push({ id, cat, gender: n.gender, lemma: n.lemma, plural, note: entry.review });
   }
   out.push(entry);
+}
+
+// ── Merge human corrections (the reviewed, source-of-truth layer) ──
+// data/lexicon/nouns_<level>_corrections.json, keyed by noun id:
+//   { "n_wasser": { "status": "corrected", "plural": "Wässer", "note": "..." },
+//     "n_bahnhof": { "status": "ok" } }
+// "ok" marks the entry verified as-is; "corrected" applies the given field
+// overrides. Either way the review flag clears and `reviewed: true` is set.
+const corrPath = join(ROOT, `data/lexicon/nouns_${level}_corrections.json`);
+const corrections = existsSync(corrPath) ? JSON.parse(readFileSync(corrPath, "utf8")) : {};
+let reviewedCount = 0;
+const APPLY = ["plural", "nounClass", "gender", "genitiveSg", "forms", "pluralOnly"];
+for (const entry of out) {
+  const c = corrections[entry.id];
+  if (!c) continue;
+  if (c.status === "corrected") {
+    for (const k of APPLY) if (k in c) entry[k] = c[k];
+  }
+  if (c.note) entry.reviewNote = c.note;
+  delete entry.review;
+  entry.reviewed = true;
+  reviewedCount++;
+}
+// Keep only still-unreviewed items in the checklist.
+const reviewedIds = new Set(out.filter((e) => e.reviewed).map((e) => e.id));
+for (let i = reviewItems.length - 1; i >= 0; i--) {
+  if (reviewedIds.has(reviewItems[i].id)) reviewItems.splice(i, 1);
 }
 
 mkdirSync(join(ROOT, "data/lexicon"), { recursive: true });
@@ -226,7 +253,7 @@ writeFileSync(join(ROOT, `data/lexicon/nouns_${level}_review.md`), md);
 
 console.log(`Wrote data/lexicon/nouns_${level}.json — ${out.length} nouns`);
 console.log(`Wrote data/lexicon/nouns_${level}_review.md — ${reviewItems.length} flagged`);
-console.log(`Source-clean: ${out.length - reviewItems.length}`);
+console.log(`Human-reviewed: ${reviewedCount} | source-clean: ${out.filter((e) => !e.review && !e.reviewed).length} | pending: ${reviewItems.length}`);
 for (const [cat, title] of GROUPS) {
   const c = reviewItems.filter((r) => r.cat === cat).length;
   if (c) console.log(`  ${cat}: ${c}`);
