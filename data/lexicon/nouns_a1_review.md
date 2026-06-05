@@ -1,8 +1,8 @@
-# A1 noun review — 329 nouns (173 flagged)
+# A1 noun review — 329 nouns (187 flagged)
 
-Source-clean (not listed here): 156. Mark anything wrong; I'll patch the builder.
+Source-clean (not listed here): 142. Mark anything wrong; I'll patch the builder.
 
-## Plurals I supplied (source had none) — verify each (108)
+## Plurals I supplied (source had none) — verify each (109)
 _Most are regular. Check the form is the real plural._
 
 - [ ] **der Abflug** → die Abflüge
@@ -36,6 +36,7 @@ _Most are regular. Check the form is the real plural._
 - [ ] **die Entschuldigung** → die Entschuldigungen
 - [ ] **das Essen** → die Essen
 - [ ] **der Fahrer** → die Fahrer
+- [ ] **der Familienname** → die Familiennamen
 - [ ] **der Familienstand** → die Familienstände
 - [ ] **das Feuer** → die Feuer
 - [ ] **der Flughafen** → die Flughäfen
@@ -114,29 +115,41 @@ _Most are regular. Check the form is the real plural._
 - [ ] **die Zeit** → die Zeiten
 - [ ] **der Zoll** → die Zölle
 
-## Umlaut plurals computed from source — verify (20)
+## Umlaut plurals computed from source — verify (32)
 _Source marked an umlaut; I applied it. Confirm the vowel is right._
 
 - [ ] **der Apfel** → die Äpfel
 - [ ] **der Arbeitsplatz** → die Arbeitsplätze
 - [ ] **der Arzt** → die Ärzte
+- [ ] **der Aufzug** → die Aufzüge
+- [ ] **die Auskunft** → die Auskünfte
 - [ ] **der Baum** → die Bäume
+- [ ] **der Bruder** → die Brüder
+- [ ] **das Buch** → die Bücher
+- [ ] **das Dorf** → die Dörfer
 - [ ] **der Ehemann** → die Ehemänner
 - [ ] **das Fahrrad** → die Fahrräder
+- [ ] **der Fuß** → die Füße
 - [ ] **der Gast** → die Gäste
 - [ ] **das Glas** → die Gläser
+- [ ] **der Gruß** → die Grüße
 - [ ] **die Hand** → die Hände
 - [ ] **das Haus** → die Häuser
 - [ ] **der Laden** → die Läden
 - [ ] **das Land** → die Länder
 - [ ] **der Mann** → die Männer
+- [ ] **die Mutter** → die Mütter
 - [ ] **der Pass** → die Pässe
 - [ ] **der Plan** → die Pläne
 - [ ] **der Platz** → die Plätze
 - [ ] **der Raum** → die Räume
 - [ ] **der Schrank** → die Schränke
+- [ ] **der Sohn** → die Söhne
 - [ ] **die Stadt** → die Städte
+- [ ] **die Tochter** → die Töchter
 - [ ] **der Vater** → die Väter
+- [ ] **das Wort** → die Wörter
+- [ ] **der Zug** → die Züge
 
 ## Foreign/Latin plurals — verify (7)
 _Memorized plurals (Daten, Praxen, Themen); the noun is still strong-declension._
@@ -184,13 +197,11 @@ _If any of these DO take a plural you want to drill, tell me the form._
 - [ ] **das Wiederhören** → — (no plural)
 - [ ] **das Wiedersehen** → — (no plural)
 
-## Declension class to confirm (7)
+## Declension class to confirm (5)
 _Likely weak masculine or an adjectival noun (der Beamte / ein Beamter). Confirm class._
 
 - [ ] **der Beamte** → die Beamten
 - [ ] **der Erwachsene** → die Erwachsenen
-- [ ] **der Familienname** → die Familiennamen
 - [ ] **der Jugendliche** → die Jugendlichen
 - [ ] **der See** → die Seen
 - [ ] **der Verwandte** → die Verwandten
-- [ ] **der Vorname** → die Vornamen

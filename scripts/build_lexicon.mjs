@@ -26,7 +26,15 @@ const WEAK_MASC = new Set([
 const MIXED = new Map([
   ["Name", "Namens"], ["Gedanke", "Gedankens"], ["Glaube", "Glaubens"],
   ["Wille", "Willens"], ["Friede", "Friedens"], ["Buchstabe", "Buchstabens"],
+  // Compounds of -name inherit the mixed -ns genitive.
+  ["Vorname", "Vornamens"], ["Familienname", "Familiennamens"],
 ]);
+
+// Adjectival nouns (der Beamte / ein Beamter). With the DEFINITE article they
+// decline exactly like weak nouns (der Beamte, des/dem/den Beamten, pl Beamten),
+// which is all our exercises use, so we class them weak. The ein-Beamter form
+// (adjective ending after indefinite article) is out of current scope.
+const ADJECTIVAL = new Set(["Beamte", "Erwachsene", "Jugendliche", "Verwandte"]);
 
 // ── AI-supplied gap fills for plurals the Goethe source omitted. ──
 // Every noun touched here is flagged review:"ai-filled — verify" so Anton
@@ -116,15 +124,20 @@ function umlaut(stem) {
 }
 
 // Parse the source plural notation into { plural, review? }.
-// Handles: -en/-n/-e/-s/-er suffixes, -Ä umlaut marker, "-ä, e" umlaut+suffix,
+// Handles: -en/-n/-e/-s/-er suffixes, ä/ö/ü umlaut marker, "-ü, e" umlaut+suffix,
 // "(pl.)" plural-only, and missing notation.
 function parsePlural(lemma, raw) {
   const m = raw.match(/,\s*(.+)$/);
   if (/\(pl\.\)/.test(raw)) return { plural: lemma, pluralOnly: true };
   if (!m) return { plural: null, review: "plural missing from source — needs lookup" };
-  const note = m[1].trim();
-  const umlautMark = /Ä|ä/.test(note); // source marks umlaut with Ä / ä
-  const suffix = (note.match(/[a-zäöü]+\s*$/i)?.[0] || "").replace(/[Ää]/g, "").trim();
+  const fullNote = m[1].trim();
+  // A "/" marks a second documented plural (Wort: -ö,er / -e). Generate the
+  // FIRST alternative as the primary form; flag so Anton can add the second as
+  // an accepted variant. The umlaut marker binds to this primary form.
+  const hasAlt = fullNote.includes("/");
+  const note = fullNote.split("/")[0].trim();
+  const umlautMark = /[äöüÄÖÜ]/.test(note); // source marks umlaut with ä/ö/ü (any vowel)
+  const suffix = (note.match(/[a-zäöü]+\s*$/i)?.[0] || "").replace(/[äöüÄÖÜ]/g, "").trim();
   let stem = lemma;
   if (umlautMark) stem = umlaut(stem);
   let plural;
@@ -136,8 +149,10 @@ function parsePlural(lemma, raw) {
       ? stem + suffix.slice(1)
       : stem + suffix;
   } else plural = stem; // umlaut-only, no suffix (e.g. Apfel -> Äpfel)
-  const review = umlautMark ? "umlaut plural — verify form" : undefined;
-  return { plural, review };
+  const reviews = [];
+  if (umlautMark) reviews.push("umlaut plural — verify form");
+  if (hasAlt) reviews.push("alternative plural in source — verify primary, add variant");
+  return { plural, review: reviews.length ? reviews.join("; ") : undefined };
 }
 
 const out = [];
@@ -167,7 +182,10 @@ for (const rawNoun of nouns) {
   let nounClass = "strong";
   let genitiveSg = foreign ? FOREIGN_GENITIVE[n.lemma] : undefined;
   let classReview;
-  if (n.gender === "m" && WEAK_MASC.has(n.lemma)) nounClass = "weak";
+  if (ADJECTIVAL.has(n.lemma)) {
+    nounClass = "weak";
+    classReview = "adjectival noun (declined as weak for definite-article use) — verify";
+  } else if (n.gender === "m" && WEAK_MASC.has(n.lemma)) nounClass = "weak";
   else if (MIXED.has(n.lemma)) { nounClass = "mixed"; genitiveSg = MIXED.get(n.lemma); }
   else if (n.gender === "m" && /e$/.test(n.lemma) && plural && plural === n.lemma + "n") {
     // masc ending -e with -n plural is OFTEN weak, but not always (der Käse). Flag.

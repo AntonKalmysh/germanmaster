@@ -53,7 +53,7 @@ function weakOblique(lemma: string): string {
 /** Accepted genitive-sg forms for a REGULAR masculine/neuter noun. */
 function regularGenitiveVariants(lemma: string): string[] {
   if (/(s|ß|x|z|tz)$/.test(lemma)) return [lemma + "es"]; // obligatory -es
-  if (/[aeiouäöü]$/.test(lemma)) return [lemma + "s"]; // vowel-final -> -s only
+  if (/[aeiouäöüy]$/.test(lemma)) return [lemma + "s"]; // vowel-final (incl. -y: Baby) -> -s only
   if (/(el|er|en|chen|lein)$/.test(lemma)) return [lemma + "s"]; // unstressed -> -s
   return [lemma + "es", lemma + "s"]; // consonant stem -> both, -es preferred
 }

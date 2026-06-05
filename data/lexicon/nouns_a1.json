@@ -208,9 +208,10 @@
     "id": "n_aufzug",
     "lemma": "Aufzug",
     "gender": "m",
-    "plural": "Aufzuge",
+    "plural": "Aufzüge",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_auge",
@@ -242,9 +243,10 @@
     "id": "n_auskunft",
     "lemma": "Auskunft",
     "gender": "f",
-    "plural": "Auskunfte",
+    "plural": "Auskünfte",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_ausland",
@@ -407,9 +409,9 @@
     "lemma": "Beamte",
     "gender": "m",
     "plural": "Beamten",
-    "nounClass": "strong",
+    "nounClass": "weak",
     "level": "a1",
-    "review": "possible weak masculine (-e noun) — confirm class"
+    "review": "adjectival noun (declined as weak for definite-article use) — verify"
   },
   {
     "id": "n_bein",
@@ -546,17 +548,19 @@
     "id": "n_bruder",
     "lemma": "Bruder",
     "gender": "m",
-    "plural": "Bruderü",
+    "plural": "Brüder",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_buch",
     "lemma": "Buch",
     "gender": "n",
-    "plural": "Bucher",
+    "plural": "Bücher",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_buchstabe",
@@ -667,9 +671,10 @@
     "id": "n_dorf",
     "lemma": "Dorf",
     "gender": "n",
-    "plural": "Dorfer",
+    "plural": "Dörfer",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_drucker",
@@ -717,9 +722,10 @@
     "id": "n_ehefrau",
     "lemma": "Ehefrau",
     "gender": "f",
-    "plural": "Ehefrau",
+    "plural": "Ehefrauen",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "alternative plural in source — verify primary, add variant"
   },
   {
     "id": "n_ehemann",
@@ -830,9 +836,9 @@
     "lemma": "Erwachsene",
     "gender": "m",
     "plural": "Erwachsenen",
-    "nounClass": "strong",
+    "nounClass": "weak",
     "level": "a1",
-    "review": "possible weak masculine (-e noun) — confirm class"
+    "review": "adjectival noun (declined as weak for definite-article use) — verify"
   },
   {
     "id": "n_essen",
@@ -882,9 +888,10 @@
     "lemma": "Familienname",
     "gender": "m",
     "plural": "Familiennamen",
-    "nounClass": "strong",
+    "nounClass": "mixed",
     "level": "a1",
-    "review": "ai-filled — verify; possible weak masculine (-e noun) — confirm class"
+    "genitiveSg": "Familiennamens",
+    "review": "ai-filled — verify"
   },
   {
     "id": "n_familienstand",
@@ -1077,9 +1084,10 @@
     "id": "n_fuß",
     "lemma": "Fuß",
     "gender": "m",
-    "plural": "Fuße",
+    "plural": "Füße",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_fußball",
@@ -1295,9 +1303,10 @@
     "id": "n_gruß",
     "lemma": "Gruß",
     "gender": "m",
-    "plural": "Gruße",
+    "plural": "Grüße",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_haar",
@@ -1380,9 +1389,10 @@
     "id": "n_hausfrau",
     "lemma": "Hausfrau",
     "gender": "f",
-    "plural": "Hausfrau",
+    "plural": "Hausfrauen",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "alternative plural in source — verify primary, add variant"
   },
   {
     "id": "n_hausmann",
@@ -1508,9 +1518,9 @@
     "lemma": "Jugendliche",
     "gender": "m",
     "plural": "Jugendlichen",
-    "nounClass": "strong",
+    "nounClass": "weak",
     "level": "a1",
-    "review": "possible weak masculine (-e noun) — confirm class"
+    "review": "adjectival noun (declined as weak for definite-article use) — verify"
   },
   {
     "id": "n_junge",
@@ -1887,9 +1897,10 @@
     "id": "n_mutter",
     "lemma": "Mutter",
     "gender": "f",
-    "plural": "Mutterü",
+    "plural": "Mütter",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_name",
@@ -1983,7 +1994,8 @@
     "gender": "m",
     "plural": "Partner",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "alternative plural in source — verify primary, add variant"
   },
   {
     "id": "n_partnerin",
@@ -2362,9 +2374,10 @@
     "id": "n_sohn",
     "lemma": "Sohn",
     "gender": "m",
-    "plural": "Sohne",
+    "plural": "Söhne",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_sonne",
@@ -2566,9 +2579,10 @@
     "id": "n_tochter",
     "lemma": "Tochter",
     "gender": "f",
-    "plural": "Tochterö",
+    "plural": "Töchter",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   },
   {
     "id": "n_toilette",
@@ -2670,18 +2684,18 @@
     "lemma": "Verwandte",
     "gender": "m",
     "plural": "Verwandten",
-    "nounClass": "strong",
+    "nounClass": "weak",
     "level": "a1",
-    "review": "possible weak masculine (-e noun) — confirm class"
+    "review": "adjectival noun (declined as weak for definite-article use) — verify"
   },
   {
     "id": "n_vorname",
     "lemma": "Vorname",
     "gender": "m",
     "plural": "Vornamen",
-    "nounClass": "strong",
+    "nounClass": "mixed",
     "level": "a1",
-    "review": "possible weak masculine (-e noun) — confirm class"
+    "genitiveSg": "Vornamens"
   },
   {
     "id": "n_vorsicht",
@@ -2776,9 +2790,10 @@
     "id": "n_wort",
     "lemma": "Wort",
     "gender": "n",
-    "plural": "Worte",
+    "plural": "Wörter",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form; alternative plural in source — verify primary, add variant"
   },
   {
     "id": "n_zeit",
@@ -2826,8 +2841,9 @@
     "id": "n_zug",
     "lemma": "Zug",
     "gender": "m",
-    "plural": "Zuge",
+    "plural": "Züge",
     "nounClass": "strong",
-    "level": "a1"
+    "level": "a1",
+    "review": "umlaut plural — verify form"
   }
 ]
