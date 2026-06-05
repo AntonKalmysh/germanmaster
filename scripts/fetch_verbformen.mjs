@@ -5,8 +5,10 @@
 //   node scripts/fetch_verbformen.mjs --sample     # diverse 15-noun prototype
 //   node scripts/fetch_verbformen.mjs a1           # all nouns in a level (cached)
 //
-// Politeness: ~1.5s between live fetches, only fetches what isn't cached,
-// sends a descriptive User-Agent. Cache lives in data/lexicon/cache/verbformen/.
+// Politeness: ~3s between live fetches, escalating backoff + retry on 429,
+// only fetches what isn't cached, sends a descriptive User-Agent. Transient
+// failures (429/5xx/network) are never cached, so re-running resumes them.
+// Cache lives in data/lexicon/cache/verbformen/.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -56,28 +58,47 @@ function parse(html) {
   return { singular: caseTables[0] || null, plural: caseTables[1] || null };
 }
 
+const BASE_DELAY = 3000;            // polite gap between live fetches
+const BACKOFF = [20e3, 45e3, 90e3, 180e3]; // escalating waits on a 429
+const MAX_RETRIES = BACKOFF.length;
+
+// A status is transient (retry, never cache) vs permanent (cache the verdict).
+// 429/5xx/network errors are transient; 200 and a genuine 404 are permanent.
+const isTransient = (s) =>
+  s === 429 || (typeof s === "number" && s >= 500) || String(s).startsWith("ERR");
+
 async function getNoun(lemma) {
   const safe = lemma.replace(/[^\wÀ-ſ-]/g, "_");
   const cacheFile = join(CACHE, `${safe}.json`);
   if (existsSync(cacheFile)) return { lemma, ...JSON.parse(readFileSync(cacheFile, "utf8")), cached: true };
 
   const url = `https://www.verbformen.com/declension/nouns/${encodeURIComponent(lemma)}.htm`;
-  let parsed, ok = false, status = 0;
-  try {
-    const res = await fetch(url, { headers: { "User-Agent": UA } });
-    status = res.status;
-    if (res.ok) {
-      const html = await res.text();
-      parsed = parse(html);
-      ok = !!(parsed.singular || parsed.plural);
+  for (let attempt = 0; ; attempt++) {
+    let html = null, status = 0;
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": UA } });
+      status = res.status;
+      if (res.ok) html = await res.text();
+    } catch (e) {
+      status = `ERR ${e.message}`;
     }
-  } catch (e) {
-    status = `ERR ${e.message}`;
+
+    if (isTransient(status)) {
+      if (attempt >= MAX_RETRIES) return { lemma, url, status, ok: false, singular: null, plural: null, cached: false, failed: true };
+      const wait = BACKOFF[attempt];
+      console.log(`   ⏳ ${status} on ${lemma} — backing off ${wait / 1000}s (retry ${attempt + 1}/${MAX_RETRIES})`);
+      await sleep(wait);
+      continue;
+    }
+
+    // Permanent outcome (200 with forms, or a real 404): parse, cache, move on.
+    const parsed = html ? parse(html) : { singular: null, plural: null };
+    const ok = !!(parsed.singular || parsed.plural);
+    const record = { url, status, ok, ...parsed };
+    writeFileSync(cacheFile, JSON.stringify(record, null, 2) + "\n");
+    await sleep(BASE_DELAY);
+    return { lemma, ...record, cached: false };
   }
-  const record = { url, status, ok, ...parsed };
-  writeFileSync(cacheFile, JSON.stringify(record, null, 2) + "\n");
-  await sleep(1500); // polite delay after a live fetch
-  return { lemma, ...record, cached: false };
 }
 
 const SAMPLE = [
@@ -96,14 +117,28 @@ const lemmas = arg === "--sample"
 
 console.log(`Fetching ${lemmas.length} nouns (cached are instant)...\n`);
 const fmt = (slot) => slot ? CASES.map((c) => slot[c] ? slot[c].forms.join("/") : "—").join(" · ") : "(none)";
-let live = 0;
+let live = 0, cached = 0, failed = 0, consecutiveFails = 0;
 for (const lemma of lemmas) {
   const r = await getNoun(lemma);
-  if (!r.cached) live++;
+  if (r.cached) { cached++; continue; }       // silent on cache hits — keeps the log readable
+  live++;
+  if (r.failed) {
+    failed++;
+    consecutiveFails++;
+    console.log(`${lemma}  ✗ gave up (${r.status}) — left uncached, will retry on resume`);
+    // Circuit-breaker: if throttling is relentless, stop rather than hammer.
+    if (consecutiveFails >= 5) {
+      console.log(`\nAborting: ${consecutiveFails} nouns failed in a row — verbformen is throttling persistently.`);
+      console.log(`Cache is preserved; re-run the same command later to resume only the missing ones.`);
+      break;
+    }
+    continue;
+  }
+  consecutiveFails = 0;
   const flag = r.ok ? "" : `  ⚠ ${r.status}`;
   console.log(`${lemma}${flag}`);
   console.log(`   sg: ${fmt(r.singular)}`);
   console.log(`   pl: ${fmt(r.plural)}`);
 }
-console.log(`\nDone. ${live} live fetch(es), ${lemmas.length - live} from cache.`);
+console.log(`\nDone. ${live} live fetch(es) (${failed} failed), ${cached} from cache.`);
 console.log(`Cache: data/lexicon/cache/verbformen/`);
