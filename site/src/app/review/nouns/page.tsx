@@ -10,6 +10,7 @@ type Cell = string[] | null;
 type Rec = {
   id: string; lemma: string; gender: "m" | "f" | "n"; plural: string | null;
   nounClass: string; genitiveSg?: string; pluralOnly?: boolean;
+  irregular: boolean; irregularCells: string[];
   ours: { sg: Record<string, Cell>; pl: Record<string, Cell> };
   vf: { ok: boolean; singular: Slot; plural: Slot } | null;
   correction: { status: string } | null;
@@ -27,7 +28,7 @@ export default function NounReview() {
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState<Record<string, string>>({});
   const [meta, setMeta] = useState<{ plural: string; nounClass: string; genitiveSg: string; pluralOnly: boolean }>(
-    { plural: "", nounClass: "regular", genitiveSg: "", pluralOnly: false },
+    { plural: "", nounClass: "strong", genitiveSg: "", pluralOnly: false },
   );
   const [saving, setSaving] = useState(false);
 
@@ -132,6 +133,11 @@ export default function NounReview() {
       <div className="flex items-baseline gap-3 mb-1">
         <h1 className="text-2xl">{ART[rec.gender]} {rec.lemma}</h1>
         {rec.reviewed && <span className="text-green-600 text-xs">✓ reviewed ({rec.correction?.status})</span>}
+        {rec.irregular && (
+          <span className="text-amber-600 text-xs" title={`overridden vs the ${rec.nounClass} rule`}>
+            ⚠ irregular ({rec.irregularCells.join(", ")})
+          </span>
+        )}
       </div>
       <div className="text-neutral-500 mb-4">
         {rec.gender} · {rec.nounClass} · pl: {rec.plural ?? "—"}
@@ -192,6 +198,13 @@ export default function NounReview() {
               <input type="checkbox" checked={meta.pluralOnly}
                 onChange={(e) => setMeta({ ...meta, pluralOnly: e.target.checked })} /> plural-only</label>
           </div>
+          <label className="flex items-center gap-2 text-xs text-neutral-500 pt-2 border-t mt-1">
+            <input type="checkbox" checked={rec.irregular} disabled />
+            irregular (auto-detected)
+            {rec.irregular
+              ? `: ${rec.irregularCells.join(", ")} overridden vs the ${meta.nounClass} rule`
+              : " — fully rule-derived, nothing memorized"}
+          </label>
           <div className="text-xs text-neutral-400 pt-2">Per-form overrides (only edit cells that are wrong):</div>
           <div className="grid grid-cols-4 gap-2">
             {(["sg", "pl"] as const).map((num) => CASES.map((c) => (

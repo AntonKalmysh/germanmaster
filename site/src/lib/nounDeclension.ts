@@ -99,6 +99,35 @@ export function cellAccepts(cell: Cell, input: string): boolean {
   return cell.some((f) => norm(f) === norm(input));
 }
 
+/** Two cells accept the same set of forms (order-insensitive). */
+function sameCell(a: Cell, b: Cell): boolean {
+  if (a === null || b === null) return a === b;
+  const set = (xs: string[]) => new Set(xs.map((s) => s.trim().toLowerCase()));
+  const sa = set(a);
+  const sb = set(b);
+  return sa.size === sb.size && [...sa].every((x) => sb.has(x));
+}
+
+/**
+ * The "case.number" cells whose reviewed chart deviates from the BARE class rule
+ * (lemma + gender + class + plural, with genitiveSg/forms overrides stripped).
+ *
+ * A non-empty result is the regularity signal: it means the engine couldn't
+ * derive these cells from the class and a human had to override them — i.e. the
+ * noun is irregular on the case-ending axis. The plural FORM itself is memorized
+ * input for every noun (not a deviation), so only a per-form plural override
+ * (e.g. an irregular dat.pl) surfaces here, never the base plural.
+ */
+export function irregularCells(n: NounLex): string[] {
+  const bare: NounLex = { ...n, genitiveSg: undefined, forms: undefined };
+  const actual = declineNoun(n);
+  const rule = declineNoun(bare);
+  const out: string[] = [];
+  for (const num of ["sg", "pl"] as const)
+    for (const c of CASES) if (!sameCell(actual[num][c], rule[num][c])) out.push(`${c}.${num}`);
+  return out;
+}
+
 /** Definite article for display (case×gender×number). */
 export function definiteArticle(c: GrammarCase, gender: Gender, plural: boolean): string {
   if (plural) return c === "dat" ? "den" : c === "gen" ? "der" : "die";

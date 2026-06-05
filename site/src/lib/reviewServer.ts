@@ -6,7 +6,7 @@
 // Next.js app (repo root), so paths resolve relative to process.cwd() = site/.
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { declineNoun, type NounLex, type DeclensionChart } from "./nounDeclension";
+import { declineNoun, irregularCells, type NounLex, type DeclensionChart } from "./nounDeclension";
 
 const DATA = join(process.cwd(), "..", "data", "lexicon");
 const cachePath = (lemma: string) =>
@@ -33,6 +33,10 @@ export type Correction = {
 
 export type ReviewRecord = NounLex & {
   ours: DeclensionChart;
+  /** Derived: this noun needed a case-ending override the class rule couldn't produce. */
+  irregular: boolean;
+  /** Derived: which "case.number" cells deviate from the bare class rule. */
+  irregularCells: string[];
   vf: VerbformenChart | null;
   correction: Correction | null;
   reviewed: boolean;
@@ -74,9 +78,13 @@ export function loadReview(level: string): ReviewRecord[] {
     const f = cachePath(n.lemma);
     const vf: VerbformenChart | null = existsSync(f) ? JSON.parse(readFileSync(f, "utf8")) : null;
     const correction = corrections[n.id] ?? null;
+    const applied = applyCorrection(n, correction);
+    const cells = irregularCells(applied);
     return {
       ...n,
-      ours: declineNoun(applyCorrection(n, correction)),
+      ours: declineNoun(applied),
+      irregular: cells.length > 0,
+      irregularCells: cells,
       vf,
       correction,
       reviewed: !!correction,
