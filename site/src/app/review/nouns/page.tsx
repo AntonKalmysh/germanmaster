@@ -9,7 +9,7 @@ type Slot = Record<string, { article: string; forms: string[] }> | null;
 type Cell = string[] | null;
 type Rec = {
   id: string; lemma: string; gender: "m" | "f" | "n"; plural: string | null;
-  nounClass: string; genitiveSg?: string; pluralOnly?: boolean;
+  nounClass: string; genitiveSg?: string; pluralOnly?: boolean; gloss?: string;
   irregular: boolean; irregularCells: string[];
   ours: { sg: Record<string, Cell>; pl: Record<string, Cell> };
   vf: { ok: boolean; singular: Slot; plural: Slot } | null;
@@ -132,6 +132,7 @@ export default function NounReview() {
       {/* header */}
       <div className="flex items-baseline gap-3 mb-1">
         <h1 className="text-2xl">{ART[rec.gender]} {rec.lemma}</h1>
+        {rec.gloss && <span className="text-neutral-500 text-sm italic">“{rec.gloss}”</span>}
         {rec.reviewed && <span className="text-green-600 text-xs">✓ reviewed ({rec.correction?.status})</span>}
         {rec.irregular && (
           <span className="text-amber-600 text-xs" title={`overridden vs the ${rec.nounClass} rule`}>

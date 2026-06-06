@@ -378,13 +378,24 @@
     "level": "a1"
   },
   {
-    "id": "n_bank",
+    "id": "n_bank__money",
     "lemma": "Bank",
     "gender": "f",
     "plural": "Banken",
     "nounClass": "strong",
+    "gloss": "financial institution",
     "level": "a1",
-    "review": "ai-filled — verify"
+    "review": "homonym — verify sense, plural, gender"
+  },
+  {
+    "id": "n_bank__seat",
+    "lemma": "Bank",
+    "gender": "f",
+    "plural": "Bänke",
+    "nounClass": "strong",
+    "gloss": "bench",
+    "level": "a1",
+    "review": "homonym — verify sense, plural, gender"
   },
   {
     "id": "n_bauch",

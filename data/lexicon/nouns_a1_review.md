@@ -1,8 +1,8 @@
-# A1 noun review — 329 nouns (187 flagged)
+# A1 noun review — 330 nouns (188 flagged)
 
 Source-clean (not listed here): 142. Mark anything wrong; I'll patch the builder.
 
-## Plurals I supplied (source had none) — verify each (109)
+## Plurals I supplied (source had none) — verify each (108)
 _Most are regular. Check the form is the real plural._
 
 - [ ] **der Abflug** → die Abflüge
@@ -18,7 +18,6 @@ _Most are regular. Check the form is the real plural._
 - [ ] **der Bahnhof** → die Bahnhöfe
 - [ ] **der Bahnsteig** → die Bahnsteige
 - [ ] **der Balkon** → die Balkone
-- [ ] **die Bank** → die Banken
 - [ ] **der Bauch** → die Bäuche
 - [ ] **das Bier** → die Biere
 - [ ] **der Blick** → die Blicke
@@ -205,3 +204,9 @@ _Likely weak masculine or an adjectival noun (der Beamte / ein Beamter). Confirm
 - [ ] **der Jugendliche** → die Jugendlichen
 - [ ] **der See** → die Seen
 - [ ] **der Verwandte** → die Verwandten
+
+## Homonyms split into senses — verify each (2)
+_One spelling, two words. Confirm the gloss, plural and gender of each sense._
+
+- [ ] **die Bank** _(financial institution)_ → die Banken
+- [ ] **die Bank** _(bench)_ → die Bänke

@@ -31,6 +31,7 @@ const diff = (a, b) => [...a].filter((x) => !b.has(x));  // in a, not in b
 const critical = []; // cores conflict — almost certainly a data error
 const warn = [];     // OURS accepts a form verbformen does NOT — we're too lenient
 const info = [];     // verbformen accepts a form OURS lacks — usually archaic/dialect
+const homonym = [];  // gloss present — verbformen serves one sense per URL, can't disambiguate
 
 let checked = 0, noVf = 0, fullMatch = 0;
 
@@ -52,6 +53,10 @@ for (const rec of records) {
       nounHasDiff = true;
       const cell = `${c}.${num}`;
       const entry = { lemma: `${rec.gender} ${rec.lemma}`, cell, ours, vf: vfForms };
+
+      // Homonym sense: verbformen's single page can only match one sense, so a
+      // mismatch here is expected, not a data error. Route it aside.
+      if (rec.gloss) { homonym.push({ ...entry, gloss: rec.gloss }); continue; }
 
       if (subset(o, v)) {
         // verbformen superset — tag the common benign case (archaic dative -e)
@@ -91,4 +96,9 @@ if (realInfo.length) {
   realInfo.forEach((e) => console.log(line(e, `   (vf adds: ${fmt(e.extra)})`)));
 }
 
-console.log(`\nFocus order: CRITICAL → WARN → INFO-other. Benign dative -e can be ignored.`);
+if (homonym.length) {
+  console.log(`\n━━ HOMONYM: verbformen serves one sense, can't disambiguate (${homonym.length}) — verify by hand ━━`);
+  homonym.forEach((e) => console.log(line(e, `   (sense: ${e.gloss})`)));
+}
+
+console.log(`\nFocus order: CRITICAL → WARN → INFO-other. Benign dative -e and homonym senses can be ignored.`);

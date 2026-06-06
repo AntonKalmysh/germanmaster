@@ -36,6 +36,16 @@ const MIXED = new Map([
 // (adjective ending after indefinite article) is out of current scope.
 const ADJECTIVAL = new Set(["Beamte", "Erwachsene", "Jugendliche", "Verwandte"]);
 
+// Homonyms: one spelling that is really two words (different plural and/or
+// gender and meaning). Each sense becomes its own entry, disambiguated by a
+// short gloss; the shared auto-id would otherwise collide.
+const HOMONYMS = {
+  Bank: [
+    { key: "money", gloss: "financial institution", gender: "f", plural: "Banken" },
+    { key: "seat", gloss: "bench", gender: "f", plural: "Bänke" },
+  ],
+};
+
 // ── AI-supplied gap fills for plurals the Goethe source omitted. ──
 // Every noun touched here is flagged review:"ai-filled — verify" so Anton
 // checks each one. Grouped by type for easier review.
@@ -161,7 +171,25 @@ for (const rawNoun of nouns) {
   // Normalize parser artifacts in the lemma before anything else.
   const lemma = LEMMA_FIX[rawNoun.lemma] || rawNoun.lemma;
   const n = { ...rawNoun, lemma };
-  const id = "n_" + n.lemma.toLowerCase().replace(/[^a-z0-9äöüß]/g, "_");
+  const slug = n.lemma.toLowerCase().replace(/[^a-z0-9äöüß]/g, "_");
+
+  // Homonyms expand into one entry per sense; bypass the single-entry pipeline.
+  if (HOMONYMS[n.lemma]) {
+    for (const s of HOMONYMS[n.lemma]) {
+      const hid = `n_${slug}__${s.key}`;
+      const e = {
+        id: hid, lemma: n.lemma, gender: s.gender, plural: s.plural,
+        nounClass: s.nounClass || "strong", gloss: s.gloss, level: n.level,
+        review: "homonym — verify sense, plural, gender",
+      };
+      if (s.genitiveSg) e.genitiveSg = s.genitiveSg;
+      out.push(e);
+      reviewItems.push({ id: hid, cat: "homonym", gender: s.gender, lemma: n.lemma, plural: s.plural, gloss: s.gloss, note: e.review });
+    }
+    continue;
+  }
+
+  const id = "n_" + slug;
   let { plural, pluralOnly, review: pluralReview } = parsePlural(n.lemma, n.raw || "");
 
   // Close the gap with AI-supplied fills where the source had no plural.
@@ -257,6 +285,7 @@ const GROUPS = [
   ["foreign", "Foreign/Latin plurals — verify", "Memorized plurals (Daten, Praxen, Themen); the noun is still strong-declension."],
   ["uncountable", "Marked as having NO everyday plural — confirm", "If any of these DO take a plural you want to drill, tell me the form."],
   ["class", "Declension class to confirm", "Likely weak masculine or an adjectival noun (der Beamte / ein Beamter). Confirm class."],
+  ["homonym", "Homonyms split into senses — verify each", "One spelling, two words. Confirm the gloss, plural and gender of each sense."],
   ["missing", "STILL MISSING — needs a plural", "I could not fill these; please supply."],
 ];
 let md = `# A1 noun review — ${out.length} nouns (${reviewItems.length} flagged)\n\n`;
@@ -269,7 +298,8 @@ for (const [cat, title, hint] of GROUPS) {
   for (const r of items.sort((a, b) => a.lemma.localeCompare(b.lemma))) {
     const sg = `${ART[r.gender]} ${r.lemma}`;
     const pl = r.plural ? `die ${r.plural}` : "— (no plural)";
-    md += `- [ ] **${sg}** → ${pl}\n`;
+    const gloss = r.gloss ? ` _(${r.gloss})_` : "";
+    md += `- [ ] **${sg}**${gloss} → ${pl}\n`;
   }
 }
 writeFileSync(join(ROOT, `data/lexicon/nouns_${level}_review.md`), md);

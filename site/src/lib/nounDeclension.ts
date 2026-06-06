@@ -31,6 +31,8 @@ export type NounLex = {
   /** Per-form overrides keyed "case.number"; a string or a list of variants. */
   forms?: Partial<Record<`${GrammarCase}.${"sg" | "pl"}`, string | string[]>>;
   pluralOnly?: boolean;
+  /** Short meaning, used to disambiguate homonyms (die Bank: "bench" vs "bank"). */
+  gloss?: string;
   level?: string;
   review?: string;
 };
