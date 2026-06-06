@@ -7,6 +7,15 @@
 import posthog from "posthog-js";
 
 const token = process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN;
+const isProd = process.env.NODE_ENV === "production";
+
+// TEMP DIAGNOSTIC: unconditional boot log. Confirms in ANY environment whether
+// this file runs and whether the token was inlined at build time. Remove once
+// production analytics is verified working.
+// eslint-disable-next-line no-console
+console.info(
+  `[posthog] instrumentation-client loaded — env=${process.env.NODE_ENV}, tokenPresent=${Boolean(token)}`,
+);
 
 if (token) {
   posthog.init(token, {
@@ -14,11 +23,15 @@ if (token) {
     ui_host: "https://eu.posthog.com",
     defaults: "2026-01-30",
     capture_exceptions: true,
-    debug: process.env.NODE_ENV === "development",
+    disable_session_recording: !isProd, // don't film dev/localhost sessions
+    debug: !isProd,
   });
-} else if (process.env.NODE_ENV === "development") {
+} else {
+  // Now fires in production too, so a missing token announces itself instead
+  // of failing silently.
   // eslint-disable-next-line no-console
   console.warn(
-    "[posthog] NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN not set; analytics disabled.",
+    "[posthog] NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN not set at build time; analytics disabled. " +
+      "If this is production, the variable is missing from the build environment.",
   );
 }
