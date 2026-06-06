@@ -127,7 +127,7 @@ for (const lemma of lemmas) {
     consecutiveFails++;
     console.log(`${lemma}  ✗ gave up (${r.status}) — left uncached, will retry on resume`);
     // Circuit-breaker: if throttling is relentless, stop rather than hammer.
-    if (consecutiveFails >= 5) {
+    if (consecutiveFails >= 3) {
       console.log(`\nAborting: ${consecutiveFails} nouns failed in a row — verbformen is throttling persistently.`);
       console.log(`Cache is preserved; re-run the same command later to resume only the missing ones.`);
       break;
